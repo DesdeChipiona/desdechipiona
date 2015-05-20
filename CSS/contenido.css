@@ -7,7 +7,7 @@
 				text-align:center;
 				top:50px;
 				width:90%;
-				height: 60%;
+				height: 50%;
 				margin:auto;
 				/*background-image: url(./images/contenido.png);*/
 				background-color:black;
@@ -18,8 +18,7 @@
 				border-radius: 20px;
 				}
 			#centrodecontenido {
-				position: absolute;
-				float: right;
+				position: relative;
 				}
 			#anticopy {
 				position: absolute;
@@ -115,6 +114,51 @@
 				border-radius: 15px;
 				border: 2px solid gray;
 				}
+
+/*VIDEO*/
+			#controles {
+
+				}
+			#controles:hover {
+
+				}
+			.botones{
+				z-index: 40;
+				opacity: 0.3;
+				}
+					#anterior {
+
+							}
+					#anterior:hover {
+							opacity: 1;
+							cursor:pointer;
+							}
+					#play {
+
+							}
+					#play:hover {
+						opacity: 1;
+						cursor:pointer;
+							}
+					#proxima {
+
+							}
+					#proxima:hover {
+						opacity: 1;
+						cursor:pointer;
+							}
+					#silenciar {
+
+							}
+					#silenciar:hover {
+						opacity: 1;
+						cursor:pointer;
+							}
+			#videopresentacion {
+				z-index: 30;
+				}
+
+/*Fin de vídeo*/
 
 /* Pie de Página*/
 			#piedepagina {
