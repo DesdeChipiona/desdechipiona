@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="1024"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="contenido.svg"
+   inkscape:export-filename="/home/nerviozzo/grive/1 - HTML/DesdeChipiona/images/contenido.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:label="Liquid"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Colorizable filling with liquid transparency"
+       color-interpolation-filters="sRGB"
+       id="filter3956"
+       height="2"
+       y="-0.5"
+       width="1.5"
+       x="-0.25">
+      <feGaussianBlur
+         result="result0"
+         in="SourceGraphic"
+         stdDeviation="0.5"
+         id="feGaussianBlur3958" />
+      <feTurbulence
+         baseFrequency="0.042"
+         seed="488"
+         numOctaves="7"
+         result="result1"
+         id="feTurbulence3960" />
+      <feDisplacementMap
+         result="result5"
+         xChannelSelector="R"
+         scale="0"
+         in2="result1"
+         in="result1"
+         yChannelSelector="G"
+         id="feDisplacementMap3962" />
+      <feComposite
+         result="result2"
+         operator="in"
+         in2="result5"
+         in="result0"
+         id="feComposite3964" />
+      <feSpecularLighting
+         lighting-color="rgb(255,230,136)"
+         surfaceScale="2"
+         result="result4"
+         specularConstant="2"
+         specularExponent="65"
+         in="result2"
+         id="feSpecularLighting3966">
+        <feDistantLight
+           elevation="62"
+           azimuth="225"
+           id="feDistantLight3968" />
+      </feSpecularLighting>
+      <feComposite
+         k1="2.5"
+         k3="1"
+         k2="-0.5"
+         in2="result2"
+         in="result4"
+         operator="arithmetic"
+         result="result91"
+         id="feComposite3970" />
+      <feBlend
+         result="fbSourceGraphic"
+         mode="multiply"
+         in2="result91"
+         id="feBlend3972" />
+      <feColorMatrix
+         values="1 0 0 -1 0 1 0 1 -1 0 1 0 0 -1 0 -2 -0.5 0 5 -2"
+         in="fbSourceGraphic"
+         result="fbSourceGraphicAlpha"
+         id="feColorMatrix3974" />
+      <feGaussianBlur
+         stdDeviation="8"
+         in="fbSourceGraphicAlpha"
+         result="result0"
+         id="feGaussianBlur3976" />
+      <feOffset
+         dx="2"
+         dy="2"
+         in="result0"
+         result="result3"
+         id="feOffset3978" />
+      <feSpecularLighting
+         in="result0"
+         result="result1"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="4"
+         specularConstant="0.8"
+         specularExponent="15"
+         id="feSpecularLighting3980">
+        <fePointLight
+           x="-5000"
+           y="-10000"
+           z="20000"
+           id="fePointLight3982" />
+      </feSpecularLighting>
+      <feComposite
+         in2="fbSourceGraphicAlpha"
+         in="result1"
+         result="result2"
+         operator="in"
+         id="feComposite3984" />
+      <feComposite
+         in="fbSourceGraphic"
+         result="result4"
+         operator="arithmetic"
+         k2="2"
+         k3="2"
+         in2="result2"
+         id="feComposite3986" />
+      <feBlend
+         mode="darken"
+         in2="result4"
+         id="feBlend3988"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3990" />
+      <feGaussianBlur
+         id="feGaussianBlur3992"
+         stdDeviation="5"
+         result="result8"
+         in="fbSourceGraphic" />
+      <feTurbulence
+         id="feTurbulence3994"
+         seed="0"
+         result="result7"
+         type="turbulence"
+         numOctaves="1"
+         baseFrequency="0.02" />
+      <feColorMatrix
+         id="feColorMatrix3996"
+         result="result5"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 4 0 " />
+      <feComposite
+         id="feComposite3998"
+         in2="result8"
+         result="result6"
+         operator="in"
+         in="result8" />
+      <feDisplacementMap
+         id="feDisplacementMap4000"
+         in2="result6"
+         in="result5"
+         xChannelSelector="A"
+         yChannelSelector="A"
+         scale="120"
+         result="result4" />
+      <feComposite
+         id="feComposite4002"
+         in2="result4"
+         result="result2"
+         operator="in"
+         in="result8" />
+      <feComposite
+         id="feComposite4004"
+         in2="result2"
+         result="fbSourceGraphic"
+         in="fbSourceGraphic"
+         operator="in" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4111"
+       x="-0.027446043"
+       width="1.0548921"
+       y="-0.15766279"
+       height="1.3153256">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.7029858"
+         id="feGaussianBlur4113" />
+    </filter>
+    <filter
+       x="-0.25"
+       width="1.5"
+       y="-0.25"
+       height="1.5"
+       inkscape:menu="Non realistic 3D shaders"
+       inkscape:menu-tooltip="Non realistic frosted glass imitation"
+       inkscape:label="Frosted glass"
+       color-interpolation-filters="sRGB"
+       id="filter4115">
+      <feGaussianBlur
+         result="result8"
+         stdDeviation="7"
+         id="feGaussianBlur4117" />
+      <feComposite
+         in="result8"
+         operator="xor"
+         result="result6"
+         in2="result8"
+         id="feComposite4119" />
+      <feDisplacementMap
+         result="result4"
+         scale="75"
+         yChannelSelector="A"
+         xChannelSelector="A"
+         in2="result6"
+         in="result6"
+         id="feDisplacementMap4121" />
+      <feComposite
+         k1="2"
+         in="SourceGraphic"
+         operator="arithmetic"
+         result="result2"
+         in2="result4"
+         id="feComposite4123" />
+      <feComposite
+         in2="result2"
+         operator="in"
+         in="result6"
+         result="fbSourceGraphic"
+         id="feComposite4125" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4159"
+       x="-0.14181361"
+       width="1.2836272"
+       y="-0.075690781"
+       height="1.1513816">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2508456"
+         id="feGaussianBlur4161" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4198"
+       x="-0.00820921"
+       width="1.0164184"
+       y="-0.15339937"
+       height="1.3067987">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.9965649"
+         id="feGaussianBlur4200" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="360.16303"
+     inkscape:cy="474.62435"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1003"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-28.362183)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3753-48"
+       style="font-size:144px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4111);font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic"
+       transform="translate(-20.226158,248.44079)"><flowRegion
+         id="flowRegion3755-6"><rect
+           id="rect3757-8"
+           width="1241.4286"
+           height="322.85712"
+           x="28.571424"
+           y="49.714283"
+           style="font-size:144px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic" /></flowRegion><flowPara
+         id="flowPara3759-1">DesdeChipiona</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3753"
+       style="font-size:144px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic"
+       transform="translate(-20.662875,248.36218)"><flowRegion
+         id="flowRegion3755"><rect
+           id="rect3757"
+           width="1241.4286"
+           height="322.85712"
+           x="28.571424"
+           y="49.714283"
+           style="font-size:144px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic" /></flowRegion><flowPara
+         id="flowPara3759">DesdeChipiona</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3761"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Cantarell;font-style:normal;font-weight:normal;font-size:20px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Cantarell;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3763"><rect
+           id="rect3765"
+           width="938.57141"
+           height="152.85715"
+           x="201.42857"
+           y="406.85715" /></flowRegion><flowPara
+         id="flowPara3767"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3769"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Cantarell;font-style:normal;font-weight:normal;font-size:20px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Cantarell;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3771"><rect
+           id="rect3773"
+           width="850"
+           height="161.42857"
+           x="237.14285"
+           y="338.28571" /></flowRegion><flowPara
+         id="flowPara3775"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3777"
+       style="font-size:72px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic"
+       transform="translate(-10.591,219.79076)"><flowRegion
+         id="flowRegion3779"><rect
+           id="rect3781"
+           width="1268.5713"
+           height="121.42859"
+           x="12.857141"
+           y="294"
+           style="font-size:72px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic" /></flowRegion><flowPara
+         id="flowPara3783"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:cmmi10;-inkscape-font-specification:cmmi10 Bold Italic"><flowSpan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Colourbars;-inkscape-font-specification:Colourbars Bold"
+           id="flowSpan3855">www.desdechipiona.nzweb.org</flowSpan></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3905"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Cantarell;font-style:normal;font-weight:normal;font-size:20px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Cantarell;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3907"><rect
+           id="rect3909"
+           width="1178.5714"
+           height="400"
+           x="47.142857"
+           y="569.71429" /></flowRegion><flowPara
+         id="flowPara3911"></flowPara></flowRoot>    <g
+       id="g3925-3"
+       transform="matrix(0.74238333,0,0,0.74238333,172.01752,43.481014)"
+       style="fill:#000000;fill-opacity:1;filter:url(#filter4159)">
+      <rect
+         ry="0"
+         rx="15.71429"
+         y="70.933609"
+         x="623.57141"
+         height="69.999992"
+         width="32.857151"
+         id="rect3921-7"
+         style="opacity:0.87665202;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         inkscape:transform-center-y="-0.79281019"
+         inkscape:transform-center-x="1.0974043"
+         transform="matrix(0.99930573,0.03725669,-0.03725669,0.99930573,56.250395,20.489029)"
+         d="m 621.07142,24.714285 -35.94024,1.464396 -35.94025,1.464396 16.70192,-31.8573637 16.70192,-31.8573653 19.23832,30.3929673 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.5300735"
+         sodipodi:arg1="0.48287601"
+         sodipodi:r2="20.767328"
+         sodipodi:r1="41.534657"
+         sodipodi:cy="5.4285698"
+         sodipodi:cx="584.28571"
+         sodipodi:sides="3"
+         id="path3923-5"
+         style="opacity:0.87665202;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g3925"
+       transform="matrix(0.74238333,0,0,0.74238333,164.87467,36.306845)">
+      <rect
+         ry="0"
+         rx="15.71429"
+         y="70.933609"
+         x="623.57141"
+         height="69.999992"
+         width="32.857151"
+         id="rect3921"
+         style="opacity:0.87665202;fill:#b90000;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <path
+         inkscape:transform-center-y="-0.79281019"
+         inkscape:transform-center-x="1.0974043"
+         transform="matrix(0.99930573,0.03725669,-0.03725669,0.99930573,56.250395,20.489029)"
+         d="m 621.07142,24.714285 -35.94024,1.464396 -35.94025,1.464396 16.70192,-31.8573637 16.70192,-31.8573653 19.23832,30.3929673 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="1.5300735"
+         sodipodi:arg1="0.48287601"
+         sodipodi:r2="20.767328"
+         sodipodi:r1="41.534657"
+         sodipodi:cy="5.4285698"
+         sodipodi:cx="584.28571"
+         sodipodi:sides="3"
+         id="path3923"
+         style="opacity:0.87665202;fill:#b90000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="star" />
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3753-4"
+       style="font-size:144px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#be7e00;fill-opacity:1;stroke:none;filter:url(#filter3956);font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic"
+       transform="translate(-20.662876,248.56061)"><flowRegion
+         id="flowRegion3755-4"><rect
+           id="rect3757-4"
+           width="1241.4286"
+           height="322.85712"
+           x="28.571424"
+           y="49.714283"
+           style="font-size:144px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#be7e00;fill-opacity:1;font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic" /></flowRegion><flowPara
+         id="flowPara3759-6">DesdeChipiona</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3777-6"
+       style="font-size:72px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e90000;fill-opacity:1;stroke:none;filter:url(#filter4115);font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic"
+       transform="translate(-11.164436,218.57429)"><flowRegion
+         id="flowRegion3779-0"><rect
+           id="rect3781-1"
+           width="1268.5713"
+           height="121.42859"
+           x="12.857141"
+           y="294"
+           style="font-size:72px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#e90000;fill-opacity:1;font-family:Chancery Uralic;-inkscape-font-specification:Chancery Uralic Bold Italic" /></flowRegion><flowPara
+         id="flowPara3783-4"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#e90000;fill-opacity:1;font-family:cmmi10;-inkscape-font-specification:cmmi10 Bold Italic"><flowSpan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#e90000;fill-opacity:1;font-family:Colourbars;-inkscape-font-specification:Colourbars Bold"
+           id="flowSpan3855-2">www.desdechipiona.nzweb.org</flowSpan></flowPara></flowRoot>    <g
+       id="g4221"
+       transform="matrix(0.82692603,0,0,0.82692603,103.6794,46.509503)">
+      <flowRoot
+         transform="translate(27.70625,-481.63782)"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Century Catalogue;-inkscape-font-specification:Century Catalogue"
+         id="flowRoot3913"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3915"><rect
+             style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Century Catalogue;-inkscape-font-specification:Century Catalogue"
+             y="604"
+             x="25.714285"
+             height="388.57144"
+             width="1240"
+             id="rect3917" /></flowRegion><flowPara
+           id="flowPara3919">Selecciona una imagen para verla en grande</flowPara></flowRoot>      <flowRoot
+         transform="translate(36.277683,-480.41496)"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4198);font-family:Century Catalogue;-inkscape-font-specification:Century Catalogue"
+         id="flowRoot3913-7"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3915-5"><rect
+             style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Century Catalogue;-inkscape-font-specification:Century Catalogue"
+             y="604"
+             x="25.714285"
+             height="388.57144"
+             width="1240"
+             id="rect3917-7" /></flowRegion><flowPara
+           id="flowPara3919-0">Selecciona una imagen para verla en grande</flowPara></flowRoot>    </g>
+  </g>
+</svg>

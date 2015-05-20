@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+body {
+				padding:0;
+				margin:0;
+				background-color:darksalmon;
+				}
+
+/*Caja general*/
+	#cajageneral {
+				position:relative;
+				margin:0px;
+				text-align:center;
+				width:100%;
+				}
+
+/*Otros*/

@@ -1,0 +1,170 @@
+<HTML>
+   <HEAD>
+      <TITLE>Desde Chipiona</TITLE>
+      <META http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+      <LINK REL="stylesheet" TYPE="text/css" HREF="./CSS/estilosgenerales.css">
+      <LINK REL="stylesheet" TYPE="text/css" HREF="./CSS/menusuperior.css">
+      <LINK REL="stylesheet" TYPE="text/css" HREF="./CSS/contenido.css">
+      <LINK REL="stylesheet" TYPE="text/css" HREF="./CSS/desplegableizq.css">
+      <LINK REL="stylesheet" TYPE="text/css" HREF="./CSS/selectorimagenes.css">
+		<SCRIPT TYPE="text/javascript" SRC="./JS/selectorimagenespintarbackground.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="./JS/ampliarcontenido.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="./JS/desplegableizq.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" SRC="./JS/jquery.js"></SCRIPT>
+	</HEAD>
+
+	<BODY  onkeydown="return false">
+		<DIV id="barrasuperior"> <!--Barra fija de arriba-->
+			<UL id="uldesplegable1" class="uldesplegable"><!--Desplegable1-->
+				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">INICIO</A></LI>
+			</UL>
+
+			<UL id="uldesplegable2" class="uldesplegable"><!--Desplegable 2-->
+				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">ALBUMS</A>
+					<UL id="uldelista2" class="ulcomunlistas">
+						<LI class="lidesplegable"><A href="flora_general.html" class="linkmenusuperior">Flora</A></LI>
+						<LI class="lidesplegable"><A href="fauna_general.html" class="linkmenusuperior">Fauna</A></LI>
+                  <LI class="lidesplegable"><A href="playas_general.html" class="linkmenusuperior">Playas</A></LI>
+						<LI class="lidesplegable"><A href="monumentos_general.html" class="linkmenusuperior">Monumentos</A></LI>
+						<LI class="lidesplegable"><A href="puestas_de_sol.html" class="linkmenusuperior">Puestas de sol</A></LI>
+						<LI class="lidesplegable"><A href="fiestas_general.html" class="linkmenusuperior">Fiestas y Eventos</A></LI>
+					</UL>
+				</LI>
+			</UL>
+
+			<UL id="uldesplegable3" class="uldesplegable"><!--Desplegable 3-->
+				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">VÍDEOS</A>
+					<UL id="uldelista3" class="ulcomunlistas">
+						<LI class="lidesplegable"><A href="https://www.youtube.com/channel/UCIoK1tt5RChTC_-zEcEfDoQ" class="linkmenusuperior">Youtube Canal</A></LI>
+					</UL>
+				</LI>
+			</UL>
+
+			<UL id="uldesplegable4" class="uldesplegable"><!--Desplegable 4-->
+				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">WEBS AMIGAS</A>
+					<UL id="uldelista4" class="ulcomunlistas">
+                       <LI class="lidesplegable"><A href="http://www.laguialinux.es" class="linkmenusuperior">LaGuíaLinux</A></LI>
+                       <LI class="lidesplegable"><A href="http://www.exateunasrisas.nzweb.org" class="linkmenusuperior">Exate unas risas</A></LI>
+                       <LI class="lidesplegable"><A href="http://www.winkle.nzweb.org" class="linkmenusuperior">Asociación Winkle</A></LI>
+                       <LI class="lidesplegable"><A href="http://www.nzweb.org" class="linkmenusuperior">NzWeb, mi gran proyecto</A></LI>
+					</UL>
+				</LI>
+			</UL>
+
+			<UL id="uldesplegable5" class="uldesplegable"><!--Desplegable 5-->
+				<LI class="titulodesplegable"><A class="linktitulo" href="http://www.blog.desdedechipiona.nzweb.org">ÚLTIMAS FOTOS</A></LI>
+			</UL>
+
+			<UL id="uldesplegable6" class="uldesplegable"><!--Desplegable 6-->
+				<LI class="titulodesplegable"><A class="linktitulo" href="./contacto.html">+INFO</A>
+					<UL id="uldelista6" class="ulcomunlistas">
+						<LI class="lidesplegable"><A href="./contacto.html" class="linkmenusuperior">Contacto</A></LI>
+						<LI class="lidesplegable"><A href="./about.html" class="linkmenusuperior">Sobre este proyecto</A></LI>
+					</UL>
+				</LI>
+			</UL>
+		</DIV><!--Fin de la barra fija de arriba-->
+
+<!--Barra de títutlo y logo-->
+		<DIV id="cajatitulo">
+			<DIV id="logo"></DIV>
+			<DIV id="logo2"></DIV>
+			<DIV id="titulo"></DIV>
+		</DIV><!--FIN de Barra de títutlo y logo-->
+
+<!--Desplegable lateral IZQ-->
+           <DIV id="cajadesplegableizq">
+              <DIV id="1desplegableizq" class="alldesplegablesizq" ><!-- 1 Desplegable-->
+              	<A href="./playas_general.html"> <IMG id="prueba" class="comundesplegableizqimagenes" src="./images/despleizq/1.jpg" alt="Playas" onmouseover=descripcion('1') onmouseout=nodescripcion() /> </A>
+					  <DIV id="1desplegableletras" class="desplegableletras">Playas</DIV>
+              </DIV><!-- 1 Fin Desplegable-->
+
+              <DIV id="2desplegableizq" class="alldesplegablesizq"><!-- 2 Desplegable-->
+                 <A href="./monumentos_general.html"> <IMG class="comundesplegableizqimagenes" src="./images/despleizq/2.jpg" alt="Monumentos" onmouseover=descripcion('2') onmouseout=nodescripcion() /></A>
+					  <DIV id="2desplegableletras" class="desplegableletras">Monumentos</DIV>
+              </DIV><!-- 2 Fin Desplegable-->
+
+				  <DIV id="3desplegableizq" class="alldesplegablesizq"><!-- 3 Desplegable-->
+                     <A href="./flora_general.html"><IMG class="comundesplegableizqimagenes" src="./images/despleizq/3.jpg" alt="Flora" onmouseover=descripcion('3') onmouseout=nodescripcion() /></A>
+					  <DIV id="3desplegableletras" class="desplegableletras">Flora</DIV>
+              </DIV><!-- 3 Fin Desplegable-->
+
+				  <DIV id="4desplegableizq" class="alldesplegablesizq"><!-- 4 Desplegable-->
+                     <A href="./fauna_general.html"><IMG class="comundesplegableizqimagenes" src="./images/despleizq/4.jpg" alt="Flora" onmouseover=descripcion('4') onmouseout=nodescripcion() /></A>
+					  <DIV id="4desplegableletras" class="desplegableletras">Fauna</DIV>
+              </DIV><!-- 4 Fin Desplegable-->
+
+				  <DIV id="5desplegableizq" class="alldesplegablesizq"><!-- 5 Desplegable-->
+                     <A href="./fiestas_general.html"><IMG class="comundesplegableizqimagenes" src="./images/despleizq/5.jpg" alt="Fiestas y Eventos" onmouseover=descripcion('5') onmouseout=nodescripcion() /></A>
+					  <DIV id="5desplegableletras" class="desplegableletras">Fiestas</DIV>
+              </DIV><!-- 5 Fin Desplegable-->
+
+				  <DIV id="6desplegableizq" class="alldesplegablesizq"><!-- 6 Desplegable-->
+                     <A href="./puestasdesol_general.html"><IMG class="comundesplegableizqimagenes" src="./images/despleizq/6.jpg" alt="alt" onmouseover=descripcion('6') onmouseout=nodescripcion() /></A>
+					  <DIV id="6desplegableletras" class="desplegableletras">Atardeceres</DIV>
+              </DIV><!-- 6 Fin Desplegable-->
+           </DIV><!--Fin desplegable lateral IZQ-->
+
+		<DIV> <!--CajaGeneral-->
+<!--Selector de imágenes-->
+           <DIV id="cajaselectorimagenes">
+              <UL id="ulselectorimagen">
+                 <LI><DIV id="selectorimagen1" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/1.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen2" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/2.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen3" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/3.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen4" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/4.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen5" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/5.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen6" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/6.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen7" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/7.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen8" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/8.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen9" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/9.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen10" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/10.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen11" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/11.jpg')"></DIV></LI>
+                 <LI><DIV id="selectorimagen12" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/12.jpg')"></DIV></LI>
+					  <LI><DIV id="selectorimagen13" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/13.jpg')"></DIV></LI>
+					  <LI><DIV id="selectorimagen14" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/14.jpg')"></DIV></LI>
+					  <LI><DIV id="selectorimagen15" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/15.jpg')"></DIV></LI>
+					  <LI><DIV id="selectorimagen16" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/16.jpg')"></DIV></LI>
+					  <LI><DIV id="selectorimagen17" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/17.jpg')"></DIV></LI>
+					  <LI><DIV id="selectorimagen18" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/18.jpg')"></DIV></LI>
+					  <LI><DIV id="selectorimagen19" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/19.jpg')"></DIV></LI>
+					  <LI><DIV id="selectorimagen20" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/fotos/20.jpg')"></DIV></LI>
+              </UL>
+           </DIV>
+
+<!--Contenido-->
+			<DIV id="contenido">
+
+				<DIV id="ampliarcontenido" class="ampliandocontenido" onClick="ampliar()"></DIV>
+				<DIV id="noampliarcontenido" class="ampliandocontenido" onClick="noampliar()"></DIV>
+
+				<DIV id="movilizq">
+					<DIV id="led"></DIV>
+					<DIV id="altavoz"></DIV>
+				</DIV>
+
+				<DIV id="centrocontenido">
+					<IMG id="anticopy" src="./images/AntyCopy.jpg" alt="AntyCopy"/>
+					<VIDEO id="videopresentacion" src="./videos/presentacion.mp4" poster="./videos/presentacion.jpg" height="100%" width="100%" autoplay loop controls></VIDEO>
+				</DIV>
+
+				<DIV id="movildrh">
+					<DIV id="botonmenu" >
+					</DIV>
+				</DIV>
+
+				<DIV id="controles">
+					<button id="anterior" onclick="anteriorimg()">&lt;&lt;</button>
+					<button id="play" onclick="videoplay()">&gt;</button>
+					<button id="proxima" onclick="proximaimg()">&gt;&gt;</button>
+					<button id="silenciar" onclick="silenciar()">Silenciar</button>
+				</DIV>
+
+			</DIV><!--Fin de contenido-->
+
+			<DIV id="piedepagina"><!--Pie de página-->
+				2015 - Imágenes de la propiedad de Raúl Caro Pastorino
+			</DIV><!--Fin de Pie de página-->
+		</DIV> <!--Fin de caja general-->
+	</BODY>
+</HTML>
