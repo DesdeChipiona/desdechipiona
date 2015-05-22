@@ -146,7 +146,12 @@
 
 				<DIV id="centrodecontenido">
 					<IMG id="anticopy" src="./images/AntyCopy.jpg" alt="AntyCopy"/>
-					<VIDEO id="videopresentacion" src="./videos/presentacion.mp4" poster="./videos/presentacion.jpg" height="100%" autoplay loop></VIDEO>
+					<VIDEO id="videopresentacion"  poster="./videos/presentacion.jpg" height="100%" autoplay loop>
+						<SOURCE src="./videos/presentacion.webm" type="video/webm">
+						<SOURCE src="./videos/presentacion.mp4" type="video/mp4">
+						<SOURCE src="./videos/presentacion.ogg" type="video/ogg">
+						<P style="color=white">Tu navegador no soporta ninguno de los formatos de vído que contiene esta página</P>
+					</VIDEO>
 				</DIV>
 
 				<DIV id="movildrh">
