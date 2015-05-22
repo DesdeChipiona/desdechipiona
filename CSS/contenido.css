@@ -125,6 +125,7 @@
 			.botones{
 				z-index: 40;
 				opacity: 0.3;
+				background-color: transparent;
 				}
 					#anterior {
 
