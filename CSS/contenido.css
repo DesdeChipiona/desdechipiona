@@ -157,6 +157,8 @@
 							}
 			#videopresentacion {
 				z-index: 30;
+				margin-top: 1%;
+				width: 90%;
 				}
 
 /*Fin de vídeo*/
