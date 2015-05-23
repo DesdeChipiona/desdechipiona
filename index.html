@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <HTML lang="es">
    <HEAD>
-      <TITLE>Desde Chipiona</TITLE>
-      <META charset="utf-8">
+		<TITLE>Desde Chipiona</TITLE>
+		<META charset="utf-8">
 		<LINK rel="stylesheet" href="./CSS/contenido.css">
       <LINK rel="stylesheet" href="./CSS/estilosgenerales.css">
       <LINK rel="stylesheet" href="./CSS/menusuperior.css">
       <LINK rel="stylesheet" href="./CSS/desplegableizq.css">
       <LINK rel="stylesheet" href="./CSS/selectorimagenes.css">
-		<SCRIPT src="./JS/selectorimagenespintarbackground.js"></SCRIPT>
-		<SCRIPT src="./JS/ampliarcontenido.js"></SCRIPT>
-		<SCRIPT src="./JS/desplegableizq.js"></SCRIPT>
+		<SCRIPT src="./JS/scripts.js"></SCRIPT>
 		<SCRIPT src="./JS/jquery.js"></SCRIPT>
 	</HEAD>
 
@@ -101,7 +99,7 @@
               </DIV><!-- 5 Fin Desplegable-->
 
 				  <DIV id="6desplegableizq" class="alldesplegablesizq"><!-- 6 Desplegable-->
-                     <A href="./puestasdesol_general.html"><IMG class="comundesplegableizqimagenes" src="./images/despleizq/6.jpg" alt="alt" onmouseover=descripcion('6') onmouseout=nodescripcion()></A>
+                     <A href="./puestasdesol_general.html"><IMG class="comundesplegableizqimagenes" src="./images/despleizq/6.jpg" alt="Puestasdesol" onmouseover=descripcion('6') onmouseout=nodescripcion()></A>
 					  <DIV id="6desplegableletras" class="desplegableletras">Atardeceres</DIV>
               </DIV><!-- 6 Fin Desplegable-->
            </DIV><!--Fin desplegable lateral IZQ-->
@@ -109,27 +107,27 @@
 		<DIV> <!--CajaGeneral-->
 <!--Selector de imágenes-->
            <DIV id="cajaselectorimagenes">
-              <UL id="ulselectorimagen">
-                 <LI><DIV id="selectorimagen1" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/1.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen2" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/2.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen3" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/3.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen4" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/4.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen5" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/5.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen6" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/6.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen7" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/7.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen8" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/8.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen9" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/9.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen10" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/10.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen11" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/11.jpg')"></DIV></LI>
-                 <LI><DIV id="selectorimagen12" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/12.jpg')"></DIV></LI>
-					  <LI><DIV id="selectorimagen13" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/13.jpg')"></DIV></LI>
-					  <LI><DIV id="selectorimagen14" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/14.jpg')"></DIV></LI>
-					  <LI><DIV id="selectorimagen15" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/15.jpg')"></DIV></LI>
-					  <LI><DIV id="selectorimagen16" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/16.jpg')"></DIV></LI>
-					  <LI><DIV id="selectorimagen17" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/17.jpg')"></DIV></LI>
-					  <LI><DIV id="selectorimagen18" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/18.jpg')"></DIV></LI>
-					  <LI><DIV id="selectorimagen19" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/19.jpg')"></DIV></LI>
-					  <LI><DIV id="selectorimagen20" class="selectorimagen" onclick="muestra('./images/1_chipiona_general/high/20.jpg')"></DIV></LI>
+              <UL id="ulselectorimagen"> <!--En las siguientes imágenes se escribe el nombre sin extensión, la extensión tiene que ser ".jpg" tal y como está definido en la función para pintar la imagen como background-->
+                 <LI><DIV id="selectorimagen1" class="selectorimagen" onclick="muestrageneral('1')"></DIV></LI>
+                 <LI><DIV id="selectorimagen2" class="selectorimagen" onclick="muestrageneral('2')"></DIV></LI>
+                 <LI><DIV id="selectorimagen3" class="selectorimagen" onclick="muestrageneral('3')"></DIV></LI>
+                 <LI><DIV id="selectorimagen4" class="selectorimagen" onclick="muestrageneral('4')"></DIV></LI>
+                 <LI><DIV id="selectorimagen5" class="selectorimagen" onclick="muestrageneral('5')"></DIV></LI>
+                 <LI><DIV id="selectorimagen6" class="selectorimagen" onclick="muestrageneral('6')"></DIV></LI>
+                 <LI><DIV id="selectorimagen7" class="selectorimagen" onclick="muestrageneral('7')"></DIV></LI>
+                 <LI><DIV id="selectorimagen8" class="selectorimagen" onclick="muestrageneral('8')"></DIV></LI>
+                 <LI><DIV id="selectorimagen9" class="selectorimagen" onclick="muestrageneral('9')"></DIV></LI>
+                 <LI><DIV id="selectorimagen10" class="selectorimagen" onclick="muestrageneral('10')"></DIV></LI>
+                 <LI><DIV id="selectorimagen11" class="selectorimagen" onclick="muestrageneral('11')"></DIV></LI>
+                 <LI><DIV id="selectorimagen12" class="selectorimagen" onclick="muestrageneral('12')"></DIV></LI>
+					  <LI><DIV id="selectorimagen13" class="selectorimagen" onclick="muestrageneral('13')"></DIV></LI>
+					  <LI><DIV id="selectorimagen14" class="selectorimagen" onclick="muestrageneral('14')"></DIV></LI>
+					  <LI><DIV id="selectorimagen15" class="selectorimagen" onclick="muestrageneral('15')"></DIV></LI>
+					  <LI><DIV id="selectorimagen16" class="selectorimagen" onclick="muestrageneral('16')"></DIV></LI>
+					  <LI><DIV id="selectorimagen17" class="selectorimagen" onclick="muestrageneral('17')"></DIV></LI>
+					  <LI><DIV id="selectorimagen18" class="selectorimagen" onclick="muestrageneral('18')"></DIV></LI>
+					  <LI><DIV id="selectorimagen19" class="selectorimagen" onclick="muestrageneral('19')"></DIV></LI>
+					  <LI><DIV id="selectorimagen20" class="selectorimagen" onclick="muestrageneral('20')"></DIV></LI>
               </UL>
            </DIV>
 
@@ -146,7 +144,7 @@
 
 				<DIV id="centrodecontenido">
 					<IMG id="anticopy" src="./images/AntyCopy.jpg" alt="AntyCopy"/>
-					<VIDEO id="videopresentacion"  poster="./videos/presentacion.jpg" autoplay loop>
+					<VIDEO id="videopresentacion" poster="./videos/presentacion.jpg" autoplay loop>
 						<SOURCE src="./videos/presentacion.webm" type="video/webm">
 						<SOURCE src="./videos/presentacion.mp4" type="video/mp4">
 						<SOURCE src="./videos/presentacion.ogg" type="video/ogg">
@@ -161,22 +159,23 @@
 
 				<DIV id="controles">
 					<button id="anterior" class="botones" onclick="anteriorimg()">
-						<IMG class="imgbutton" alt="silenciar" title="silenciar" width="26" src="./images/botonanterior.png">
+						<IMG class="imgbutton" alt="Anterior Imagen" title="Anterior Imagen" width="26" src="./images/botonanterior.png">
 					</button>
 					<button id="play" class="botones" onclick="videoplay()">
-						<IMG id="botonplay" class="imgbutton" alt="silenciar" title="silenciar" width="26" src="./images/botonstop.png">
+						<IMG id="botonplay" class="imgbutton" alt="Play/Stop Vídeo" title="Play/Stop Vídeo" width="26" src="./images/botonstop.png">
 					</button>
 					<button id="proxima" class="botones" onclick="proximaimg()">
-						<IMG class="imgbutton" alt="silenciar" title="silenciar" width="26" src="./images/botonsiguiente.png">
+						<IMG class="imgbutton" alt="Próxima Imagen" title="Próxima Imagen" width="26" src="./images/botonsiguiente.png">
 					</button>
 					<button id="silenciar" class="botones" onclick="silenciar()">
-						<IMG class="imgbutton" alt="silenciar" title="silenciar" width="26" src="./images/botonsilencio.png">
+						<IMG class="imgbutton" alt="Silenciar" title="Silenciar" width="26" src="./images/botonsilencio.png">
 					</button>
 				</DIV>
 
 			</DIV><!--Fin de contenido-->
 
 			<DIV id="piedepagina"><!--Pie de página-->
+				<DIV id="nombredeimagenactual"></DIV><!--Nombre de la imagen actual-->
 				2015 - Imágenes de la propiedad de Raúl Caro Pastorino
 			</DIV><!--Fin de Pie de página-->
 		</DIV> <!--Fin de caja general-->
