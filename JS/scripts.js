@@ -1,4 +1,3 @@
-var imagengeneral = document.getElementById('contenido').style.backgroundImage;
 //----------------------------------------------Pintar Background de "id=contenido"---------------------
 
 //Función para dibujar en el background "contenido" la imagen seleccionada según el nombre de la imagen
@@ -30,36 +29,60 @@ function muestrageneral(nombre) {
 function proximaimg() {
 	var nombredeimagen = document.getElementById("nombredeimagenactual").textContent;
 	var nombredeimagen1 = parseInt(nombredeimagen) + 1
-	var nombrederutaimagen = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
+	var nombrederutaimagenmedium = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
+	var nombrederutaimagenhigh = "url" + "(" + "'" + "./images/1_chipiona_general/high/" + nombredeimagen1 + ".jpg'" + ")";
 	var contenido = document.getElementById("contenido");
 
 	if(nombredeimagen < 20) {
+		if(contenido.style.width == "70%") {
 					//Guardar nombre de la imagen en "id=nombredeimagenactual"
-	document.getElementById("nombredeimagenactual").innerHTML = nombredeimagen1;
+		document.getElementById("nombredeimagenactual").innerHTML = nombredeimagen1;
 					//Dibujar background
-	contenido.style.background = nombrederutaimagen;
-	contenido.style.backgroundSize = "contain";
-	contenido.style.backgroundRepeat = "no-repeat";
-	contenido.style.backgroundColor = "black";
-	contenido.style.backgroundPosition = "50% 50%";
+		contenido.style.background = nombrederutaimagenmedium;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+		} else {
+					//Guardar nombre de la imagen en "id=nombredeimagenactual"
+		document.getElementById("nombredeimagenactual").innerHTML = nombredeimagen1;
+					//Dibujar background
+		contenido.style.background = nombrederutaimagenhigh;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+		}
 	}
 }
 
 function anteriorimg() {
 	var nombredeimagen = document.getElementById("nombredeimagenactual").textContent;
 	var nombredeimagen1 = parseInt(nombredeimagen) - 1
-	var nombrederutaimagen = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
+	var nombrederutaimagenmedium = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
+	var nombrederutaimagenhigh = "url" + "(" + "'" + "./images/1_chipiona_general/high/" + nombredeimagen1 + ".jpg'" + ")";
 	var contenido = document.getElementById("contenido");
 
 	if(nombredeimagen > 1) {
+		if(contenido.style.width == "70%") {
 					//Guardar nombre de la imagen en "id=nombredeimagenactual"
-	document.getElementById("nombredeimagenactual").innerHTML = nombredeimagen1;
+		document.getElementById("nombredeimagenactual").innerHTML = nombredeimagen1;
 					//Dibujar background
-	contenido.style.background = nombrederutaimagen;
-	contenido.style.backgroundSize = "contain";
-	contenido.style.backgroundRepeat = "no-repeat";
-	contenido.style.backgroundColor = "black";
-	contenido.style.backgroundPosition = "50% 50%";
+		contenido.style.background = nombrederutaimagenmedium;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+		} else {
+					//Guardar nombre de la imagen en "id=nombredeimagenactual"
+		document.getElementById("nombredeimagenactual").innerHTML = nombredeimagen1;
+					//Dibujar background
+		contenido.style.background = nombrederutaimagenhigh;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+		}
 	}
 }
 
@@ -112,9 +135,10 @@ function ampliar() {
 	contenido.style.backgroundPosition = "50% 50%";
 				//Establezco las propiedades CSS
 	contenido.style.position = "absolute";
+	contenido.style.marginLeft = "5%";
 	contenido.style.zIndex = "30";
-	contenido.style.width = "100%";
-	contenido.style.height = "100%";
+	contenido.style.width = "90%";
+	contenido.style.height = "80%";
 	ampliarcontenido.style.display = "none";
 	noampliarcontenido.style.display = "block";
 
@@ -129,9 +153,10 @@ function noampliar() {
 	var noampliarcontenido = document.getElementById('noampliarcontenido');
 				//Establezco las propiedades CSS
 	contenido.style.position = "relative";
+	contenido.style.marginLeft = "auto";
 	contenido.style.zIndex = "8";
-	contenido.style.width = "90%";
-	contenido.style.height = "60%";
+	contenido.style.width = "70%";
+	contenido.style.height = "420px";
 	ampliarcontenido.style.display = "block";
 	noampliarcontenido.style.display = "none";
 }
