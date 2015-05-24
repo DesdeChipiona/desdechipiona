@@ -3,11 +3,11 @@
 /*Contenido*/
 			#contenido {
 				position:relative;
-				border:3px solid white;
+				border: 7px groove white;
 				text-align:center;
 				top:50px;
-				width:90%;
-				height: 50%;
+				width:70%;
+				height: 420px;
 				margin:auto;
 				/*background-image: url(./images/contenido.png);*/
 				background-color:black;
@@ -67,20 +67,41 @@
 			#movilizq {
 				position: absolute;
 				height: 100%;
-				background-color: black;
+				background-color: lightgray;
 				width: 40px;
-				border-radius: 20px 0px 0px 20px;
+				border-radius: 12px 0px 0px 12px;
 				margin: 0px;
+				align-content: center;
+				z-index: 1;
+				}
+
+			#imgmovilizq {
+				position: relative;
+				align-content: center;
+				top: 25%;
+				bottom: 30%;
+				width: 100%;
+				height: 50%;
 				}
 			#movildrh {
 				position: absolute;
 				height: 100%;
 				top:0px;
 				right: 0px;
-				background-color: black;
+				background-color: lightgray;
 				width: 40px;
-				border-radius: 0px 20px 20px 0px;
+				border-radius: 0px 12px 12px 0px;
 				margin: 0px;
+				align-content: center;
+				z-index: 1;
+				}
+			#imgmovildrh {
+				position: relative;
+				align-content: center;
+				top: 25%;
+				bottom: 30%;
+				width: 100%;
+				height: 50%;
 				}
 			#led {
 				position: absolute;
@@ -92,16 +113,6 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				background-position: center;
-				}
-			#altavoz {
-				position: absolute;
-				width: 15px;
-				height: 30%;
-				background-color: #4D4D4D;
-				top:34%;
-				left: 10px;
-				border-radius: 20px;
-				border: 4px solid #333333;
 				}
 			#botonmenu {
 				position: absolute;
@@ -156,9 +167,10 @@
 						cursor:pointer;
 							}
 			#videopresentacion {
-				z-index: 30;
+				z-index: 0;
 				margin-top: 1%;
-				width: 90%;
+				width: 100%;
+				height: 410px;
 				}
 
 /*Fin de vídeo*/
@@ -169,9 +181,9 @@
 				width: 100%;
 				height: 40px;
 				background-color: #333333;
-				bottom: 0px;
+				margin-bottom: 0px;
 				color: burlywood;
-				padding-left: 15px;
+				padding-left: 0;
 				vertical-align: middle;
 				text-align: center;
 				align-content: center;
