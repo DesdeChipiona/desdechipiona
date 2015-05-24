@@ -12,7 +12,9 @@
                color:white;
 					z-index: 12;
 					left:-55px;
-					border-radius: 0 15 15 0;
+					border-radius: 0px 15px 15px 0px;
+					-webkit-border-radius: 0px 15px 15px 0px;
+					-moz-border-radius: 0px 15px 15px 0px;
                }
 
             #cajadesplegableizq:hover{
