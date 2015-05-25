@@ -28,6 +28,46 @@
 				z-index: 30;
 				opacity: 0;
 				}
+
+/*Menu Fixed*/
+			#menufixed {
+				position: fixed;
+				width: 100%;
+				height: 50px;
+				background-color: red;
+				z-index: 30;
+				}
+			#cajamenufixed {
+				position: absolute;
+				width: 100%;
+				align-content: center;
+				vertical-align: middle;
+				background-color: orange;
+				}
+			#centermenufixed {
+				position: relative;
+				width: 500px;
+				height: 40px;
+				background-color: yellow;
+				margin: auto;
+				}
+			.todoslosmenus {
+				position: relative;
+				float: left;
+				}
+			#menualbums {
+
+				}
+			#menuvideos {
+
+				}
+			#menuwebsamigas {
+
+				}
+			#menuinfo {
+
+				}
+
 /*Flechas para ampliar contenido o foto*/
 			.ampliandocontenido{
 				position: absolute;
