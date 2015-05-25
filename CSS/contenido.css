@@ -35,37 +35,42 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 			#menufixed {
 				position: fixed;
 				width: 100%;
-				height: 50px;
+				height: 40px;
 				background-color: red;
 				z-index: 30;
 				}
 			#cajamenufixed {
 				position: absolute;
 				width: 100%;
+				height:40px;
 				align-content: center;
 				vertical-align: middle;
-				background-color: orange;
+				background-color: black;
 				}
 			#centermenufixed {
 				position: relative;
-				width: 500px;
+				width: 530px;
 				height: 40px;
-				background-color: yellow;
+				align-content: center;
+				margin:auto;
+				background-color: transparent;
 				margin: auto;
 				}
 			.todoslosmenus {
 				position: relative;
 				float: left;
-               margin-left: 5px;
-               margin-right: 5px;
-               background-color: #00335A;
-               padding-top: 3px;
-               padding-bottom: 3px;
-               padding-right: 5px;
-               padding-left: 5px;
-               color: azure;
-               font-family: lobster;
-               font-size: 22px;
+				top:0px;
+				margin-left: 5px;
+				margin-right: 5px;
+				background-color: #00335A;
+				padding-top: 5px;
+				padding-bottom: 3px;
+				padding-right: 7px;
+				padding-left: 7px;
+				color: azure;
+				font-family: lobster;
+				font-size: 22px;
+				border-radius: 0px 0px 20px 20px
 				}
 			#menualbums {
 
@@ -79,6 +84,50 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 			#menuinfo {
 
 				}
+/*Menu Superior Titulo y LOGOS*/
+	#cajatitulo {
+		position:relative;
+		margin:0;
+		padding:0;
+		min-width:880px;
+		max-width:100%;
+		top:40px;
+		height:80px;
+		background-color:black;
+		}
+	#titulo {
+		position:relative;
+		margin:0 auto;
+		text-align:center;
+		width:640px;
+		background-image:url(../images/titulo.png);
+		background-repeat:no-repeat;
+		background-position:0px 0px;
+		height:80px;
+		top:0px;
+		z-index:10;
+		}
+	#logo {
+		position:relative;
+		margin:0;
+		float:left;
+		background-color:transparent;
+		background-image:url(../images/logo.png);
+		background-position:0px 0px;
+		background-repeat:no-repeat;
+		width:120px;
+		height:80px;
+		}
+	#logo2 {
+		position:relative;
+		margin:0;
+		float:right;
+		background-image:url(../images/logo2.png);
+		background-position:0px 0px;
+		background-repeat:no-repeat;
+		width:120px;
+		height:80px;
+		}
 
 /*Flechas para ampliar contenido o foto*/
 			.ampliandocontenido{
