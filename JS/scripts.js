@@ -178,6 +178,6 @@ function nodescripcion() {
 	document.getElementById(x).style.opacity = "0"
 }
 
-
+//----------------------------------------------------MENU DESPLEGABLE MENU SUPERIOR FIXED-------------------------
 
 
