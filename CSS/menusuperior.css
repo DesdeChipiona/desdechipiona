@@ -108,51 +108,6 @@
 		z-index: 10;
 		}
 
-/*Menu Superior*/
-	#cajatitulo {
-		position:relative;
-		margin:0;
-		padding:0;
-		min-width:880px;
-		max-width:100%;
-		top:20px;
-		height:80px;
-		background-color:black;
-		}
-	#titulo {
-		position:relative;
-		margin:0 auto;
-		text-align:center;
-		width:640px;
-		background-image:url(../images/titulo.png);
-		background-repeat:no-repeat;
-		background-position:0px 0px;
-		height:80px;
-		top:0px;
-		z-index:10;
-		}
-	#logo {
-		position:relative;
-		margin:0;
-		float:left;
-		background-color:transparent;
-		background-image:url(../images/logo.png);
-		background-position:0px 0px;
-		background-repeat:no-repeat;
-		width:120px;
-		height:80px;
-		}
-	#logo2 {
-		position:relative;
-		margin:0;
-		float:right;
-		background-image:url(../images/logo2.png);
-		background-position:0px 0px;
-		background-repeat:no-repeat;
-		width:120px;
-		height:80px;
-		}
-
 /*Desplegables formato común de enlaces menu superior*/
 	.linktitulo {
 		top:3px;
