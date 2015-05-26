@@ -87,18 +87,22 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 			#caja1 {
 				position: absolute;
 				width: 200px;
+				margin: 0px;
 				height: 200px;
 				background-color: red;
-				left: 30px;
+				display: none;
 			}
 			#caja2 {
 				position: absolute;
+				margin: 0px;
 				width: 25px;
 				height: 60px;
+				left: 30px;
 				background-color: green;
 			}
 			#caja3 {
 				position: absolute;
+				margin: 0px;
 				width: 200px;
 				height: 140px;
 				top: 60px;
