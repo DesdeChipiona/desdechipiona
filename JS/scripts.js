@@ -179,5 +179,20 @@ function nodescripcion() {
 }
 
 //----------------------------------------------------MENU DESPLEGABLE MENU SUPERIOR FIXED-------------------------
+function menusuperiordesplegable() {
+	var desplegar = document.getElementById('caja1')
+	var plegar = desplegar.onmouseout
+
+	desplegar.style.display = 	"block"
+	plegar.style.display = "none"
+}
+
+function menusuperiornodesplegable() {
+	var desplegar = document.getElementById('caja1')
+
+
+	desplegar.style.display = "none"
+
+}
 
 
