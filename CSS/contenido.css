@@ -36,7 +36,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 				position: fixed;
 				width: 100%;
 				height: 40px;
-				background-color: red;
+				background-color: transparent;
 				z-index: 30;
 				}
 			#cajamenufixed {
@@ -62,7 +62,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 				top:0px;
 				margin-left: 5px;
 				margin-right: 5px;
-				background-color: #00335A;
+				background-color: transparent;
 				padding-top: 5px;
 				padding-bottom: 3px;
 				padding-right: 7px;
@@ -72,6 +72,11 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 				font-size: 22px;
 				border-radius: 0px 0px 20px 20px
 				}
+			.todoslosmenus:hover {
+				background-color: #00335A;
+				color: coral;
+				cursor: pointer;
+			}
 			#menualbums {
 
 				}
@@ -84,29 +89,33 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 			#menuinfo {
 
 				}
-			#caja1 {
+
+/*Parte desplegable de menu fixed superior*/
+			.menusuperiorcaja1 {
 				position: absolute;
 				width: 200px;
 				margin: 0px;
 				height: 200px;
-				background-color: red;
+				left: -50px;
+				background-color: transparent;
 				display: none;
 			}
-			#caja2 {
+			.menusuperiorcaja2 {
 				position: absolute;
 				margin: 0px;
 				width: 25px;
-				height: 60px;
-				left: 30px;
-				background-color: green;
+				height: 30px;
+				left: 76px;
+				background-color: #00335A;
 			}
-			#caja3 {
+			.menusuperiorcaja3 {
 				position: absolute;
-				margin: 0px;
 				width: 200px;
-				height: 140px;
-				top: 60px;
-				background-color: darkolivegreen;
+				top: 30px;
+				margin: 0px;
+				padding: 5px;
+				background-color: #00335A;
+				font-size: 16px;
 			}
 /*Menu Superior Titulo y LOGOS*/
 	#cajatitulo {
