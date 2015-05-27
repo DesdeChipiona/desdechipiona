@@ -5,7 +5,6 @@
 		<META charset="utf-8">
 		<LINK rel="stylesheet" href="./CSS/contenido.css">
       <LINK rel="stylesheet" href="./CSS/estilosgenerales.css">
-      <LINK rel="stylesheet" href="./CSS/menusuperior.css">
       <LINK rel="stylesheet" href="./CSS/desplegableizq.css">
       <LINK rel="stylesheet" href="./CSS/selectorimagenes.css">
 		<SCRIPT src="./JS/jquery.js"></SCRIPT>
@@ -14,78 +13,32 @@
 
 	<BODY onkeydown="return false" onload="alert('Esta página esta en construcción, actualmente es la versión 0.1b puedes disfrutarla en estos momentos pero es posible que encuentres algunos errores o contenido perdido ya que andamos en su desarrollo. Si quieres colaborar puedes ponerte en contacto mediante el repositorio:https://github.com/nerviozzo/desdechipiona')">
 
-		<DIV id="menufixed"><!--Nuevo menú superior fijo-->
+<!--Menú superior fijo-->
+		<DIV id="menufixed">
 			<DIV id="cajamenufixed">
 				<DIV id="centermenufixed">
-					<DIV id="menualbums" class="todoslosmenus" onmouseover="menusuperiordesplegable()">Albums
-						<DIV id="caja1" onmouseout="menusuperiornodesplegable()">
-							<DIV id="caja2">
-								<DIV id="caja3"></DIV>
+					<DIV id="menualbums" class="todoslosmenus" onmouseover="menusuperiordesplegable('albumcaja1')" onmouseout="menusuperiornodesplegable('albumcaja1')">Albums
+						<DIV id="albumcaja1" class="menusuperiorcaja1"> <!--esta es la caja que llamo con la función de javascript para que sea visible, muestre el desplegable mediante el "id" dentro de la funcion-->
+							<DIV id="albumcaja2" class="menusuperiorcaja2">
+								<DIV id="albumcaja3" class="menusuperiorcaja3"> Probando menus</DIV>
 							</DIV>
 						</DIV>
 					</DIV>
-					<DIV id="menuvideos" class="todoslosmenus">Vídeos
+
+					<DIV id="webamigas" class="todoslosmenus" onmouseover="menusuperiordesplegable('webamigascaja1')" onmouseout="menusuperiornodesplegable('webamigascaja1')">Webs amigas
+						<DIV id="webamigascaja1" class="menusuperiorcaja1">
+							<DIV id="webamigascaja2" class="menusuperiorcaja2">
+								<DIV id="webamigascaja3" class="menusuperiorcaja3"> Prueba de entrada</DIV>
+							</DIV>
+						</DIV>
 					</DIV>
-					<DIV id="menuwebsamigas" class="todoslosmenus">Webs amigas
-					</DIV>
-					<DIV id="menuultimasfotos" class="todoslosmenus">Últimas fotos
-					</DIV>
-					<DIV id="menuinfo" class="todoslosmenus">+Info
-					</DIV>
+
+					<DIV id="menuvideos" class="todoslosmenus">Vídeos</DIV>
+					<DIV id="menuultimasfotos" class="todoslosmenus">Últimas fotos</DIV>
+					<DIV id="menuinfo" class="todoslosmenus">+Info</DIV>
 				</DIV>
 			</DIV>
-		</DIV>
-
-		<DIV id="barrasuperior"> <!--Barra fija de arriba-->
-			<UL id="uldesplegable1" class="uldesplegable"><!--Desplegable1-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">INICIO</A></LI>
-			</UL>
-
-			<UL id="uldesplegable2" class="uldesplegable"><!--Desplegable 2-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">ALBUMS</A>
-					<UL id="uldelista2" class="ulcomunlistas">
-						<LI class="lidesplegable"><A href="flora_general.html" class="linkmenusuperior">Flora</A></LI>
-						<LI class="lidesplegable"><A href="fauna_general.html" class="linkmenusuperior">Fauna</A></LI>
-                  <LI class="lidesplegable"><A href="playas_general.html" class="linkmenusuperior">Playas</A></LI>
-						<LI class="lidesplegable"><A href="monumentos_general.html" class="linkmenusuperior">Monumentos</A></LI>
-						<LI class="lidesplegable"><A href="puestas_de_sol.html" class="linkmenusuperior">Puestas de sol</A></LI>
-						<LI class="lidesplegable"><A href="fiestas_general.html" class="linkmenusuperior">Fiestas y Eventos</A></LI>
-					</UL>
-				</LI>
-			</UL>
-
-			<UL id="uldesplegable3" class="uldesplegable"><!--Desplegable 3-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">VÍDEOS</A>
-					<UL id="uldelista3" class="ulcomunlistas">
-						<LI class="lidesplegable"><A href="https://www.youtube.com/channel/UCIoK1tt5RChTC_-zEcEfDoQ" class="linkmenusuperior">Youtube Canal</A></LI>
-					</UL>
-				</LI>
-			</UL>
-
-			<UL id="uldesplegable4" class="uldesplegable"><!--Desplegable 4-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">WEBS AMIGAS</A>
-					<UL id="uldelista4" class="ulcomunlistas">
-                       <LI class="lidesplegable"><A href="http://www.laguialinux.es" class="linkmenusuperior">LaGuíaLinux</A></LI>
-                       <LI class="lidesplegable"><A href="http://www.exateunasrisas.nzweb.org" class="linkmenusuperior">Exate unas risas</A></LI>
-                       <LI class="lidesplegable"><A href="http://www.winkle.nzweb.org" class="linkmenusuperior">Asociación Winkle</A></LI>
-                       <LI class="lidesplegable"><A href="http://www.nzweb.org" class="linkmenusuperior">NzWeb, mi gran proyecto</A></LI>
-					</UL>
-				</LI>
-			</UL>
-
-			<UL id="uldesplegable5" class="uldesplegable"><!--Desplegable 5-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="http://www.blog.desdedechipiona.nzweb.org">ÚLTIMAS FOTOS</A></LI>
-			</UL>
-
-			<UL id="uldesplegable6" class="uldesplegable"><!--Desplegable 6-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./contacto.html">+INFO</A>
-					<UL id="uldelista6" class="ulcomunlistas">
-						<LI class="lidesplegable"><A href="./contacto.html" class="linkmenusuperior">Contacto</A></LI>
-						<LI class="lidesplegable"><A href="./about.html" class="linkmenusuperior">Sobre este proyecto</A></LI>
-					</UL>
-				</LI>
-			</UL>
-		</DIV><!--Fin de la barra fija de arriba-->
+		</DIV><!--Fin del menu superior fijo-->
 
 <!--Barra de títutlo y logo-->
 		<DIV id="cajatitulo">
