@@ -186,15 +186,24 @@ function menusuperiordesplegable(id) {
 	nombredemenu.style.display = 	"block";
 
 // Escribir enlaces dentro del menu superior "album"
-	var lista = '<UL id="uldelista2" class="ulcomunlistas">';
-	lista += '<LI class="lidesplegable"><A href="flora_general.html" class="linkmenusuperior">Flora</A></LI>';
-	lista += '<LI class="lidesplegable"><A href="fauna_general.html" class="linkmenusuperior">Fauna</A></LI>'
-	lista += '<LI class="lidesplegable"><A href="playas_general.html" class="linkmenusuperior">Playas</A></LI>'
-	lista += '<LI class="lidesplegable"><A href="monumentos_general.html" class="linkmenusuperior">Monumentos</A></LI>'
-	lista += '<LI class="lidesplegable"><A href="puestas_de_sol.html" class="linkmenusuperior">Puestas de sol</A></LI>'
-	lista += '<LI class="lidesplegable"><A href="fiestas_general.html" class="linkmenusuperior">Fiestas y Eventos</A></LI>'
-	lista += '</UL>';
-	document.getElementById('albumcaja3').innerHTML = lista;
+	var albums = '<UL class="ulcomunlistas">';
+	albums += '<LI class="lidesplegable"><A href="flora_general.html" class="linkmenusuperior">Flora</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="fauna_general.html" class="linkmenusuperior">Fauna</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="playas_general.html" class="linkmenusuperior">Playas</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="monumentos_general.html" class="linkmenusuperior">Monumentos</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="puestas_de_sol.html" class="linkmenusuperior">Puestas de sol</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="fiestas_general.html" class="linkmenusuperior">Fiestas y Eventos</A>dasd</LI>';
+	albums += '</UL>';
+	document.getElementById('albumcaja3').innerHTML = albums;
+
+// Escribir enlaces dentro del menu superior "web amigas"
+var webamigas = '<UL class="ulcomunlistas">';
+   webamigas += '<LI class="lidesplegable"><A href="http://www.laguialinux.es" class="linkmenusuperior">LaGuíaLinux</A></LI>';
+   webamigas += '<LI class="lidesplegable"><A href="http://www.exateunasrisas.nzweb.org" class="linkmenusuperior">Exate unas risas</A></LI>'
+   webamigas += '<LI class="lidesplegable"><A href="http://www.winkle.nzweb.org" class="linkmenusuperior">Asociación Winkle</A></LI>'
+   webamigas += '<LI class="lidesplegable"><A href="http://www.nzweb.org" class="linkmenusuperior">NzWeb, mi gran proyecto</A></LI>'
+	webamigas += '</UL>'
+	document.getElementById('webamigascaja3').innerHTML = webamigas;
 
 	/* Este es el codigo HTML que ha de importarse mediante javascript al hacer hover sobre su menú correspondiente
 
