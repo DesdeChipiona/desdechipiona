@@ -117,6 +117,15 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 				background-color: #00335A;
 				font-size: 16px;
 			}
+			.lidesplegable {
+				 
+			}
+			.lidesplegable:hover{
+				 
+			}
+			.linkmenusuperior{
+				 
+			}
 /*Menu Superior Titulo y LOGOS*/
 	#cajatitulo {
 		position:relative;
