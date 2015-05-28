@@ -37,7 +37,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 				width: 100%;
 				height: 40px;
 				background-color: transparent;
-				z-index: 30;
+				z-index: 40;
 				}
 			#cajamenufixed {
 				position: absolute;
@@ -99,32 +99,52 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 				left: -50px;
 				background-color: transparent;
 				display: none;
+				border-radius: 0px 20px 20px 20px;
 			}
 			.menusuperiorcaja2 {
 				position: absolute;
 				margin: 0px;
 				width: 25px;
-				height: 30px;
+				height: 20px;
 				left: 76px;
 				background-color: #00335A;
 			}
 			.menusuperiorcaja3 {
 				position: absolute;
 				width: 200px;
-				top: 30px;
+				top: 20px;
 				margin: 0px;
-				padding: 5px;
+				padding: 0px;
 				background-color: #00335A;
 				font-size: 16px;
+				border-radius: 0px 20px 20px 20px;
+				box-shadow: 5px 5px 10px black;
+				text-shadow: 5px 5px 10px black;
 			}
-			.lidesplegable {
-				 
+			.ulcomunlistas {
+				margin: 13px;
+				padding: 0px;
+			}
+
+			.lidesplegable { /*Listas del menu desplegable superior*/
+				list-style: none;
+				margin:0px;
+				padding: 0px;
+				background-color: #00335A;
+				color: aliceblue;
 			}
 			.lidesplegable:hover{
-				 
+				background-color: aliceblue;
+				color: #00335A;
+				text-decoration: none;
 			}
-			.linkmenusuperior{
-				 
+			.linkmenusuperior{ /*Enlaces del menu desplegable superior*/
+				color:inherit;
+				text-decoration: none;
+			}
+			.linkmenusuperior:hover{
+				color:inherit;
+
 			}
 /*Menu Superior Titulo y LOGOS*/
 	#cajatitulo {
