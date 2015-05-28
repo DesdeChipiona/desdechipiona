@@ -28,7 +28,7 @@ function muestrageneral(nombre) {
 //------------------------------------------Funciones para los controles de imágenes-------------------
 function proximaimg() {
 	var nombredeimagen = document.getElementById("nombredeimagenactual").textContent;
-	var nombredeimagen1 = parseInt(nombredeimagen) + 1
+	var nombredeimagen1 = parseInt(nombredeimagen) + 1;
 	var nombrederutaimagenmedium = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
 	var nombrederutaimagenhigh = "url" + "(" + "'" + "./images/1_chipiona_general/high/" + nombredeimagen1 + ".jpg'" + ")";
 	var contenido = document.getElementById("contenido");
@@ -58,7 +58,7 @@ function proximaimg() {
 
 function anteriorimg() {
 	var nombredeimagen = document.getElementById("nombredeimagenactual").textContent;
-	var nombredeimagen1 = parseInt(nombredeimagen) - 1
+	var nombredeimagen1 = parseInt(nombredeimagen) - 1;
 	var nombrederutaimagenmedium = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
 	var nombrederutaimagenhigh = "url" + "(" + "'" + "./images/1_chipiona_general/high/" + nombredeimagen1 + ".jpg'" + ")";
 	var contenido = document.getElementById("contenido");
@@ -197,13 +197,21 @@ function menusuperiordesplegable(id) {
 	document.getElementById('albumcaja3').innerHTML = albums;
 
 // Escribir enlaces dentro del menu superior "web amigas"
-var webamigas = '<UL class="ulcomunlistas">';
-   webamigas += '<LI class="lidesplegable"><A href="http://www.laguialinux.es" class="linkmenusuperior">LaGuíaLinux</A></LI>';
-   webamigas += '<LI class="lidesplegable"><A href="http://www.exateunasrisas.nzweb.org" class="linkmenusuperior">Exate unas risas</A></LI>'
-   webamigas += '<LI class="lidesplegable"><A href="http://www.winkle.nzweb.org" class="linkmenusuperior">Asociación Winkle</A></LI>'
-   webamigas += '<LI class="lidesplegable"><A href="http://www.nzweb.org" class="linkmenusuperior">NzWeb, mi gran proyecto</A></LI>'
-	webamigas += '</UL>'
+	var webamigas = '<UL class="ulcomunlistas">';
+	webamigas += '<LI class="lidesplegable"><A href="http://www.laguialinux.es" class="linkmenusuperior">LaGuíaLinux</A></LI>';
+	webamigas += '<LI class="lidesplegable"><A href="http://www.exateunasrisas.nzweb.org" class="linkmenusuperior">Exate unas risas</A></LI>';
+	webamigas += '<LI class="lidesplegable"><A href="http://www.winkle.nzweb.org" class="linkmenusuperior">Asociación Winkle</A></LI>';
+	webamigas += '<LI class="lidesplegable"><A href="http://www.nzweb.org" class="linkmenusuperior">NzWeb, mi gran proyecto</A></LI>';
+	webamigas += '</UL>';
 	document.getElementById('webamigascaja3').innerHTML = webamigas;
+
+// Escribir enlaces dentro del menu superior "videos"
+	var menuvideos= '<UL class="ulcomunlistas">';
+	menuvideos += '<LI class="lidesplegable"><A href="https://www.youtube.com/channel/UCIoK1tt5RChTC_-zEcEfDoQ" class="linkmenusuperior">Canal de Youtube</A></LI>';
+	menuvideos += '</UL>';
+	document.getElementById('videoscaja3').innerHTML = menuvideos;
+
+}
 
 	/* Este es el codigo HTML que ha de importarse mediante javascript al hacer hover sobre su menú correspondiente
 
@@ -212,17 +220,6 @@ var webamigas = '<UL class="ulcomunlistas">';
 				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">VÍDEOS</A>
 					<UL id="uldelista3" class="ulcomunlistas">
 						<LI class="lidesplegable"><A href="https://www.youtube.com/channel/UCIoK1tt5RChTC_-zEcEfDoQ" class="linkmenusuperior">Youtube Canal</A></LI>
-					</UL>
-				</LI>
-			</UL>
-
-			<UL id="uldesplegable4" class="uldesplegable"><!--Desplegable 4-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">WEBS AMIGAS</A>
-					<UL id="uldelista4" class="ulcomunlistas">
-                       <LI class="lidesplegable"><A href="http://www.laguialinux.es" class="linkmenusuperior">LaGuíaLinux</A></LI>
-                       <LI class="lidesplegable"><A href="http://www.exateunasrisas.nzweb.org" class="linkmenusuperior">Exate unas risas</A></LI>
-                       <LI class="lidesplegable"><A href="http://www.winkle.nzweb.org" class="linkmenusuperior">Asociación Winkle</A></LI>
-                       <LI class="lidesplegable"><A href="http://www.nzweb.org" class="linkmenusuperior">NzWeb, mi gran proyecto</A></LI>
 					</UL>
 				</LI>
 			</UL>
@@ -239,9 +236,8 @@ var webamigas = '<UL class="ulcomunlistas">';
 					</UL>
 				</LI>
 			</UL>
-
 	*/
-}
+
 
 function menusuperiornodesplegable(id) {
 	var nombredemenu = document.getElementById(id);
