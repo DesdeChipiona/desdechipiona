@@ -192,7 +192,7 @@ function menusuperiordesplegable(id) {
 	albums += '<LI class="lidesplegable"><A href="playas_general.html" class="linkmenusuperior">Playas</A></LI>';
 	albums += '<LI class="lidesplegable"><A href="monumentos_general.html" class="linkmenusuperior">Monumentos</A></LI>';
 	albums += '<LI class="lidesplegable"><A href="puestas_de_sol.html" class="linkmenusuperior">Puestas de sol</A></LI>';
-	albums += '<LI class="lidesplegable"><A href="fiestas_general.html" class="linkmenusuperior">Fiestas y Eventos</A>dasd</LI>';
+	albums += '<LI class="lidesplegable"><A href="fiestas_general.html" class="linkmenusuperior">Fiestas y Eventos</A></LI>';
 	albums += '</UL>';
 	document.getElementById('albumcaja3').innerHTML = albums;
 
@@ -207,23 +207,6 @@ var webamigas = '<UL class="ulcomunlistas">';
 
 	/* Este es el codigo HTML que ha de importarse mediante javascript al hacer hover sobre su menú correspondiente
 
-
-			<UL id="uldesplegable1" class="uldesplegable"><!--Desplegable1-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">INICIO</A></LI>
-			</UL>
-
-			<UL id="uldesplegable2" class="uldesplegable"><!--Desplegable 2-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">ALBUMS</A>
-					<UL id="uldelista2" class="ulcomunlistas">
-						<LI class="lidesplegable"><A href="flora_general.html" class="linkmenusuperior">Flora</A></LI>
-						<LI class="lidesplegable"><A href="fauna_general.html" class="linkmenusuperior">Fauna</A></LI>
-                  <LI class="lidesplegable"><A href="playas_general.html" class="linkmenusuperior">Playas</A></LI>
-						<LI class="lidesplegable"><A href="monumentos_general.html" class="linkmenusuperior">Monumentos</A></LI>
-						<LI class="lidesplegable"><A href="puestas_de_sol.html" class="linkmenusuperior">Puestas de sol</A></LI>
-						<LI class="lidesplegable"><A href="fiestas_general.html" class="linkmenusuperior">Fiestas y Eventos</A></LI>
-					</UL>
-				</LI>
-			</UL>
 
 			<UL id="uldesplegable3" class="uldesplegable"><!--Desplegable 3-->
 				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">VÍDEOS</A>
