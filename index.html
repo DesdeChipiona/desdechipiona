@@ -115,35 +115,7 @@
 
 <!--Contenido-->
 			<DIV id="contenido">
-
-				<DIV id="ampliarcontenido" class="ampliandocontenido" onClick="ampliar()"></DIV>
-				<DIV id="noampliarcontenido" class="ampliandocontenido" onClick="noampliar()"></DIV>
-
-				<DIV id="movilizq">
-					<DIV id="led"></DIV>
-					<IMG id="imgmovilizq" src="./images/smartphone_IZQ.svg" alt="imgmovilizq">
-				</DIV>
-
-				<DIV id="centrodecontenido">
-					<IMG id="anticopy" src="./images/AntyCopy.jpg" alt="AntyCopy"/>
-					<VIDEO id="videopresentacion" poster="./videos/presentacion.jpg" autoplay loop>
-						<SOURCE src="./videos/presentacion.webm" type="video/webm">
-						<SOURCE src="./videos/presentacion.mp4" type="video/mp4">
-						<SOURCE src="./videos/presentacion.ogg" type="video/ogg">
-						<P style="color=white">Tu navegador no soporta ninguno de los formatos de vído que contiene esta página</P>
-					</VIDEO>
-				</DIV>
-
-				<DIV id="movildrh">
-					<IMG id="imgmovildrh" src="./images/smartphone_DRH.svg" alt="imgmovildrh">
-					<BUTTON id="menusmartphone" class="botones">
-						 -----<BR>
-						 -----<BR>
-						 -----<BR>
-					</BUTTON>
-				</DIV>
-
-				<DIV id="controles">
+				<DIV id="controles"><!--controles de video e imágenes-->
 					<button id="anterior" class="botones" onclick="anteriorimg()">
 						<IMG class="imgbutton" alt="Anterior Imagen" title="Anterior Imagen" width="26" src="./images/botonanterior.png">
 					</button>
@@ -157,6 +129,59 @@
 						<IMG class="imgbutton" alt="Silenciar" title="Silenciar" width="26" src="./images/botonsilencio.png">
 					</button>
 				</DIV>
+
+				<DIV id="ampliarcontenido" class="ampliandocontenido" onClick="ampliar()"></DIV>
+				<DIV id="noampliarcontenido" class="ampliandocontenido" onClick="noampliar()"></DIV>
+
+				<DIV id="movilizq">
+					<DIV id="led"></DIV>
+					<IMG id="imgmovilizq" src="./images/smartphone_IZQ.svg" alt="imgmovilizq">
+				</DIV>
+
+				<DIV id="cajamenusmartphone">
+					<DIV id="menusmartphone"><!--Menú que aparece en el smartphone-->
+						<IMG class="imagenesdelmenusmartphone" alt="El tiempo" src="./images/iconossmartphone/Eltiempo.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Correo" src="./images/iconossmartphone/Correo.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Juegos" src="./images/iconossmartphone/Juegos.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Videos" src="./images/iconossmartphone/Videos.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Facebook" src="./images/iconossmartphone/Facebook.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Localizacion" src="./images/iconossmartphone/Localizacion.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Buscar" src="./images/iconossmartphone/Buscar.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Calculadora" src="./images/iconossmartphone/Calculadora.png"/>
+					</DIV>
+
+					<DIV id="fondomenusmartphone"></DIV><!--Fondo del menu smartphone-->
+				</DIV>
+
+				<DIV id="centrodecontenido"><!--centrar contenido en smartphone-->
+					<IMG id="anticopy" src="./images/AntyCopy.jpg" alt="AntyCopy"/>
+
+					<VIDEO id="videopresentacion" poster="./videos/presentacion.jpg" autoplay loop>
+						<SOURCE src="./videos/presentacion.webm" type="video/webm">
+						<SOURCE src="./videos/presentacion.mp4" type="video/mp4">
+						<SOURCE src="./videos/presentacion.ogg" type="video/ogg">
+						<P style="color=white">Tu navegador no soporta ninguno de los formatos de vídeo que contiene esta página</P>
+					</VIDEO>
+				</DIV><!--FIN de centrar contenido en smartphone-->
+
+				<DIV id="cajatitulossmartphone"></DIV><!--Caja con transparencia donde están los títulos de menusmartphones-->
+
+				<DIV id="movildrh">
+					<P id="titulovolverbotonsmartphone" class="titulosbotonmenusmartphone">Volver</P>
+					<P id="tituloiniciobotonsmartphone" class="titulosbotonmenusmartphone">Inicio</P>
+					<P id="titulomenubotonsmartphone" class="titulosbotonmenusmartphone">Menu</P>
+					<BUTTON id="botonvolversmartphone" class="botonessmartphone">
+						 <IMG class="imgbotonmenusmartphone" alt="Volver" src="./images/botones/volver.png"/>
+					</BUTTON>
+					<BUTTON id="botoniniciosmartphone" class="botonessmartphone">
+						 <IMG class="imgbotonmenusmartphone" alt="Inicio" src="./images/botones/inicio.png"/>
+					</BUTTON>
+					<BUTTON id="botonmenusmartphone" class="botonessmartphone" onclick="iniciarmenu()">
+						<IMG class="imgbotonmenusmartphone" alt="Menu" src="./images/botones/menu.png"/>
+					</BUTTON>
+				</DIV>
+
+
 			</DIV><!--Fin de contenido-->
 		</DIV> <!--Fin de caja general-->
 
