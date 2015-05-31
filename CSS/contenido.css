@@ -55,7 +55,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		width: 100%;
 		height: 100%;
 		border-radius: 20px;
-		z-index: 30;
+		z-index: 29;
 		opacity: 0;
 		}
 
@@ -259,7 +259,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		border-radius: 12px 0px 0px 12px;
 		margin: 0px;
 		align-content: center;
-		z-index: 1;
+		z-index: 31;
 	}
 	#imgmovilizq {
 		position: relative;
@@ -268,7 +268,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		bottom: 30%;
 		width: 100%;
 		height: 50%;
-		z-index: 31
+		z-index: 31;
 	}
 	#movildrh {
 		position: absolute;
@@ -281,14 +281,6 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		margin: 0px;
 		align-content: center;
 		z-index: 31;
-	}
-	#imgmovildrh {
-		position: relative;
-		align-content: center;
-		top: 25%;
-		bottom: 30%;
-		width: 100%;
-		height: 50%;
 	}
 	#led {
 		position: absolute;
@@ -321,11 +313,12 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		height: 410px;
 	}
 	#controles {
-	}
-	#controles:hover {
+		position: absolute;
+		z-index: 32;
+		bottom: 20px;
+		left: 38%;
 	}
 	.botones{
-		z-index: 31;
 		opacity: 0.3;
 		background-color: transparent;
 	}
@@ -354,25 +347,97 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 				cursor:pointer;
 			}
 
-/*Menu derecha del Smartphone*/
-	 		#menusmartphone {
-				position: absolute;
-				background-color: antiquewhite;
-				width: 26px;
-				height: 55px;
-				bottom: 23%;
-				left: 8px;
-				margin: auto;
-				padding: 0px;
-				border: 2px groove black;
-				box-shadow: 5px 5px 50px black;
-				border-radius: 5px 5px 5px 5px;
-			}
-	 		#menusmartphone:hover {
-				opacity: 1;
-				cursor: pointer;
-				background-color: dimgrey;
-			}
+/*Menu emergente del Smartphone*/
+	#cajamenusmartphone{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 30;
+		display: none;
+	}
+	#menusmartphone {
+		position: absolute;
+		width: 83%;
+		height: 90%;
+		left: 5%;
+		top: 5%;
+		overflow-y: scroll;
+		overflow-x: hidden;
+
+	}
+	#fondomenusmartphone{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: black;
+		opacity: 0.6;
+		z-index: -20;
+		border-radius: 20px 20px 20px 20px;
+	}
+	.imagenesdelmenusmartphone {/*Iconos al pulsar menu*/
+		opacity: 0.6;
+	}
+	.imagenesdelmenusmartphone:hover {
+		opacity: 1;
+		cursor: pointer;
+	}
+	#cajatitulossmartphone {
+		position: absolute;
+		height: 100%;
+		width: 80px;
+		top: 0px;
+		right: 0px;
+		opacity: 0.5;
+		background-color: black;
+	}
+	.titulosbotonmenusmartphone{
+		position: absolute;
+		left: -44px;
+		font-family:lobster;
+		font-size: 23px;
+		color: azure;
+		-moz-transform:rotate(-90deg) scale(1);
+		-webkit-transform:rotate(-90deg) scale(1);
+		-o-transform:rotate(-90deg) scale(1);
+		-ms-transform:rotate(-90deg) scale(1);
+	}
+	#titulovolverbotonsmartphone {
+		top: 20%;
+	}
+	#tituloiniciobotonsmartphone {
+		top: 40%;
+	}
+	#titulomenubotonsmartphone {
+		bottom: 22%;
+	}
+	.botonessmartphone {/*estilos generales para todos los botones del menu derecho*/
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		padding: 0px;
+		left: 5%;
+		-moz-transform:rotate(-90deg) scale(1);
+		-webkit-transform:rotate(-90deg) scale(1);
+		-o-transform:rotate(-90deg) scale(1);
+		-ms-transform:rotate(-90deg) scale(1);
+		opacity: 0.6;
+	}
+	.botonessmartphone:hover {
+		opacity: 1;
+		cursor: pointer;
+	}
+	#botonvolversmartphone {
+		top: 25%;
+	}
+	#botoniniciosmartphone {
+		top: 45%;
+	}
+	#botonmenusmartphone {/*Boton de la derecha que hace aparecer el menú*/
+		top: 65%;
+	}
+	.imgbotonmenusmartphone {
+		width: 100%;
+	}
 
 /*--------------------------------Pie de Página------------------*/
 	#piedepagina {
@@ -397,19 +462,19 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		width:80px;
 		height: 345px;
 		color:white;
-		z-index: 12;
+		z-index: 50;
 		left:-55px;
-        box-shadow: 15px 20px 20px black;
-        /*Gradiente de fondo*/
-        background-color: darkgray;
-        background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,246,248,1)), color-stop(20%, rgba(216,225,231,1)), color-stop(45%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
-        background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
-        background: -o-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
-        background: -ms-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
-        background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
-        /*Fin de gradiente de fondo*/
+		box-shadow: 15px 20px 20px black;
+		/*Gradiente de fondo*/
+		background-color: darkgray;
+		background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,246,248,1)), color-stop(20%, rgba(216,225,231,1)), color-stop(45%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+		background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
+		background: -o-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
+		background: -ms-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
+		background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 20%, rgba(181,198,208,1) 45%, rgba(224,239,249,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
+      /*Fin de gradiente de fondo*/
 		border-radius: 0px 15px 15px 0px;
 		-webkit-border-radius: 0px 15px 15px 0px;
 		-moz-border-radius: 0px 15px 15px 0px;
