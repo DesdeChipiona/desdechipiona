@@ -210,34 +210,7 @@ function menusuperiordesplegable(id) {
 	menuvideos += '<LI class="lidesplegable"><A href="https://www.youtube.com/channel/UCIoK1tt5RChTC_-zEcEfDoQ" class="linkmenusuperior">Canal de Youtube</A></LI>';
 	menuvideos += '</UL>';
 	document.getElementById('videoscaja3').innerHTML = menuvideos;
-
 }
-
-	/* Este es el codigo HTML que ha de importarse mediante javascript al hacer hover sobre su menú correspondiente
-
-
-			<UL id="uldesplegable3" class="uldesplegable"><!--Desplegable 3-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./index.html">VÍDEOS</A>
-					<UL id="uldelista3" class="ulcomunlistas">
-						<LI class="lidesplegable"><A href="https://www.youtube.com/channel/UCIoK1tt5RChTC_-zEcEfDoQ" class="linkmenusuperior">Youtube Canal</A></LI>
-					</UL>
-				</LI>
-			</UL>
-
-			<UL id="uldesplegable5" class="uldesplegable"><!--Desplegable 5-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="http://www.blog.desdedechipiona.nzweb.org">ÚLTIMAS FOTOS</A></LI>
-			</UL>
-
-			<UL id="uldesplegable6" class="uldesplegable"><!--Desplegable 6-->
-				<LI class="titulodesplegable"><A class="linktitulo" href="./contacto.html">+INFO</A>
-					<UL id="uldelista6" class="ulcomunlistas">
-						<LI class="lidesplegable"><A href="./contacto.html" class="linkmenusuperior">Contacto</A></LI>
-						<LI class="lidesplegable"><A href="./about.html" class="linkmenusuperior">Sobre este proyecto</A></LI>
-					</UL>
-				</LI>
-			</UL>
-	*/
-
 
 function menusuperiornodesplegable(id) {
 	var nombredemenu = document.getElementById(id);
@@ -245,8 +218,19 @@ function menusuperiornodesplegable(id) {
 	nombredemenu.style.display = "none";
 }
 
+//-------------------------------------------------Menu dentro de smartphone-------------------------------------------------
+//Desplegar menu al pulsar boton "menu" con id "botonmenusmartphone"
+function iniciarmenu() {
+	var menu = document.getElementById('cajamenusmartphone');
 
-
+	if (menu.style.display == "") {
+		menu.style.display = "block";
+	} else if (menu.style.display == "none") {
+		menu.style.display = "block";
+	} else {
+		menu.style.display = "none";
+	}
+}
 
 
 
