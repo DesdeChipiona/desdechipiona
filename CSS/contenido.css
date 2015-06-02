@@ -17,7 +17,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		background: -ms-linear-gradient(top, #000000 0%, #00518f 74%, #0065a3 95%, #0065a3 100%);
 		background: linear-gradient(to bottom, #000000 0%, #00518f 74%, #0065a3 95%, #0065a3 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0065a3', GradientType=0 );
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 	}
 /*Caja general*/
 	#cajageneral {
@@ -25,7 +25,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		margin:0px;
 		text-align:center;
 		width:98%;
-		height: 900px;
+		height: 650px;
 		background-color: transparent;
 	}
 
@@ -439,20 +439,6 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		width: 100%;
 	}
 
-/*--------------------------------Pie de Página------------------*/
-	#piedepagina {
-		position: absolute;
-		width: 100%;
-		height: 40px;
-		background-color: #333333;
-		margin-bottom: 0px;
-		color: burlywood;
-		padding-left: 0;
-		vertical-align: middle;
-		text-align: center;
-		align-content: center;
-	}
-
 /*-------------------------------DesplegableIZQ/ menuizquierda-----------------*/
 /*Desplegable menu IZQ*/
 	#cajadesplegableizq{
@@ -683,3 +669,96 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		background-image: url(../images/1_chipiona_general/thumbnail/20.jpg);
 	}
 /* Imágenes individuales PLAYA GENERAL*/
+
+
+/*--------------------------------Información-------------------*/
+/*Caja General Información*/
+	#cajainformacion {
+		position: relative;
+		width: 90%;
+		left: 5%;
+		right: 5%;
+		background-color: red;
+		z-index: 1;
+	}
+	#centrarinformacion {
+		position: absolute;
+		width: 90%;
+		left: 5%;
+		right: 5%;
+		background-color: grey;
+		z-index: 2;
+	}
+	.informacion {
+		position: relative;
+		float: left;
+		width: 300px;
+		margin: 15px;
+		background-color: green;
+		z-index: 3;
+	}
+	#info1 {
+
+	}
+	#info2 {
+
+	}
+	#info3 {
+
+	}
+	#info4 {
+
+	}
+	.tituloinformacion {
+		text-align: center;
+		background-color: yellow;
+		z-index: 4;
+	}
+	#infotitulo1 {
+
+	}
+	#infotitulo2 {
+
+	}
+	#infotitulo3 {
+
+	}
+	#infotitulo4 {
+
+	}
+	.contenidoinformacion {
+		background-color: orange;
+		z-index: 4;
+	}
+	#infocontenido1{
+
+	}
+	#infocontenido1{
+
+	}
+	#infocontenido1{
+
+	}
+	#infocontenido1{
+
+	}
+
+/*--------------------------------Pie de Página------------------*/
+	#piedepagina {
+		position: absolute;
+		width: 100%;
+		height: 40px;
+		background-color: #333333;
+		bottom: 0px;
+		color: burlywood;
+		text-align: center;
+		align-content: center;
+		border-radius: 15px 15px 0px 0px;
+		-webkit-border-radius: 15px 15px 0px 0px;
+		-moz-border-radius: 15px 15px 0px 0px;
+	}
+	#nombredeimagenactual {
+		position: relative;
+		display: none;
+	}
+
