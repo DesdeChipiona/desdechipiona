@@ -19,6 +19,11 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0065a3', GradientType=0 );
 		background-repeat: repeat;
 	}
+
+   .limpiarfloat { /*ESTE estilo es para un div vacío que consigue limpiar el float para evitar desplazamiento de las cajas posteriores*/
+      clear: both;
+   }
+
 /*Caja general*/
 	#cajageneral {
 		position:relative;
@@ -46,6 +51,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		z-index:8;
 		box-shadow: 10px 10px 50px black;
 		border-radius: 20px;
+       -webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+       -o-border-radius:  20px;
+       -ms-border-radius:  20px;
 		}
 	#centrodecontenido {
 		position: relative;
@@ -55,6 +64,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		width: 100%;
 		height: 100%;
 		border-radius: 20px;
+       -webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+       -o-border-radius:  20px;
+       -ms-border-radius:  20px;
 		z-index: 29;
 		opacity: 0;
 		}
@@ -98,7 +111,11 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		color: azure;
 		font-family: lobster;
 		font-size: 22px;
-		border-radius: 0px 0px 20px 20px
+		border-radius: 0px 0px 20px 20px;
+       -webkit-border-radius: 0px 0px 20px 20px;
+		-moz-border-radius: 0px 0px 20px 20px;
+       -o-border-radius:  0px 0px 20px 20px;
+       -ms-border-radius:  0px 0px 20px 20px;
 		}
 	.todoslosmenus:hover {
 		background-color: #00335A;
@@ -124,6 +141,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		background-color: transparent;
 		display: none;
 		border-radius: 0px 20px 20px 20px;
+       -webkit-border-radius: 0px 20px 20px 20px;
+		-moz-border-radius: 0px 20px 20px 20px;
+       -o-border-radius: 0px 20px 20px 20px;
+       -ms-border-radius: 0px 20px 20px 20px;
 	}
 	.menusuperiorcaja2 {
 		position: absolute;
@@ -142,6 +163,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		background-color: #00335A;
 		font-size: 16px;
 		border-radius: 0px 20px 20px 20px;
+       -webkit-border-radius: 0px 20px 20px 20px;
+		-moz-border-radius: 0px 20px 20px 20px;
+       -o-border-radius: 0px 20px 20px 20px;
+       -ms-border-radius: 0px 20px 20px 20px;
 		box-shadow: 5px 5px 10px black;
 		text-shadow: 5px 5px 10px black;
 	}
@@ -257,6 +282,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		background-color: lightgray;
 		width: 40px;
 		border-radius: 12px 0px 0px 12px;
+       -webkit-border-radius: 12px 0px 0px 12px;
+		-moz-border-radius: 12px 0px 0px 12px;
+       -o-border-radius: 12px 0px 0px 12px;
+       -ms-border-radius: 12px 0px 0px 12px;
 		margin: 0px;
 		align-content: center;
 		z-index: 31;
@@ -278,6 +307,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		background-color: lightgray;
 		width: 40px;
 		border-radius: 0px 12px 12px 0px;
+       -webkit-border-radius: 0px 12px 12px 0px;
+		-moz-border-radius: 0px 12px 12px 0px;
+       -o-border-radius: 0px 12px 12px 0px;
+       -ms-border-radius: 0px 12px 12px 0px;
 		margin: 0px;
 		align-content: center;
 		z-index: 31;
@@ -302,6 +335,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		bottom: 50%;
 		left:3px;
 		border-radius: 15px;
+       -webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+       -o-border-radius: 15px;
+       -ms-border-radius: 15px;
 		border: 2px solid gray;
 	}
 
@@ -363,7 +400,6 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		top: 5%;
 		overflow-y: scroll;
 		overflow-x: hidden;
-
 	}
 	#fondomenusmartphone{
 		position: absolute;
@@ -372,7 +408,11 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		background-color: black;
 		opacity: 0.6;
 		z-index: -20;
-		border-radius: 20px 20px 20px 20px;
+		border-radius: 20px;
+       -webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+       -o-border-radius: 20px;
+       -ms-border-radius: 20px;
 	}
 	.imagenesdelmenusmartphone {/*Iconos al pulsar menu*/
 		opacity: 0.6;
@@ -396,6 +436,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		font-family:lobster;
 		font-size: 23px;
 		color: azure;
+       transform:rotate(-90deg) scale(1);
 		-moz-transform:rotate(-90deg) scale(1);
 		-webkit-transform:rotate(-90deg) scale(1);
 		-o-transform:rotate(-90deg) scale(1);
@@ -416,6 +457,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		height: 36px;
 		padding: 0px;
 		left: 5%;
+       transform:rotate(-90deg) scale(1);
 		-moz-transform:rotate(-90deg) scale(1);
 		-webkit-transform:rotate(-90deg) scale(1);
 		-o-transform:rotate(-90deg) scale(1);
@@ -464,14 +506,17 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		border-radius: 0px 15px 15px 0px;
 		-webkit-border-radius: 0px 15px 15px 0px;
 		-moz-border-radius: 0px 15px 15px 0px;
+       -o-border-radius: 0px 15px 15px 0px;
+       -ms-border-radius: 0px 15px 15px 0px;
 	}
 	#cajadesplegableizq:hover{
 		left: 0px;
 		opacity: 1;
+       transition: all 1s ease-in-out;
 		-moz-transition: all 1s ease-in-out;
 		-webkit-transition: all 1s ease-in-out;
 		-o-transition: all 1s ease-in-out;
-		transition: all 1s ease-in-out;
+       -ms-transition: all 1s ease-in-out;
 	}
 	.alldesplegablesizq{
 		width: 110;
@@ -494,6 +539,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		margin-left: 15px;
 		cursor: pointer;
 		transition-duration: 0.5s;
+       transform:rotate(15deg) scale(1);
 		-moz-transform:rotate(15deg) scale(1);
 		-webkit-transform:rotate(15deg) scale(1);
 		-o-transform:rotate(15deg) scale(1);
@@ -518,6 +564,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		border-radius: 10px 10px 10px 10px;
 		opacity: 0;
 		transition-delay: 0.2s;
+       transform:rotate(5deg) scale(1);
 		-moz-transform:rotate(5deg) scale(1);
 		-webkit-transform:rotate(5deg) scale(1);
 		-o-transform:rotate(5deg) scale(1);
@@ -562,6 +609,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		overflow-x: scroll;
 		overflow-y: hidden;
 		border-radius: 20px 20px 0px 0px;
+       -webkit-border-radius: 20px 20px 0px 0px;
+		-moz-border-radius: 20px 20px 0px 0px;
+       -o-border-radius: 20px 20px 0px 0px;
+       -ms-border-radius: 20px 20px 0px 0px;
 		box-shadow: 15px 15px 75px 1px black;
 		z-index: 11;
 	}
@@ -675,26 +726,15 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 /*Caja General Información*/
 	#cajainformacion {
 		position: relative;
+       margin: auto;
 		width: 90%;
-		left: 5%;
-		right: 5%;
-		background-color: red;
 		z-index: 1;
-	}
-	#centrarinformacion {
-		position: absolute;
-		width: 90%;
-		left: 5%;
-		right: 5%;
-		background-color: grey;
-		z-index: 2;
 	}
 	.informacion {
 		position: relative;
 		float: left;
 		width: 300px;
 		margin: 15px;
-		background-color: green;
 		z-index: 3;
 	}
 	#info1 {
@@ -710,8 +750,12 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 
 	}
 	.tituloinformacion {
+       margin: 5px;
+       padding: 15px;
 		text-align: center;
-		background-color: yellow;
+       background-image: url(../images/cuadros_informacion/tituloinformacion.png);
+       background-repeat: no-repeat;
+       background-size: 100%;
 		z-index: 4;
 	}
 	#infotitulo1 {
@@ -727,7 +771,13 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 
 	}
 	.contenidoinformacion {
-		background-color: orange;
+       margin: 5px;
+       padding: 10px;
+       border: 20px solid transparent;
+
+       border-image: url(../images/cuadros_informacion/contrenidoinformacion.png) 30 strech;
+       -webkit-border-image: url(../images/cuadros_informacion/contrenidoinformacion.png) 30 strech;
+       -o-border-image: url(../images/cuadros_informacion/contrenidoinformacion.png) 30 strech;
 		z-index: 4;
 	}
 	#infocontenido1{
@@ -749,13 +799,16 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		width: 100%;
 		height: 40px;
 		background-color: #333333;
-		bottom: 0px;
+		margin-bottom: 0px;
 		color: burlywood;
 		text-align: center;
 		align-content: center;
 		border-radius: 15px 15px 0px 0px;
 		-webkit-border-radius: 15px 15px 0px 0px;
 		-moz-border-radius: 15px 15px 0px 0px;
+       -o-border-radius: 15px 15px 0px 0px;
+		-ms-border-radius: 15px 15px 0px 0px;
+
 	}
 	#nombredeimagenactual {
 		position: relative;
