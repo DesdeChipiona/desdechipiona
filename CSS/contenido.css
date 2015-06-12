@@ -19,10 +19,90 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0065a3', GradientType=0 );
 		background-repeat: repeat;
 	}
-
    .limpiarfloat { /*ESTE estilo es para un div vacío que consigue limpiar el float para evitar desplazamiento de las cajas posteriores*/
       clear: both;
    }
+	H1{
+		font-family: lobster;
+		color: azure;
+		font-size: 25px;
+	}
+	H2{
+
+	}
+	H3{
+
+	}
+	P{
+		position: relative;
+	}
+	.imagencontenido{
+		position: relative;
+		width: 130px;
+		margin: auto;
+		float: left;
+		margin: 7px;
+		box-shadow: 10px 10px 35px black;
+		border-radius: 20px;
+       -webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+       -o-border-radius: 20px;
+       -ms-border-radius: 20px;
+	/*Animación*/
+		animation-direction: alternate;
+		animation: imgmover 16s steps(30) infinite;
+		-moz-animation: imgmover 16s steps(30) infinite;
+		-webkit-animation: imgmover 16s steps(30) infinite;
+		-o-animation: imgmover 16s steps(30) infinite;
+		-ms-animation: imgmover 16s steps(30) infinite;
+	}
+	@keyframes imgmover {
+		from {
+			box-shadow: 10px 10px 35px black;
+			opacity: 1
+			transform:rotate(-10deg) scale(1);
+			-moz-transform:rotate(-10deg) scale(1);
+			-webkit-transform:rotate(-10deg) scale(1);
+			-o-transform:rotate(-10deg) scale(1);
+			-ms-transform:rotate(-10deg) scale(1);
+		}
+		25% {
+			box-shadow: 15px 20px 35px black;
+			opacity: 0.7
+			transform:rotate(10deg) scale(1);
+			-moz-transform:rotate(10deg) scale(1);
+			-webkit-transform:rotate(10deg) scale(1);
+			-o-transform:rotate(10deg) scale(1);
+			-ms-transform:rotate(10deg) scale(1);
+		}
+		50% {
+			box-shadow: -20px -15px 35px black;
+			opacity: 1
+			transform:rotate(-10deg) scale(1);
+			-moz-transform:rotate(-10deg) scale(1);
+			-webkit-transform:rotate(-10deg) scale(1);
+			-o-transform:rotate(-10deg) scale(1);
+			-ms-transform:rotate(-10deg) scale(1);
+		}
+		75% {
+			box-shadow: 10px 10px 65px black;
+			opacity: 0.9
+			transform:rotate(10deg) scale(1);
+			-moz-transform:rotate(10deg) scale(1);
+			-webkit-transform:rotate(10deg) scale(1);
+			-o-transform:rotate(10deg) scale(1);
+			-ms-transform:rotate(10deg) scale(1);
+		}
+		to {
+			box-shadow: 10px 10px 35px black;
+			opacity: 1;
+			transform:rotate(-10deg) scale(1);
+			-moz-transform:rotate(-10deg) scale(1);
+			-webkit-transform:rotate(-10deg) scale(1);
+			-o-transform:rotate(-10deg) scale(1);
+			-ms-transform:rotate(-10deg) scale(1);
+		}
+	}
 
 /*Caja general*/
 	#cajageneral {
@@ -44,7 +124,6 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		width:70%;
 		height: 420px;
 		margin:auto;
-		/*background-image: url(./images/contenido.png);*/
 		background-color:black;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -55,10 +134,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		-moz-border-radius: 20px;
        -o-border-radius:  20px;
        -ms-border-radius:  20px;
-		}
+	}
 	#centrodecontenido {
 		position: relative;
-		}
+	}
 	#anticopy { /*Imagen sobrepuesta que ayuda con el aviso de que esta intentando copiar una imagen que no es para uso comercial*/
 		position: absolute;
 		width: 100%;
@@ -70,7 +149,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
        -ms-border-radius:  20px;
 		z-index: 29;
 		opacity: 0;
-		}
+	}
 
 /*------------------------Barra de Menú Superior Fixed----------------*/
 	#menufixed {/*Barra superior*/
@@ -79,7 +158,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		height: 40px;
 		background-color: transparent;
 		z-index: 40;
-		}
+	}
 	#cajamenufixed {
 		position: absolute;
 		width: 100%;
@@ -87,7 +166,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		align-content: center;
 		vertical-align: middle;
 		background-color: black;
-		}
+	}
 	#centermenufixed {/*Caja para centrar contenido*/
 		position: relative;
 		width: 530px;
@@ -96,7 +175,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		margin:auto;
 		background-color: transparent;
 		margin: auto;
-		}
+	}
 	.todoslosmenus {/*Clase común para todos los menús*/
 		position: relative;
 		float: left;
@@ -116,21 +195,12 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		-moz-border-radius: 0px 0px 20px 20px;
        -o-border-radius:  0px 0px 20px 20px;
        -ms-border-radius:  0px 0px 20px 20px;
-		}
+	}
 	.todoslosmenus:hover {
 		background-color: #00335A;
 		color: coral;
 		cursor: pointer;
 	}
-	#menualbums {
-	}
-	#menuvideos {
-	}
-	#menuwebsamigas {
-	}
-	#menuinfo {
-	}
-
 /*Parte desplegable de menu fixed superior*/
 	.menusuperiorcaja1 {
 		position: absolute;
@@ -436,7 +506,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		font-family:lobster;
 		font-size: 23px;
 		color: azure;
-       transform:rotate(-90deg) scale(1);
+		transform:rotate(-90deg) scale(1);
 		-moz-transform:rotate(-90deg) scale(1);
 		-webkit-transform:rotate(-90deg) scale(1);
 		-o-transform:rotate(-90deg) scale(1);
@@ -570,33 +640,6 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		-o-transform:rotate(5deg) scale(1);
 		-ms-transform:rotate(5deg) scale(1);
 	}
-	.desplegableletras:hover{
-	}
-/*Desplegables trato individual*/
-	#1desplegableizq{
-	}
-	#1desplegableletras{
-	}
-	#2desplegableizq{
-	}
-	#2desplegableletras{
-	}
-	#3desplegableizq{
-	}
-	#3desplegableletras{
-	}
-	#4desplegableizq{
-	}
-	#4desplegableletras{
-	}
-	#5desplegableizq{
-	}
-	#5desplegableletras{
-	}
-	#6desplegableizq{
-	}
-	#6desplegableletras{
-	}
 
 /*--------------------------------Selector de Imágenes------------*/
 	#cajaselectorimagenes{
@@ -719,78 +762,43 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 	#selectorimagen20{
 		background-image: url(../images/1_chipiona_general/thumbnail/20.jpg);
 	}
-/* Imágenes individuales PLAYA GENERAL*/
-
 
 /*--------------------------------Información-------------------*/
 /*Caja General Información*/
 	#cajainformacion {
 		position: relative;
-       margin: auto;
+		margin: auto;
 		width: 90%;
 		z-index: 1;
 	}
-	.informacion {
+	.informacion {/*Caja general información*/
 		position: relative;
 		float: left;
-		width: 300px;
-		margin: 15px;
+		width: 400px;
+		margin: 10px;
 		z-index: 3;
 	}
-	#info1 {
-
-	}
-	#info2 {
-
-	}
-	#info3 {
-
-	}
-	#info4 {
-
-	}
-	.tituloinformacion {
-       margin: 5px;
-       padding: 15px;
+	.tituloinformacion {/*Título de información*/
+		height: 60px;
+		margin: 4px;
+		padding: 1px 5px 0px 5px;
 		text-align: center;
-       background-image: url(../images/cuadros_informacion/tituloinformacion.png);
-       background-repeat: no-repeat;
-       background-size: 100%;
+		background-image: url(../images/cuadros_informacion/tituloinformacion.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
 		z-index: 4;
 	}
-	#infotitulo1 {
-
-	}
-	#infotitulo2 {
-
-	}
-	#infotitulo3 {
-
-	}
-	#infotitulo4 {
-
-	}
-	.contenidoinformacion {
-       margin: 5px;
-       padding: 10px;
-       border: 20px solid transparent;
-
-       border-image: url(../images/cuadros_informacion/contrenidoinformacion.png) 30 strech;
-       -webkit-border-image: url(../images/cuadros_informacion/contrenidoinformacion.png) 30 strech;
-       -o-border-image: url(../images/cuadros_informacion/contrenidoinformacion.png) 30 strech;
+	.contenidoinformacion {/*Contenido de información*/
+		margin: 5px;
+		padding-top: 5px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 25px;
+		border: 20px solid transparent;
+		border-image: url(../images/cuadros_informacion/contenidoinformacion.png) 30 stretch;
+		-webkit-border-image: url(../images/cuadros_informacion/contenidoinformacion.png) 30 stretch;
+		-o-border-image: url(../images/cuadros_informacion/contenidoinformacion.png) 30 stretch;
 		z-index: 4;
-	}
-	#infocontenido1{
-
-	}
-	#infocontenido1{
-
-	}
-	#infocontenido1{
-
-	}
-	#infocontenido1{
-
 	}
 
 /*--------------------------------Pie de Página------------------*/
@@ -808,10 +816,56 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		-moz-border-radius: 15px 15px 0px 0px;
        -o-border-radius: 15px 15px 0px 0px;
 		-ms-border-radius: 15px 15px 0px 0px;
-
 	}
 	#nombredeimagenactual {
 		position: relative;
 		display: none;
 	}
+
+/*---------------------------Subir al comienzo de la página---*/
+	#subir {
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		padding: 5px;
+		background-color: yellowgreen;
+		color: firebrick;
+		font-style: oblique;
+		font-size: 22px;
+		cursor: pointer;
+		border-radius: 20px;
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+       -o-border-radius: 20px;
+		-ms-border-radius: 20px;
+	}
+	#subir:hover {
+		background-color: dodgerblue;
+		color: azure;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
