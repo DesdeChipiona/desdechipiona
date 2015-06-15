@@ -121,7 +121,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		border: 7px groove white;
 		text-align:center;
 		top:50px;
-		width:70%;
+		width:550px;
 		height: 420px;
 		margin:auto;
 		background-color:black;
@@ -422,7 +422,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		position: absolute;
 		z-index: 32;
 		bottom: 20px;
-		left: 38%;
+		left: 39%;
 	}
 	.botones{
 		opacity: 0.5;
@@ -504,11 +504,16 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		-o-border-radius: 20px;
 		-ms-border-radius: 20px;
 	}
-	.titulosbotonmenusmartphone{
+	.titulosbotonmenusmartphone {
 		position: absolute;
 		font-family:lobster;
 		font-size: 23px;
 		color: azure;
+		z-index: 32;
+	}
+	.titulosbotonmenusmartphone:hover {
+		cursor: pointer;
+		color: dodgerblue;
 	}
 	#titulovolverbotonsmartphone {
 		left: 470px;
