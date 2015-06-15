@@ -143,7 +143,7 @@ function ampliar() {
 	noampliarcontenido.style.display = "block";
 
 			//scroll hacia el final de la página para encuadrar imagen
-	document.body.scrollTop = document.body.offsetHeight;
+	//document.body.scrollTop = document.body.offsetHeight;
 }
 
 	// Minimizar Imagen del Background en "contenido"
