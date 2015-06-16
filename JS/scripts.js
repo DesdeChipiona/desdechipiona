@@ -2,46 +2,138 @@
 
 //Función para dibujar en el background "contenido" la imagen seleccionada según el nombre de la imagen
 function muestrageneral(nombre) {
-				//Asigno variable nombre para la ruta del archivo
-   var rutadeimagen = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombre + ".jpg'" + ")";
 	var video = document.getElementById("videopresentacion");
 	var contenido = document.getElementById("contenido");
 
-					//Ocultar video y detenerlo al pulsar imagen
+//Ocultar video y detenerlo al pulsar cualquier imagen
 	video.style.opacity = 0;
 	video.style.visibility = 0;
 	video.zIndex = -10;
 	video.pause();
 
-		//Establezco las propiedades CSS
+//Guardar nombre de la imagen en "id=nombredeimagenactual"
+		document.getElementById("nombredeimagenactual").innerHTML = nombre;
 
-					//Guardar nombre de la imagen en "id=nombredeimagenactual"
-	document.getElementById("nombredeimagenactual").innerHTML = nombre;
-					//Dibujar background
-
-
-
-//Creando funcion para que al pulsar sobre thumbnail lo dibuje en grande
-   var x;
+//Leyendo el nombre de la imagen para el primer selector de la galería, id=selectorimagen1
    var primeraimagendelselector = document.getElementById('selectorimagen1').style.backgroundImage;
-   var selectorprincipal = "url" + "(" + "'" + "./images/1_chipiona_general/thumbnail/" + 1 + ".jpg'" + ")";
 
-   //alert(primeraimagendelselector)
+//Leer galería actual de id=galeriaimagenesactual
+	var galeriaactual;
+	galeriaactual = document.getElementById('galeriaimagenesactual').innerHTML;
+	document.getElementById('galeriaimagenesactual').innerHTML = galeriaactual;
 
-   if (primeraimagendelselector == selectorprincipal || primeraimagendelselector == ''){
-      x = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombre + ".jpg'" + ")";
+//Variables con la ruta de cada galería de imagen a tamaño medio
+	var principal = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombre + ".jpg'" + ")";
+   var playageneral = "url" + "(" + "'" + "./images/2_playas/1_general/medium/" + nombre + ".jpg'" + ")";
+   var playaderegla = "url" + "(" + "'" + "./images/2_playas/2_playa_de_regla/medium/" + nombre + ".jpg'" + ")";
+   var playacruzdelmar = "url" + "(" + "'" + "./images/2_playas/3_playa_cruz_del_mar/medium/" + nombre + ".jpg'" + ")";
+   var playadelmolino = "url" + "(" + "'" + "./images/2_playas/4_playa_del_molino/medium/" + nombre + ".jpg'" + ")";
+   var playalascanteras = "url" + "(" + "'" + "./images/2_playas/5_playa_las_canteras/medium/" + nombre + ".jpg'" + ")";
+   var monumentos = "url" + "(" + "'" + "./images/3_monumentos/medium/" + nombre + ".jpg'" + ")";
+   var flora = "url" + "(" + "'" + "./images/4_flora/medium/" + nombre + ".jpg'" + ")";
+   var faunageneral = "url" + "(" + "'" + "./images/5_fauna/1_general/medium/" + nombre + ".jpg'" + ")";
+   var faunacamaleones = "url" + "(" + "'" + "./images/5_fauna/2_camaleones/medium/" + nombre + ".jpg'" + ")";
+   var fiestasyeventos = "url" + "(" + "'" + "./images/6_fiestas_y_eventos/1_general/medium/" + nombre + ".jpg'" + ")";
+   var puestasdesol = "url" + "(" + "'" + "./images/7_puestas_de_sol/medium/" + nombre + ".jpg'" + ")";
 
-      alert(selectorprincipal);
+   if (galeriaactual == "principal" || primeraimagendelselector == '') {
+		//x = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombre + ".jpg'" + ")";
 
-      contenido.style.background = x;
-	  contenido.style.backgroundSize = "contain";
-	  contenido.style.backgroundRepeat = "no-repeat";
-	  contenido.style.backgroundColor = "black";
-	  contenido.style.backgroundPosition = "50% 50%";
-   }
+		//alert(galeriaactual);
 
+	//Dibujar background
+		contenido.style.background = principal;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
 
+   } else if (galeriaactual == "playageneral") {
+		contenido.style.background = playageneral;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
 
+	} else if (galeriaactual == "playaderegla") {
+		contenido.style.background = playaderegla;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "playacruzdelmar") {
+		contenido.style.background = playacruzdelmar;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "playadelmolino") {
+		contenido.style.background = playadelmolino;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "playadelmolino") {
+		contenido.style.background = playadelmolino;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "playalascanteras") {
+		contenido.style.background = playalascanteras;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "monumentos") {
+		contenido.style.background = monumentos;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "flora") {
+		contenido.style.background = flora;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "faunageneral") {
+		contenido.style.background = faunageneral;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "faunacamaleones") {
+		contenido.style.background = faunacamaleones;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "fiestasyeventos") {
+		contenido.style.background = fiestasyeventos;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+	} else if (galeriaactual == "puestasdesol") {
+		contenido.style.background = puestasdesol;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+	} else {
+		alert("Ha ocurrido un error al cargar la galería, prueba a recargar de nuevo la página")
+	}
 }
 
 //------------------------------------------Funciones para los controles de imágenes-------------------
@@ -156,13 +248,12 @@ function ampliar() {
 	contenido.style.position = "absolute";
 	contenido.style.marginLeft = "5%";
 	contenido.style.zIndex = "30";
-	contenido.style.width = "90%";
-	contenido.style.height = "80%";
+	contenido.style.minWidth = "90%";
+	contenido.style.maxWidth = "90%";
+	contenido.style.minHeight = "70%";
+	contenido.style.maxHeight = "70%";
 	ampliarcontenido.style.display = "none";
 	noampliarcontenido.style.display = "block";
-
-			//scroll hacia el final de la página para encuadrar imagen
-	//document.body.scrollTop = document.body.offsetHeight;
 }
 
 	// Minimizar Imagen del Background en "contenido"
@@ -174,13 +265,13 @@ function noampliar() {
 	contenido.style.position = "relative";
 	contenido.style.marginLeft = "auto";
 	contenido.style.zIndex = "8";
-	contenido.style.width = "70%";
-	contenido.style.height = "420px";
+	contenido.style.minWidth = "400px";
+	contenido.style.maxWidth = "560px";
+	contenido.style.minHeight = "260px";
+	contenido.style.maxHeight = "340px";
 	ampliarcontenido.style.display = "block";
 	noampliarcontenido.style.display = "none";
 }
-
-
 
 // ---------------------------------------------------DESPLEGABLE IZQ----------------------------------------------
 
@@ -306,6 +397,9 @@ function rotargaleria(imagen) {
    var fiestasyeventos = "url" + "(" + "'" + "./images/6_fiestas_y_eventos/1_general/thumbnail/";
    var puestasdesol = "url" + "(" + "'" + "./images/7_puestas_de_sol/thumbnail/";
 
+//Guardar Selector de imagenes actual en id=galeriaimagenesactual
+	var galeriaactual = document.getElementById('galeriaimagenesactual');
+
    if (imagen == "principal") {
 //Página principal
       img1.style.background = principal + "1" + fin;
@@ -328,7 +422,8 @@ function rotargaleria(imagen) {
       img18.style.background = principal + "18" + fin;
       img19.style.background = principal + "19" + fin;
       img20.style.background = principal + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "principal";
 
    } else if (imagen == "playageneral"){
 //Playa_general
@@ -352,7 +447,8 @@ function rotargaleria(imagen) {
       img18.style.background = playageneral + "18" + fin;
       img19.style.background = playageneral + "19" + fin;
       img20.style.background = playageneral + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "playageneral";
 
    }  else if (imagen == "playaderegla") {
       img1.style.background = playaderegla + "1" + fin;
@@ -375,7 +471,8 @@ function rotargaleria(imagen) {
       img18.style.background = playaderegla + "18" + fin;
       img19.style.background = playaderegla + "19" + fin;
       img20.style.background = playaderegla + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "playaderegla";
 
    }  else if (imagen == "playacruzdelmar") {
       img1.style.background = playacruzdelmar + "1" + fin;
@@ -398,7 +495,8 @@ function rotargaleria(imagen) {
       img18.style.background = playacruzdelmar + "18" + fin;
       img19.style.background = playacruzdelmar + "19" + fin;
       img20.style.background = playacruzdelmar + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "playacruzdelmar";
 
    }  else if (imagen == "playadelmolino") {
       img1.style.background = playadelmolino + "1" + fin;
@@ -421,7 +519,8 @@ function rotargaleria(imagen) {
       img18.style.background = playadelmolino + "18" + fin;
       img19.style.background = playadelmolino + "19" + fin;
       img20.style.background = playadelmolino + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "playadelmolino";
 
    }  else if (imagen == "playalascanteras") {
       img1.style.background = playalascanteras + "1" + fin;
@@ -444,7 +543,8 @@ function rotargaleria(imagen) {
       img18.style.background = playalascanteras + "18" + fin;
       img19.style.background = playalascanteras + "19" + fin;
       img20.style.background = playalascanteras + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "playalascanteras";
 
    }  else if (imagen == "monumentos") {
       img1.style.background = monumentos + "1" + fin;
@@ -467,7 +567,8 @@ function rotargaleria(imagen) {
       img18.style.background = monumentos + "18" + fin;
       img19.style.background = monumentos + "19" + fin;
       img20.style.background = monumentos + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "monumentos";
 
    }  else if (imagen == "flora") {
       img1.style.background = flora + "1" + fin;
@@ -490,7 +591,8 @@ function rotargaleria(imagen) {
       img18.style.background = flora + "18" + fin;
       img19.style.background = flora + "19" + fin;
       img20.style.background = flora + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "flora";
 
    }  else if (imagen == "faunageneral") {
       img1.style.background = faunageneral + "1" + fin;
@@ -513,7 +615,8 @@ function rotargaleria(imagen) {
       img18.style.background = faunageneral + "18" + fin;
       img19.style.background = faunageneral + "19" + fin;
       img20.style.background = faunageneral + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "faunageneral";
 
    }  else if (imagen == "faunacamaleones") {
       img1.style.background = faunacamaleones + "1" + fin;
@@ -536,7 +639,8 @@ function rotargaleria(imagen) {
       img18.style.background = faunacamaleones + "18" + fin;
       img19.style.background = faunacamaleones + "19" + fin;
       img20.style.background = faunacamaleones + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "faunacamaleones";
 
    }  else if (imagen == "fiestasyeventos") {
       img1.style.background = fiestasyeventos + "1" + fin;
@@ -559,7 +663,8 @@ function rotargaleria(imagen) {
       img18.style.background = fiestasyeventos + "18" + fin;
       img19.style.background = fiestasyeventos + "19" + fin;
       img20.style.background = fiestasyeventos + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "fiestasyeventos";
 
    } else if (imagen == "puestasdesol") {
       img1.style.background = puestasdesol + "1" + fin;
@@ -582,9 +687,10 @@ function rotargaleria(imagen) {
       img18.style.background = puestasdesol + "18" + fin;
       img19.style.background = puestasdesol + "19" + fin;
       img20.style.background = puestasdesol + "20" + fin;
-      claseseleccion()
+      claseseleccion();
+		galeriaactual.innerHTML = "puestasdesol";
 
    } else {
-      alert("Hay un error y no se está cargando la galería correctamente")
+      alert("Hay un error y no se está cargando la galería correctamente");
    }
 }

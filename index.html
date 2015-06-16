@@ -87,7 +87,7 @@
           </DIV><!-- 6 Fin Desplegable-->
        </DIV><!--Fin desplegable lateral IZQ-->
 
-		<DIV id="cajageneral" name="cajageneral"> <!--CajaGeneral-->
+		<DIV id="cajageneral"> <!--CajaGeneral-->
 <!--Selector de imágenes-->
            <DIV id="cajaselectorimagenes">
               <UL id="ulselectorimagen"> <!--En las siguientes imágenes se escribe el nombre sin extensión, la extensión tiene que ser ".jpg" tal y como está definido en la función para pintar la imagen como background-->
@@ -116,20 +116,7 @@
 
 <!--Contenido-->
 			<DIV id="contenido">
-				<DIV id="controles"><!--controles de video e imágenes-->
-					<BUTTON id="anterior" class="botones" onclick="anteriorimg()">
-						<IMG class="imgbutton" alt="Anterior Imagen" title="Anterior Imagen" width="26" src="./images/botonanterior.png"/>
-					</BUTTON>
-					<BUTTON id="play" class="botones" onclick="videoplay()">
-						<IMG id="botonplay" class="imgbutton" alt="Play/Stop Vídeo" title="Play/Stop Vídeo" width="26" src="./images/botonplay.png"/>
-					</BUTTON>
-					<BUTTON id="proxima" class="botones" onclick="proximaimg()">
-						<IMG class="imgbutton" alt="Próxima Imagen" title="Próxima Imagen" width="26" src="./images/botonsiguiente.png"/>
-					</BUTTON>
-					<BUTTON id="silenciar" class="botones" onclick="silenciar()">
-						<IMG class="imgbutton" alt="Silenciar" title="Silenciar" width="26" src="./images/botonsonido.png"/>
-					</BUTTON>
-				</DIV>
+
 
 				<DIV id="ampliarcontenido" class="ampliandocontenido" onClick="ampliar()"></DIV>
 				<DIV id="noampliarcontenido" class="ampliandocontenido" onClick="noampliar()"></DIV>
@@ -155,10 +142,6 @@
 				</DIV>
 
 				<DIV id="centrodecontenido"><!--centrar contenido en smartphone-->
-					<P id="titulovolverbotonsmartphone" class="titulosbotonmenusmartphone">Volver</P>
-					<P id="tituloiniciobotonsmartphone" class="titulosbotonmenusmartphone">Inicio</P>
-					<P id="titulomenubotonsmartphone" class="titulosbotonmenusmartphone" onclick="iniciarmenu()">Menu</P>
-
 					<IMG id="anticopy" src="./images/AntyCopy.jpg" alt="AntyCopy"/>
 
 					<VIDEO id="videopresentacion" poster="./images/presentacion.png" loop>
@@ -169,7 +152,26 @@
 					</VIDEO>
 				</DIV><!--FIN de centrar contenido en smartphone-->
 
-				<DIV id="cajatitulossmartphone"></DIV><!--Caja con transparencia donde están los títulos de menusmartphones-->
+				<DIV id="cajatitulossmartphone">
+					<P id="titulovolverbotonsmartphone" class="titulosbotonmenusmartphone">Volver</P>
+
+					<DIV id="controles"><!--controles de video e imágenes-->
+					<BUTTON id="anterior" class="botones" onclick="anteriorimg()">
+						<IMG class="imgbutton" alt="Anterior Imagen" title="Anterior Imagen" width="26" src="./images/botonanterior.png"/>
+					</BUTTON>
+					<BUTTON id="play" class="botones" onclick="videoplay()">
+						<IMG id="botonplay" class="imgbutton" alt="Play/Stop Vídeo" title="Play/Stop Vídeo" width="26" src="./images/botonplay.png"/>
+					</BUTTON>
+					<BUTTON id="proxima" class="botones" onclick="proximaimg()">
+						<IMG class="imgbutton" alt="Próxima Imagen" title="Próxima Imagen" width="26" src="./images/botonsiguiente.png"/>
+					</BUTTON>
+					<BUTTON id="silenciar" class="botones" onclick="silenciar()">
+						<IMG class="imgbutton" alt="Silenciar" title="Silenciar" width="26" src="./images/botonsonido.png"/>
+					</BUTTON>
+				</DIV>
+
+					<P id="titulomenubotonsmartphone" class="titulosbotonmenusmartphone" onclick="iniciarmenu()">Menu</P>
+				</DIV><!--Caja con transparencia donde están los títulos de menusmartphones-->
 
 				<DIV id="movildrh">
 					<BUTTON id="botonvolversmartphone" class="botonessmartphone">
@@ -183,6 +185,7 @@
 					</BUTTON>
 				</DIV>
 			</DIV><!--Fin de contenido-->
+
 		</DIV> <!--Fin de caja general-->
 
 <!--Menu medio que direcciona a sitios y objetos comunes o estáticos-->
@@ -289,10 +292,11 @@
 
 		<DIV id="piedepagina"><!--Pie de página-->
 			<DIV id="nombredeimagenactual"></DIV><!--Nombre de la imagen actual-->
+			<DIV id="galeriaimagenesactual"></DIV><!--Galería de Imágenes que está utilizando en cada momento-->
 			2015 - Imágenes de la propiedad de Raúl Caro Pastorino
 		</DIV><!--Fin de Pie de página-->
 		<DIV id="subir">
-			<A href="#cajageneral" onclick="alert(document.getElementById('selectorimagen15').style.backgroundImage)">SUBIR</A>
+			<A href="#cajageneral">SUBIR</A>
 		</DIV>
 	</BODY>
 </HTML>

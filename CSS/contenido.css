@@ -121,8 +121,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		border: 7px groove white;
 		text-align:center;
 		top:50px;
-		width:550px;
-		height: 420px;
+		min-width: 400px;
+		max-width: 560px;
+		min-height: 260px;
+		max-height: 340px;
 		margin:auto;
 		background-color:black;
 		background-repeat: no-repeat;
@@ -357,7 +359,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
        -ms-border-radius: 12px 0px 0px 12px;
 		margin: 0px;
 		align-content: center;
-		z-index: 31;
+		z-index: 33;
 	}
 	#imgmovilizq {
 		position: relative;
@@ -366,7 +368,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		bottom: 30%;
 		width: 100%;
 		height: 50%;
-		z-index: 31;
+		z-index: 33;
 	}
 	#movildrh {
 		position: absolute;
@@ -382,7 +384,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
        -ms-border-radius: 0px 12px 12px 0px;
 		margin: 0px;
 		align-content: center;
-		z-index: 31;
+		z-index: 33;
 	}
 	#led {
 		position: absolute;
@@ -416,13 +418,12 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		z-index: 0;
 		margin-top: 1%;
 		width: 100%;
-		height: 410px;
+		min-height: 260px;
+		max-height: 340px;
 	}
 	#controles {
-		position: absolute;
-		z-index: 32;
-		bottom: 20px;
-		left: 39%;
+		bottom: 0px;
+		display: inline-block;
 	}
 	.botones{
 		opacity: 0.5;
@@ -492,10 +493,10 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 	}
 	#cajatitulossmartphone {
 		position: absolute;
-		height: 50px;
+		height: 40px;
 		width: 100%;
 		bottom: 0px;
-		right: 0px;
+		padding-bottom: 13px;
 		opacity: 0.5;
 		background-color: black;
 		border-radius: 20px;
@@ -503,29 +504,25 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		-moz-border-radius: 20px;
 		-o-border-radius: 20px;
 		-ms-border-radius: 20px;
+		z-index: 30;
 	}
 	.titulosbotonmenusmartphone {
-		position: absolute;
+		position: relative;
+		bottom: 0px;
+		display: inline-block;
+		align-content: center;
+		vertical-align: middle;
 		font-family:lobster;
 		font-size: 23px;
 		color: azure;
-		z-index: 32;
 	}
 	.titulosbotonmenusmartphone:hover {
 		cursor: pointer;
 		color: dodgerblue;
 	}
 	#titulovolverbotonsmartphone {
-		left: 470px;
-		bottom: 0px;
-	}
-	#tituloiniciobotonsmartphone {
-		left: 140px;
-		bottom: 0px;
 	}
 	#titulomenubotonsmartphone {
-		left: 80px;
-		bottom: 0px;
 	}
 	.botonessmartphone {/*estilos generales para todos los botones del menu derecho*/
 		position: absolute;
@@ -533,7 +530,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		height: 36px;
 		padding: 0px;
 		left: 5%;
-       transform:rotate(-90deg) scale(1);
+      transform:rotate(-90deg) scale(1);
 		-moz-transform:rotate(-90deg) scale(1);
 		-webkit-transform:rotate(-90deg) scale(1);
 		-o-transform:rotate(-90deg) scale(1);
@@ -868,9 +865,13 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
        -o-border-radius: 15px 15px 0px 0px;
 		-ms-border-radius: 15px 15px 0px 0px;
 	}
-	#nombredeimagenactual {
+	#nombredeimagenactual {/*Nombre de la imagen actual*/
 		position: relative;
 		display: none;
+	}
+	#galeriaimagenesactual {/*Galería de Imágenes que está utilizando en cada momento*/
+		position: relative;
+		display: block;
 	}
 
 /*---------------------------Subir al comienzo de la página---*/
