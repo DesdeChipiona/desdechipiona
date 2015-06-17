@@ -137,6 +137,7 @@ function muestrageneral(nombre) {
 }
 
 //------------------------------------------Funciones para los controles de imágenes-------------------
+/*
 function proximaimg() {
 	var nombredeimagen = document.getElementById("nombredeimagenactual").textContent;
 	var nombredeimagen1 = parseInt(nombredeimagen) + 1;
@@ -164,6 +165,63 @@ function proximaimg() {
 		contenido.style.backgroundColor = "black";
 		contenido.style.backgroundPosition = "50% 50%";
 		}
+	}
+}
+*/
+
+//Nueva función para control de imagen próxima
+function proximaimg() {
+	var nombredeimagen = document.getElementById("nombredeimagenactual").textContent;
+	var nombredeimagen1 = parseInt(nombredeimagen) + 1;
+	//var nombrederutaimagenmedium = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
+	//var nombrederutaimagenhigh = "url" + "(" + "'" + "./images/1_chipiona_general/high/" + nombredeimagen1 + ".jpg'" + ")";
+	var contenido = document.getElementById("contenido");
+
+	//Declarando variables con la ruta de imágenes tamaño: medium
+	var principal = "url" + "(" + "'" + "./images/1_chipiona_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var playageneral = "url" + "(" + "'" + "./images/2_playas/1_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var playaderegla = "url" + "(" + "'" + "./images/2_playas/2_playa_de_regla/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var playacruzdelmar = "url" + "(" + "'" + "./images/2_playas/3_playa_cruz_del_mar/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var playadelmolino = "url" + "(" + "'" + "./images/2_playas/4_playa_del_molino/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var playalascanteras = "url" + "(" + "'" + "./images/2_playas/5_playa_las_canteras/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var monumentos = "url" + "(" + "'" + "./images/3_monumentos/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var flora = "url" + "(" + "'" + "./images/4_flora/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var faunageneral = "url" + "(" + "'" + "./images/5_fauna/1_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var faunacamaleones = "url" + "(" + "'" + "./images/5_fauna/2_camaleones/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var fiestasyeventos = "url" + "(" + "'" + "./images/6_fiestas_y_eventos/1_general/medium/" + nombredeimagen1 + ".jpg'" + ")";
+   var puestasdesol = "url" + "(" + "'" + "./images/7_puestas_de_sol/medium/" + nombredeimagen1 + ".jpg'" + ")";
+
+	//Declarando variables con la ruta de imágenes tamaño: High
+	var principal1 = "url" + "(" + "'" + "./images/1_chipiona_general/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var playageneral1 = "url" + "(" + "'" + "./images/2_playas/1_general/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var playaderegla1 = "url" + "(" + "'" + "./images/2_playas/2_playa_de_regla/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var playacruzdelmar1 = "url" + "(" + "'" + "./images/2_playas/3_playa_cruz_del_mar/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var playadelmolino1 = "url" + "(" + "'" + "./images/2_playas/4_playa_del_molino/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var playalascanteras1 = "url" + "(" + "'" + "./images/2_playas/5_playa_las_canteras/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var monumentos1 = "url" + "(" + "'" + "./images/3_monumentos/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var flora1 = "url" + "(" + "'" + "./images/4_flora/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var faunageneral1 = "url" + "(" + "'" + "./images/5_fauna/1_general/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var faunacamaleones1 = "url" + "(" + "'" + "./images/5_fauna/2_camaleones/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var fiestasyeventos1 = "url" + "(" + "'" + "./images/6_fiestas_y_eventos/1_general/high/" + nombredeimagen1 + ".jpg'" + ")";
+   var puestasdesol1 = "url" + "(" + "'" + "./images/7_puestas_de_sol/high/" + nombredeimagen1 + ".jpg'" + ")";
+
+   if (galeriaactual == "principal" || primeraimagendelselector == '') {
+
+
+	if(nombredeimagen < 20 && contenido.style.width <= 560px) {
+		//Guardar nombre de la imagen en "id=nombredeimagenactual"
+		document.getElementById("nombredeimagenactual").innerHTML = nombredeimagen1;
+
+		//Dibujar background
+		contenido.style.background = nombrederutaimagenmedium;
+		contenido.style.backgroundSize = "contain";
+		contenido.style.backgroundRepeat = "no-repeat";
+		contenido.style.backgroundColor = "black";
+		contenido.style.backgroundPosition = "50% 50%";
+
+
+	} else if(nombredeimagen < 20 && contenido.style.width > 560px) {
+
 	}
 }
 
