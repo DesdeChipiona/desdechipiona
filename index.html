@@ -16,7 +16,7 @@
 				<DIV id="centermenufixed">
 					<DIV id="menuinicio" class="todoslosmenus" onclick="rotargaleria('principal')">INICIO</DIV>
 
-					<DIV id="menualbums" class="todoslosmenus" onmouseover="menusuperiordesplegable('albumcaja1')" onmouseout="menusuperiornodesplegable('albumcaja1')">Albums
+					<DIV id="menualbums" class="todoslosmenus" onmouseover="menusuperiordesplegable('albumcaja1')" onmouseout="menusuperiornodesplegable('albumcaja1')">ALBUMS
 						<DIV id="albumcaja1" class="menusuperiorcaja1"> <!--esta es la caja que llamo con la función de javascript para que sea visible, muestre el desplegable mediante el "id" dentro de la funcion-->
 							<DIV id="albumcaja2" class="menusuperiorcaja2">
 								<DIV id="albumcaja3" class="menusuperiorcaja3">
@@ -25,24 +25,7 @@
 						</DIV>
 					</DIV>
 
-					<DIV id="webamigas" class="todoslosmenus" onmouseover="menusuperiordesplegable('webamigascaja1')" onmouseout="menusuperiornodesplegable('webamigascaja1')">Webs amigas
-						<DIV id="webamigascaja1" class="menusuperiorcaja1">
-							<DIV id="webamigascaja2" class="menusuperiorcaja2">
-								<DIV id="webamigascaja3" class="menusuperiorcaja3">
-								</DIV>
-							</DIV>
-						</DIV>
-					</DIV>
-
-					<DIV id="menuvideos" class="todoslosmenus" onmouseover="menusuperiordesplegable('videoscaja1')" onmouseout="menusuperiornodesplegable('videoscaja1')">Vídeos
-						<DIV id="videoscaja1" class="menusuperiorcaja1">
-							<DIV id="videoscaja2" class="menusuperiorcaja2">
-								<DIV id="videoscaja3" class="menusuperiorcaja3">
-								</DIV>
-							</DIV>
-						</DIV>
-					</DIV>
-					<DIV id="menuultimasfotos" class="todoslosmenus">Últimas fotos</DIV>
+					<DIV id="menuultimasfotos" class="todoslosmenus">ÚLTIMAS FOTOS</DIV>
 				</DIV>
 			</DIV>
 		</DIV><!--Fin del menu superior fijo-->
@@ -116,14 +99,9 @@
 
 <!--Contenido-->
 			<DIV id="contenido">
-
-
-				<DIV id="ampliarcontenido" class="ampliandocontenido" onClick="ampliar()"></DIV>
-				<DIV id="noampliarcontenido" class="ampliandocontenido" onClick="noampliar()"></DIV>
-
 				<DIV id="movilizq">
 					<DIV id="led"></DIV>
-					<IMG id="imgmovilizq" src="./images/smartphone_IZQ.svg" alt="imgmovilizq"/>
+					<IMG id="imgmovilizq" src="./images/smartphone_IZQ.png" alt="imgmovilizq"/>
 				</DIV>
 
 				<DIV id="cajamenusmartphone">
@@ -153,27 +131,30 @@
 				</DIV><!--FIN de centrar contenido en smartphone-->
 
 				<DIV id="cajatitulossmartphone">
-					<P id="titulovolverbotonsmartphone" class="titulosbotonmenusmartphone">Volver</P>
+					<P id="titulovolverbotonsmartphone" class="titulosbotonmenusmartphone">VOLVER</P>
 
 					<DIV id="controles"><!--controles de video e imágenes-->
 					<BUTTON id="anterior" class="botones" onclick="anteriorimg()">
-						<IMG class="imgbutton" alt="Anterior Imagen" title="Anterior Imagen" width="26" src="./images/botonanterior.png"/>
+						<IMG class="imgbutton" alt="Anterior Imagen" title="Anterior Imagen" width="26" src="./images/botones/botonanterior.png"/>
 					</BUTTON>
 					<BUTTON id="play" class="botones" onclick="videoplay()">
-						<IMG id="botonplay" class="imgbutton" alt="Play/Stop Vídeo" title="Play/Stop Vídeo" width="26" src="./images/botonplay.png"/>
+						<IMG id="botonplay" class="imgbutton" alt="Play/Stop Vídeo" title="Play/Stop Vídeo" width="26" src="./images/botones/botonplay.png"/>
 					</BUTTON>
 					<BUTTON id="proxima" class="botones" onclick="proximaimg()">
-						<IMG class="imgbutton" alt="Próxima Imagen" title="Próxima Imagen" width="26" src="./images/botonsiguiente.png"/>
+						<IMG class="imgbutton" alt="Próxima Imagen" title="Próxima Imagen" width="26" src="./images/botones/botonsiguiente.png"/>
 					</BUTTON>
 					<BUTTON id="silenciar" class="botones" onclick="silenciar()">
-						<IMG class="imgbutton" alt="Silenciar" title="Silenciar" width="26" src="./images/botonsonido.png"/>
+						<IMG class="imgbutton" alt="Silenciar" title="Silenciar" width="26" src="./images/botones/botonsonido.png"/>
 					</BUTTON>
 				</DIV>
 
-					<P id="titulomenubotonsmartphone" class="titulosbotonmenusmartphone" onclick="iniciarmenu()">Menu</P>
+					<P id="titulomenubotonsmartphone" class="titulosbotonmenusmartphone" onclick="iniciarmenu()">MENÚ</P>
 				</DIV><!--Caja con transparencia donde están los títulos de menusmartphones-->
 
 				<DIV id="movildrh">
+                   <DIV id="ampliarcontenido" class="ampliandocontenido" onClick="ampliar()"></DIV>
+				  <DIV id="noampliarcontenido" class="ampliandocontenido" onClick="noampliar()"></DIV>
+
 					<BUTTON id="botonvolversmartphone" class="botonessmartphone">
 						 <IMG class="imgbotonmenusmartphone" alt="Volver" src="./images/botones/volver.png"/>
 					</BUTTON>
@@ -186,18 +167,20 @@
 				</DIV>
 			</DIV><!--Fin de contenido-->
 
+           <DIV id="infogaleria">
+                  <DIV id="nombredeimagenactual"></DIV><!--Nombre de la imagen actual-->
+                  <DIV id="galeriaimagenesactual">principal</DIV><!--Galería de Imágenes que está utilizando en cada momento-->
+               </DIV>
 		</DIV> <!--Fin de caja general-->
 
 <!--Menu medio que direcciona a sitios y objetos comunes o estáticos-->
 		<DIV id="cajamenumedio">
 			<DIV id="centrarmenumedio">
-				<DIV class="menusindividualescentro">MenuA</DIV>
+				<DIV class="menusindividualescentro">VÍDEOS</DIV>
 				<DIV class="menusindividualescentro">MenuB</DIV>
 				<DIV class="menusindividualescentro">MenuC</DIV>
 				<DIV class="menusindividualescentro">MenuD</DIV>
-				<DIV class="menusindividualescentro">MenuE</DIV>
-				<DIV class="menusindividualescentro">MenuF</DIV>
-				<DIV class="menusindividualescentro">MenuG</DIV>
+				<DIV class="menusindividualescentro">WEBS AMIGAS</DIV>
 				<DIV class="limpiarfloat"></DIV>
 			</DIV>
 		</DIV> <!--Fin de menumedio-->
@@ -205,7 +188,7 @@
 		<DIV id="cajainformacion">
 			<DIV id="info1" class="informacion">
 				<DIV id="infotitulo1" class="tituloinformacion">
-					<H1>Playas de Chipiona</H1>
+					<H1>PLAYAS DE CHIPIONA</H1>
 				</DIV>
 				<DIV id="infocontenido1" class="contenidoinformacion">
 					<IMG class="imagencontenido" alt="Info 1" src="./images/1_chipiona_general/thumbnail/2.jpg"/>
@@ -216,7 +199,7 @@
 
 			<DIV id="info2" class="informacion">
 				<DIV id="infotitulo2" class="tituloinformacion">
-					<H1>Titulo del bloque</H1>
+					<H1>TÍTULO DEL BLOQUE</H1>
 				</DIV>
 				<DIV id="infocontenido2" class="contenidoinformacion">
 					<IMG class="imagencontenido" alt="Info 2" src="./images/1_chipiona_general/thumbnail/3.jpg"/>
@@ -227,7 +210,7 @@
 
 			<DIV id="info3" class="informacion">
 				<DIV id="infotitulo3" class="tituloinformacion">
-					<H1>Titulo del bloque</H1>
+					<H1>TÍTULO DEL BLOQUE</H1>
 				</DIV>
 				<DIV id="infocontenido3" class="contenidoinformacion">
 					<IMG class="imagencontenido" alt="Info 3" src="./images/1_chipiona_general/thumbnail/4.jpg"/>
@@ -238,7 +221,7 @@
 
 			<DIV id="info4" class="informacion">
 				<DIV id="infotitulo4" class="tituloinformacion">
-					<H1>Titulo del bloque</H1>
+					<H1>TÍTULO DEL BLOQUE</H1>
 				</DIV>
 				<DIV id="infocontenido4" class="contenidoinformacion">
 					<IMG class="imagencontenido" alt="Info 4" src="./images/1_chipiona_general/thumbnail/1.jpg"/>
@@ -248,7 +231,7 @@
 			</DIV>
 			<DIV id="info5" class="informacion">
 				<DIV id="infotitulo5" class="tituloinformacion">
-					<H1>Titulo del bloque</H1>
+					<H1>TÍTULO DEL BLOQUE</H1>
 				</DIV>
 				<DIV id="infocontenido5" class="contenidoinformacion">
 					<IMG class="imagencontenido" alt="Info 5" src="./images/1_chipiona_general/thumbnail/5.jpg"/>
@@ -258,7 +241,7 @@
 			</DIV>
 			<DIV id="info6" class="informacion">
 				<DIV id="infotitulo6" class="tituloinformacion">
-					<H1>Titulo del bloque</H1>
+					<H1>TÍTULO DEL BLOQUE</H1>
 				</DIV>
 				<DIV id="infocontenido6" class="contenidoinformacion">
 					<IMG class="imagencontenido" alt="Info 6" src="./images/1_chipiona_general/thumbnail/6.jpg"/>
@@ -268,7 +251,7 @@
 			</DIV>
 			<DIV id="info7" class="informacion">
 				<DIV id="infotitulo7" class="tituloinformacion">
-					<H1>Titulo del bloque</H1>
+					<H1>TÍTULO DEL BLOQUE</H1>
 				</DIV>
 				<DIV id="infocontenido7" class="contenidoinformacion">
 					<IMG class="imagencontenido" alt="Info 7" src="./images/1_chipiona_general/thumbnail/7.jpg"/>
@@ -278,7 +261,7 @@
 			</DIV>
 			<DIV id="info8" class="informacion">
 				<DIV id="infotitulo8" class="tituloinformacion">
-					<H1>Titulo del bloque</H1>
+					<H1>TÍTULO DEL BLOQUE</H1>
 				</DIV>
 				<DIV id="infocontenido8" class="contenidoinformacion">
 					<IMG class="imagencontenido" alt="Info 8" src="./images/1_chipiona_general/thumbnail/8.jpg"/>
@@ -286,17 +269,13 @@
 					</P>
 				</DIV>
 			</DIV>
-			<DIV class="limpiarfloat">
-         </DIV>
+			<DIV class="limpiarfloat"></DIV>
 		</DIV>
 
 		<DIV id="piedepagina"><!--Pie de página-->
-			<DIV id="nombredeimagenactual"></DIV><!--Nombre de la imagen actual-->
-			<DIV id="galeriaimagenesactual"></DIV><!--Galería de Imágenes que está utilizando en cada momento-->
 			2015 - Imágenes de la propiedad de Raúl Caro Pastorino
 		</DIV><!--Fin de Pie de página-->
-		<DIV id="subir">
-			<A href="#cajageneral">SUBIR</A>
-		</DIV>
+
+         <A href="#cajageneral"><DIV id="subir"></DIV></A>
 	</BODY>
 </HTML>
