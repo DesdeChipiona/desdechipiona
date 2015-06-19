@@ -665,11 +665,11 @@ function videoplay() {
 		document.getElementById("contenido").style.backgroundColor = "black" ;
 		video.play();
       //button.textContent = "||";
-		botonplay.src = "./images/botonstop.png";
+		botonplay.src = "./images/botones/botonstop.png";
 	} else {
 		video.pause();
 		//button.textContent = ">";
-		botonplay.src = "./images/botonplay.png";
+		botonplay.src = "./images/botones/botonplay.png";
 	}
 }
 
