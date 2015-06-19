@@ -3,6 +3,12 @@
 /*--------------------------------FUENTES internas--------------------*/
 @font-face {font-family:lobster;
 src: url(../TTF/Lobster.ttf) format("opentype");}
+@font-face {font-family:fairydust;
+src: url(../TTF/Fairydust.ttf) format("opentype");}
+@font-face {font-family:orial_bold;
+src: url(../TTF/Orial_bold.otf) format("opentype");}
+@font-face {font-family:makejuice;
+src: url(../TTF/Makejuice.ttf) format("opentype");}
 
 /*--------------------------------Estilos generales-------------------*/
 	body {
@@ -23,19 +29,50 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
       clear: both;
    }
 	H1{
-		font-family: lobster;
+		font-family: Orial_bold;
 		color: azure;
-		font-size: 25px;
+		font-size: 24px;
 	}
 	H2{
-
+		 font-family: makejuice;
+		 text-align: center;
+		 padding-top: 12px;
+		 color: black;
+		 text-shadow: 5px 5px 5px #044C81;
+       -webkit-text-shadow: 5px 5px 5px #044C81;
+       -moz-text-shadow: 5px 5px 5px #044C81;
+       -o-text-shadow: 5px 5px 5px #044C81;
+       -ms-text-shadow: 5px 5px 5px #044C81;
 	}
 	H3{
 
 	}
 	P{
 		position: relative;
+       font-family: fairydust;
+       font-size: 22px;
+       font-style: italic;
+		 text-align: justify;
+		 letter-spacing: 4px;
+		 color: #00213A;
+       text-shadow: 5px 5px 10px black;
+       -webkit-text-shadow: 5px 5px 10px black;
+       -moz-text-shadow: 5px 5px 10px black;
+       -o-text-shadow: 5px 5px 10px black;
+       -ms-text-shadow: 5px 5px 10px black;
 	}
+
+	 LI {
+		  color: darkorange;
+		  padding: 5px;
+		  list-style-image: url("../images/iconos/listas.png");
+		  text-shadow: 5px 5px 10px black;
+       -webkit-text-shadow: 5px 5px 10px black;
+       -moz-text-shadow: 5px 5px 10px black;
+       -o-text-shadow: 5px 5px 10px black;
+       -ms-text-shadow: 5px 5px 10px black;
+	 }
+
 	.imagencontenido{
 		position: relative;
 		width: 130px;
@@ -542,25 +579,6 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 		-ms-border-radius: 20px;
 		z-index: 30;
 	}
-	.titulosbotonmenusmartphone {
-		position: relative;
-		bottom: 0px;
-       margin:20px;
-		display: inline-block;
-		align-content: center;
-		vertical-align: middle;
-		font-family:lobster;
-		font-size: 23px;
-		color: azure;
-	}
-	.titulosbotonmenusmartphone:hover {
-		cursor: pointer;
-		color: dodgerblue;
-	}
-	#titulovolverbotonsmartphone {
-	}
-	#titulomenubotonsmartphone {
-	}
 	.botonessmartphone {/*estilos generales para todos los botones del menu derecho*/
 		position: absolute;
 		width: 36px;
@@ -877,7 +895,7 @@ src: url(../TTF/Lobster.ttf) format("opentype");}
 	.informacion {/*Caja general información*/
 		position: relative;
 		min-width: 400px;
-		max-width: 1000px;
+		max-widt400pxh: 1000px;
 		margin: auto;
 		z-index: 3;
 	}
