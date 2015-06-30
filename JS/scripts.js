@@ -48,7 +48,7 @@ function muestrageneral(nombre) {
 		contenido.style.backgroundColor = "black";
 		contenido.style.backgroundPosition = "50% 50%";
 
-   } else if (galeriaactual == "playageneral") {
+   } else if (galeriaactual == "Playas") {
 		contenido.style.background = playageneral;
 		contenido.style.backgroundSize = "contain";
 		contenido.style.backgroundRepeat = "no-repeat";
@@ -224,7 +224,7 @@ function proximaimg() {
 			contenido.style.backgroundColor = "black";
 			contenido.style.backgroundPosition = "50% 50%";
 
-		} else if(galeriaactual == "playageneral"){
+		} else if(galeriaactual == "Playas"){
 			contenido.style.background = playageneral1;
 			contenido.style.backgroundSize = "contain";
 			contenido.style.backgroundRepeat = "no-repeat";
@@ -315,7 +315,7 @@ function proximaimg() {
 			contenido.style.backgroundColor = "black";
 			contenido.style.backgroundPosition = "50% 50%";
 
-		} else if(galeriaactual == "playageneral"){
+		} else if(galeriaactual == "Playas"){
 			contenido.style.background = playageneral1;
 			contenido.style.backgroundSize = "contain";
 			contenido.style.backgroundRepeat = "no-repeat";
@@ -481,7 +481,7 @@ function anteriorimg() {
 			contenido.style.backgroundColor = "black";
 			contenido.style.backgroundPosition = "50% 50%";
 
-		} else if(galeriaactual == "playageneral"){
+		} else if(galeriaactual == "Playas"){
 			contenido.style.background = playageneral1;
 			contenido.style.backgroundSize = "contain";
 			contenido.style.backgroundRepeat = "no-repeat";
@@ -572,7 +572,7 @@ function anteriorimg() {
 			contenido.style.backgroundColor = "black";
 			contenido.style.backgroundPosition = "50% 50%";
 
-		} else if(galeriaactual == "playageneral"){
+		} else if(galeriaactual == "Playas"){
 			contenido.style.background = playageneral1;
 			contenido.style.backgroundSize = "contain";
 			contenido.style.backgroundRepeat = "no-repeat";
@@ -723,7 +723,7 @@ function ampliar() {
 		//Dibujar background
 		contenido.style.background = principal1;
 
-	} else if(galeriaactual == "playageneral"){
+	} else if(galeriaactual == "Playas"){
 		contenido.style.background = playageneral1;
 
 	} else if(galeriaactual == "playacruzdelmar"){
@@ -965,7 +965,7 @@ function rotargaleria(imagen) {
       img19.style.background = playageneral + "19" + fin;
       img20.style.background = playageneral + "20" + fin;
       claseseleccion();
-		galeriaactual.innerHTML = "playageneral";
+		galeriaactual.innerHTML = "Playas";
 
    }  else if (imagen == "playaderegla") {
       img1.style.background = playaderegla + "1" + fin;
