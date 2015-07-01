@@ -836,8 +836,13 @@ src: url(../TTF/Makejuice.ttf) format("opentype");}
 
 /*-------------------------------Nombre de la galería-----------*/
 #nombredeimagenactual {/*Nombre de la imagen actual*/
-		position: relative;
-		display: none;
+	position: relative;
+	width: 100px;
+	height: 50px;
+	display: none;
+	color: aliceblue;
+	z-index: 100;
+	background-color: red;
 	}
 	#galeriaimagenesactual {/*Galería de Imágenes que está utilizando en cada momento*/
 		position: relative;
