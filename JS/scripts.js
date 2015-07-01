@@ -416,82 +416,73 @@ function videoplay() {
 
 // --------------------------------------------------------AMPLIAR CONTENIDO--------------------------------------
 
-	// Ampliar Imagen del Background en "contenido"
-function ampliar() {
-	var contenido = document.getElementById('contenido');
+// Ampliar Imagen del Background en "contenido"
+function ampliarsmartphone() {
+	var backgroundsmartphone = document.getElementById("contenido");
+	var nombredeimagenactual = document.getElementById("nombredeimagenactual").innerHTML;
 	var ampliarcontenido = document.getElementById('ampliarcontenido');
 	var noampliarcontenido = document.getElementById('noampliarcontenido');
-	var nombredeimagen = document.getElementById("nombredeimagenactual").textContent;
-	//var nombrederutaimagen = "url" + "(" + "'" + "./images/1_chipiona_general/high/" + nombredeimagen + ".jpg'" + ")";
-	var video = document.getElementById("videopresentacion");
-
-	//Leyendo el nombre de la imagen para el primer selector de la galería, id=selectorimagen1
-   var primeraimagendelselector = document.getElementById('selectorimagen1').style.backgroundImage;
-
-	//Leer galería actual de id=galeriaimagenesactual
-	var galeriaactual;
-	galeriaactual = document.getElementById('galeriaimagenesactual').innerHTML;
-	document.getElementById('galeriaimagenesactual').innerHTML = galeriaactual;
-
-	//Declarando variables con la ruta de imágenes tamaño: High
-	var principal1 = "url" + "(" + "'" + "./images/1_chipiona_general/high/" + nombredeimagen + ".jpg'" + ")";
-   var playageneral1 = "url" + "(" + "'" + "./images/2_playas/1_general/high/" + nombredeimagen + ".jpg'" + ")";
-   var playaderegla1 = "url" + "(" + "'" + "./images/2_playas/2_playa_de_regla/high/" + nombredeimagen + ".jpg'" + ")";
-   var playacruzdelmar1 = "url" + "(" + "'" + "./images/2_playas/3_playa_cruz_del_mar/high/" + nombredeimagen + ".jpg'" + ")";
-   var playadelmolino1 = "url" + "(" + "'" + "./images/2_playas/4_playa_del_molino/high/" + nombredeimagen + ".jpg'" + ")";
-   var playalascanteras1 = "url" + "(" + "'" + "./images/2_playas/5_playa_las_canteras/high/" + nombredeimagen + ".jpg'" + ")";
-   var monumentos1 = "url" + "(" + "'" + "./images/3_monumentos/high/" + nombredeimagen + ".jpg'" + ")";
-   var flora1 = "url" + "(" + "'" + "./images/4_flora/high/" + nombredeimagen + ".jpg'" + ")";
-   var faunageneral1 = "url" + "(" + "'" + "./images/5_fauna/1_general/high/" + nombredeimagen + ".jpg'" + ")";
-   var faunacamaleones1 = "url" + "(" + "'" + "./images/5_fauna/2_camaleones/high/" + nombredeimagen + ".jpg'" + ")";
-   var fiestasyeventos1 = "url" + "(" + "'" + "./images/6_fiestas_y_eventos/1_general/high/" + nombredeimagen + ".jpg'" + ")";
-   var puestasdesol1 = "url" + "(" + "'" + "./images/7_puestas_de_sol/high/" + nombredeimagen + ".jpg'" + ")";
-
-					//Ocultar video y detenerlo al ampliar imagen
-	video.style.opacity = 0;
-	video.style.visibility = 0;
-	video.zIndex = -10;
-	video.pause();
-				//Cambio imagen por "high" para alta resolución al ampliar
-	//contenido.style.background = nombrederutaimagen;
+	var videopresentacion = document.getElementById("videopresentacion");
+	var nombregaleriaactual = document.getElementById('galeriaimagenesactual').innerHTML;
 
 
-	if (galeriaactual == "principal" || primeraimagendelselector == '') {
-		//Dibujar background
-		contenido.style.background = principal1;
+//Declarando variables con la ruta de imágenes tamaño: High
+	var principal1 = "url" + "(" + "'" + "./images/1_chipiona_general/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var playageneral1 = "url" + "(" + "'" + "./images/2_playas/1_general/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var playaderegla1 = "url" + "(" + "'" + "./images/2_playas/2_playa_de_regla/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var playacruzdelmar1 = "url" + "(" + "'" + "./images/2_playas/3_playa_cruz_del_mar/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var playadelmolino1 = "url" + "(" + "'" + "./images/2_playas/4_playa_del_molino/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var playalascanteras1 = "url" + "(" + "'" + "./images/2_playas/5_playa_las_canteras/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var monumentos1 = "url" + "(" + "'" + "./images/3_monumentos/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var flora1 = "url" + "(" + "'" + "./images/4_flora/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var faunageneral1 = "url" + "(" + "'" + "./images/5_fauna/1_general/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var faunacamaleones1 = "url" + "(" + "'" + "./images/5_fauna/2_camaleones/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var fiestasyeventos1 = "url" + "(" + "'" + "./images/6_fiestas_y_eventos/1_general/high/" + nombredeimagenactual + ".jpg'" + ")";
+   var puestasdesol1 = "url" + "(" + "'" + "./images/7_puestas_de_sol/high/" + nombredeimagenactual + ".jpg'" + ")";
 
-	} else if(galeriaactual == "Playas"){
-		contenido.style.background = playageneral1;
+//Ocultar video y detenerlo al ampliar imagen
+	videopresentacion.style.opacity = 0;
+	videopresentacion.style.visibility = 0;
+	videopresentacion.zIndex = -10;
+	videopresentacion.pause();
 
-	} else if(galeriaactual == "playacruzdelmar"){
-		contenido.style.background = playacruzdelmar1;
+//Cambio imagen por "high" para alta resolución al ampliar
 
-	} else if(galeriaactual == "playaderegla"){
-		contenido.style.background = playaderegla1;
+	if (nombregaleriaactual == "Galería Principal") {
+		backgroundsmartphone.style.background = principal1;
 
-	} else if(galeriaactual == "playadelmolino"){
-		contenido.style.background = playadelmolino1;
+	} else if(nombregaleriaactual == "Playas"){
+		backgroundsmartphone.style.background = playageneral1;
 
-	} else if(galeriaactual == "playalascanteras"){
-		contenido.style.background = playalascanteras1;
+	} else if(nombregaleriaactual == "Playa cruz del Mar"){
+		backgroundsmartphone.style.background = playacruzdelmar1;
 
-	} else if(galeriaactual == "monumentos"){
-		contenido.style.background = monumentos1;
+	} else if(nombregaleriaactual == "Playa de Regla"){
+		backgroundsmartphone.style.background = playaderegla1;
 
-	} else if(galeriaactual == "flora"){
-		contenido.style.background = flora1;
+	} else if(nombregaleriaactual == "Playa del Molino"){
+		backgroundsmartphone.style.background = playadelmolino1;
 
-	} else if(galeriaactual == "faunageneral"){
-		contenido.style.background = faunageneral1;
+	} else if(nombregaleriaactual == "Playa de las Canteras"){
+		backgroundsmartphone.style.background = playalascanteras1;
 
-	} else if(galeriaactual == "faunacamaleones"){
-		contenido.style.background = faunacamaleones1;
+	} else if(nombregaleriaactual == "Monumentos"){
+		backgroundsmartphone.style.background = monumentos1;
 
-	} else if(galeriaactual == "fiestasyeventos"){
-		contenido.style.background = fiestasyeventos1;
+	} else if(nombregaleriaactual == "Flora General"){
+		backgroundsmartphone.style.background = flora1;
 
-	} else if(galeriaactual == "puestasdesol"){
-		contenido.style.background = puestasdesol1;
+	} else if(nombregaleriaactual == "Fauna General"){
+		backgroundsmartphone.style.background = faunageneral1;
+
+	} else if(nombregaleriaactual == "Fauna Camaleones"){
+		backgroundsmartphone.style.background = faunacamaleones1;
+
+	} else if(nombregaleriaactual == "Fiestas y Eventos"){
+		backgroundsmartphone.style.background = fiestasyeventos1;
+
+	} else if(nombregaleriaactual == "Puestas de Sol"){
+		backgroundsmartphone.style.background = puestasdesol1;
 	}
 
 	contenido.style.backgroundSize = "contain";
@@ -511,18 +502,18 @@ function ampliar() {
 }
 
 	// Minimizar Imagen del Background en "contenido"
-function noampliar() {
-	var contenido = document.getElementById('contenido');
+function noampliarsmartphone() {
+	var backgroundsmartphone = document.getElementById('contenido');
 	var ampliarcontenido = document.getElementById('ampliarcontenido');
 	var noampliarcontenido = document.getElementById('noampliarcontenido');
 				//Establezco las propiedades CSS
-	contenido.style.position = "relative";
-	contenido.style.marginLeft = "auto";
-	contenido.style.zIndex = "8";
-	contenido.style.minWidth = "400px";
-	contenido.style.maxWidth = "560px";
-	contenido.style.minHeight = "260px";
-	contenido.style.maxHeight = "340px";
+	backgroundsmartphone.style.position = "relative";
+	backgroundsmartphone.style.marginLeft = "auto";
+	backgroundsmartphone.style.zIndex = "8";
+	backgroundsmartphone.style.minWidth = "400px";
+	backgroundsmartphone.style.maxWidth = "560px";
+	backgroundsmartphone.style.minHeight = "260px";
+	backgroundsmartphone.style.maxHeight = "340px";
 	ampliarcontenido.style.display = "block";
 	noampliarcontenido.style.display = "none";
 }
