@@ -327,7 +327,7 @@ src: url(../TTF/Makejuice.ttf) format("opentype");}
 		color: dimgray;
 	}
 	.lidesplegable:hover{
-		background-color: aliceblue;
+		background-color: skyblue;
 		color: #00335A;
 		text-decoration: none;
 	}
@@ -487,10 +487,14 @@ src: url(../TTF/Makejuice.ttf) format("opentype");}
 /*-----------------------------VIDEO------------*/
 	#videopresentacion {
 		z-index: 0;
-		margin-top: 1%;
 		width: 100%;
 		min-height: 260px;
 		max-height: 340px;
+		border-radius: 15px;
+      -webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+      -o-border-radius: 15px;
+		-ms-border-radius: 15px;
 	}
 	#controles {
 		bottom: 0px;
@@ -901,7 +905,7 @@ src: url(../TTF/Makejuice.ttf) format("opentype");}
 	.informacion {/*Caja general información*/
 		position: relative;
 		min-width: 400px;
-		max-widt400pxh: 1000px;
+		max-width: 1000px;
 		margin: auto;
 		z-index: 3;
 	}
@@ -941,6 +945,11 @@ src: url(../TTF/Makejuice.ttf) format("opentype");}
        -moz-box-shadow: 10px 20px 25px black;
        -o-box-shadow: 10px 20px 25px black;
        -ms-box-shadow: 10px 20px 25px black;
+		border-radius: 10px;
+       -webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+       -o-border-radius: 10px;
+       -ms-border-radius: 10px;
 	}
 
 /*--------------------------------Pie de Página------------------*/
