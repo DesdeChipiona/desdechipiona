@@ -408,8 +408,8 @@ function videoplay() {
 	if (videopresentacion.paused) {
 		videopresentacion.style.opacity = 1;
 		videopresentacion.zIndex = 0;
-		backgroundsmartphone = "url('')" ;
-		backgroundsmartphone = "black" ;
+		backgroundsmartphone.style.background = "" ;
+		backgroundsmartphone.style.backgroundColor = "black" ;
 		videopresentacion.play();
 		botonplay.src = "./images/botones/botonstop.png";
 
@@ -552,7 +552,7 @@ function nodescripcion() {
 }
 
 //----------------------------------------------------MENU DESPLEGABLE MENU SUPERIOR FIXED-------------------------
-//Desplegable para menu superior que sea accionado con el over del ratón y termine al perder el foco volviendo a dejar display=none
+//Desplegable para menu superior que sea accionado con el hover del ratón y termine al perder el foco volviendo a dejar display=none
 function menusuperiordesplegable(id) {
 	var nombredemenu = document.getElementById(id);
 
@@ -560,15 +560,15 @@ function menusuperiordesplegable(id) {
 
 // Escribir enlaces dentro del menu superior "album"
 	var albums = '<UL class="ulcomunlistas">';
-	albums += '<LI class="lidesplegable"><A href="flora_general.html" class="linkmenusuperior">Flora</A></LI>';
-	albums += '<LI class="lidesplegable"><A href="fauna_general.html" class="linkmenusuperior">Fauna</A></LI>';
-	albums += '<LI class="lidesplegable"><A href="playas_general.html" class="linkmenusuperior">Playas</A></LI>';
-	albums += '<LI class="lidesplegable"><A href="monumentos_general.html" class="linkmenusuperior">Monumentos</A></LI>';
-	albums += '<LI class="lidesplegable"><A href="puestas_de_sol.html" class="linkmenusuperior">Puestas de sol</A></LI>';
-	albums += '<LI class="lidesplegable"><A href="fiestas_general.html" class="linkmenusuperior">Fiestas y Eventos</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="#" class="linkmenusuperior">Flora</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="#" class="linkmenusuperior">Fauna</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="#" class="linkmenusuperior">Playas</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="#" class="linkmenusuperior">Monumentos</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="#" class="linkmenusuperior">Puestas de sol</A></LI>';
+	albums += '<LI class="lidesplegable"><A href="#" class="linkmenusuperior">Fiestas y Eventos</A></LI>';
 	albums += '</UL>';
 	document.getElementById('albumcaja3').innerHTML = albums;
-
+/*
 // Escribir enlaces dentro del menu superior "web amigas"
 	var webamigas = '<UL class="ulcomunlistas">';
 	webamigas += '<LI class="lidesplegable"><A href="http://www.laguialinux.es" class="linkmenusuperior">LaGuíaLinux</A></LI>';
@@ -583,6 +583,7 @@ function menusuperiordesplegable(id) {
 	menuvideos += '<LI class="lidesplegable"><A href="https://www.youtube.com/channel/UCIoK1tt5RChTC_-zEcEfDoQ" class="linkmenusuperior">Canal de Youtube</A></LI>';
 	menuvideos += '</UL>';
 	document.getElementById('videoscaja3').innerHTML = menuvideos;
+*/
 }
 
 function menusuperiornodesplegable(id) {
