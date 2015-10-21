@@ -47,6 +47,10 @@ src: url(../TTF/Makejuice.ttf) format("opentype");}
 	H3{
 
 	}
+	A {
+		color: inherit;
+		text-decoration: none;
+	}
 	P{
 		position: relative;
        font-family: fairydust;
