@@ -16,16 +16,25 @@ body {
 	padding:0px;
 }
 
+A {
+	text-decoration: none;
+	text-shadow: 3px 3px 3px black;
+
+}
+
 HEADER IMG {
 	position: absolute;
 	z-index: 51;
 }
 
 HEADER {
+
+}
+
+#cajamenusuperior {
 	position: fixed;
 	background-color: orange;
 	width: 100%;
-	height: 120px;
 	z-index: 50;
 }
 
@@ -40,26 +49,28 @@ HEADER {
 #menusuperior {
 	position: relative;
 	margin: auto;
-	height: 100%;
 	width: 90%;
 
 }
 
-
-#menusuperior UL {
+#menusuperior LI {
 	position: relative;
-}
-
-#menusuperior UL LI {
-	height: 90px;
-	width: 70px;
-	margin: 0px;
-	padding: 5px;
-	position: relative;
-	flex: auto;
-	background-color:red;
-	z-index: 51;
 	display: inline-block;
+	margin: 1px 1px 1px 1px;
+	padding: 5px;
+	font-style: oblique;
+	color: dimgray;
+	background-color: aliceblue;
+	text-shadow: 3px 3px 3px black;
+	border: 1px solid black;
+	border-right: none;
+	box-shadow: 10px 10px 35px black;
+       -webkit-box-shadow: 10px 10px 35px black;
+       -moz-box-shadow: 10px 10px 35px black;
+       -o-box-shadow: 10px 10px 35px black;
+       -ms-box-shadow: 10px 10px 35px black;
+	cursor: pointer;
+	font-size: 12px;
 }
 
 
