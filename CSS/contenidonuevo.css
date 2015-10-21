@@ -17,9 +17,16 @@ body {
 }
 
 A {
+	position: relative;
+	margin: auto;
+	font-size: 13;
 	text-decoration: none;
 	text-shadow: 3px 3px 3px black;
+}
 
+IMG {
+	position: relative;
+	margin: auto;
 }
 
 HEADER IMG {
@@ -56,12 +63,14 @@ HEADER {
 #menusuperior LI {
 	position: relative;
 	display: inline-block;
-	margin: 1px 1px 1px 1px;
-	padding: 5px;
+	margin: 2px 0px 2px 0px;
+	padding: 1px 6px 1px 6px;
 	font-style: oblique;
 	color: dimgray;
 	background-color: aliceblue;
 	text-shadow: 3px 3px 3px black;
+	text-align: center;
+	align-content: center;
 	border: 1px solid black;
 	border-right: none;
 	box-shadow: 10px 10px 35px black;
@@ -70,7 +79,6 @@ HEADER {
        -o-box-shadow: 10px 10px 35px black;
        -ms-box-shadow: 10px 10px 35px black;
 	cursor: pointer;
-	font-size: 12px;
 }
 
 
