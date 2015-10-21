@@ -1,3 +1,12 @@
+/*Tonos de colores de fondo:
+#013CCC
+#7F92BF
+#1BD5FF
+#FF905B
+#CC2501
+*/
+
+
 @CHARSET "UTF-8";
 
 /*--------------------------------FUENTES internas--------------------*/
@@ -14,12 +23,13 @@ src: url(../TTF/Makejuice.ttf) format("opentype");}
 body {
 	margin:0px;
 	padding:0px;
+	font-family: Fairydust;
 }
 
 A {
 	position: relative;
 	margin: auto;
-	font-size: 13;
+	font-size: 20px;
 	text-decoration: none;
 	text-shadow: 3px 3px 3px black;
 }
@@ -29,77 +39,83 @@ IMG {
 	margin: auto;
 }
 
-HEADER IMG {
-	position: absolute;
-	z-index: 51;
-}
-
 HEADER {
-
+	position: relative;
+	margin: auto;
+	min-width: 380px;
+	max-width: 1200px;
+	top: 250px;
+	color: #FF905B;
+	font-size: 25px;
+	background-color: black;
+	align-content: center;
+	text-align: center;
 }
 
 #cajamenusuperior {
+	top: -15px;
 	position: fixed;
-	background-color: orange;
 	width: 100%;
 	z-index: 50;
-}
-
-#desplegarmenusuperior {
-	position: absolute;
-	height: 10px;
-	width: 100%;
-	z-index: 52;
-	background-color: black;
 }
 
 #menusuperior {
 	position: relative;
 	margin: auto;
 	width: 90%;
-
+	align-content: center;
+	text-align: center;
+	background-color: #7F92BF;
 }
 
-#menusuperior LI {
-	position: relative;
+#menusuperior UL LI {
 	display: inline-block;
 	margin: 2px 0px 2px 0px;
 	padding: 1px 6px 1px 6px;
 	font-style: oblique;
-	color: dimgray;
-	background-color: aliceblue;
-	text-shadow: 3px 3px 3px black;
+	color: #013CCC;
+	background-color: #FF905B;
+	text-shadow: 3px 3px 3px #CC2501;
 	text-align: center;
 	align-content: center;
 	border: 1px solid black;
 	border-right: none;
-	box-shadow: 10px 10px 35px black;
-       -webkit-box-shadow: 10px 10px 35px black;
-       -moz-box-shadow: 10px 10px 35px black;
-       -o-box-shadow: 10px 10px 35px black;
-       -ms-box-shadow: 10px 10px 35px black;
+	box-shadow: 5px 5px 45px #1BD5FF;
+       -webkit-box-shadow: 5px 5px 45px #1BD5FF;
+       -moz-box-shadow: 5px 5px 45px #1BD5FF;
+       -o-box-shadow: 5px 5px 45px #1BD5FF;
+       -ms-box-shadow: 5px 5px 45px #1BD5FF;
 	cursor: pointer;
 }
 
+#menusuperior UL :hover{
+	background-color: #013CCC;
+	color: whitesmoke;
+	box-shadow: 10px 10px 35px #013CCC;
+       -webkit-box-shadow: 10px 10px 35px #013CCC;
+       -moz-box-shadow: 10px 10px 35px #013CCC;
+       -o-box-shadow: 10px 10px 35px #013CCC;
+       -ms-box-shadow: 10px 10px 35px #013CCC;
+}
 
 /*---------------------------Subir al comienzo de la página---*/
 	#subir {
 		position: fixed;
-       width: 60px;
-       height: 130px;
+		width: 60px;
+		height: 130px;
 		bottom: 12px;
 		right: 12px;
 		padding: 5px;
 		opacity: 0.4;
 		cursor: pointer;
-       background-image: url(../images/flecha.png);
-       background-repeat: no-repeat;
-       background-size: 100%;
+		background-image: url(../images/flecha.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
 		border-radius: 20px;
-		-webkit-border-radius: 20px;
-		-moz-border-radius: 20px;
-       -o-border-radius: 20px;
-		-ms-border-radius: 20px;
+			-webkit-border-radius: 20px;
+			-moz-border-radius: 20px;
+			-o-border-radius: 20px;
+			-ms-border-radius: 20px;
 		z-index: 20;
 	}
 	#subir:hover {
