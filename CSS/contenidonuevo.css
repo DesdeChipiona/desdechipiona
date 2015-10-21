@@ -37,6 +37,7 @@ A {
 IMG {
 	position: relative;
 	margin: auto;
+	width: 100%;
 }
 
 HEADER {
@@ -97,6 +98,46 @@ HEADER {
        -o-box-shadow: 10px 10px 35px #013CCC;
        -ms-box-shadow: 10px 10px 35px #013CCC;
 }
+
+/*Carrusel de imagenes*/
+#cajacarrusel {
+	top:300px;
+	position: relative;
+	margin: auto;
+	align-content: center;
+	text-align: center;
+	min-width: 380px;
+	max-width: 1200px;
+	background-color: red;
+
+}
+
+/*-------------------Contenido estilo BLOG*/
+#cajacontenido {
+	top: 340px;
+	position: relative;
+	margin:auto;
+	min-width: 380px;
+	max-width: 1200px;
+	background-color: red;
+	align-content: center;
+	text-align: center;
+}
+
+#contenido {
+	position: relative;
+	float: left;
+	background-color: blueviolet;
+	width: 69%;
+}
+
+#barraizquierda {
+	position: relative;
+	float: right;
+	background-color: greenyellow;
+	width: 29%;
+}
+
 
 /*---------------------------Subir al comienzo de la página---*/
 	#subir {
