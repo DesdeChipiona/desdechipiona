@@ -24,6 +24,7 @@ body {
 	margin:0px;
 	padding:0px;
 	font-family: Fairydust;
+	background-color: black;
 }
 
 A {
@@ -45,7 +46,6 @@ HEADER {
 	margin: auto;
 	min-width: 380px;
 	max-width: 1200px;
-	top: 250px;
 	color: #FF905B;
 	font-size: 25px;
 	background-color: black;
@@ -111,16 +111,25 @@ HEADER {
 
 /*Carrusel de imagenes*/
 #cajacarrusel {
-	top:300px;
 	position: relative;
+	top: 30px;
 	margin: auto;
 	align-content: center;
 	text-align: center;
 	vertical-align: middle;
 	min-width: 380px;
 	max-width: 1200px;
-	max-height: 680px;
+	max-height: 650px;
 	background-color: red;
+	z-index: 1;
+}
+
+#fondoimagen {
+	top:0px;
+	left: 0px;
+	min-width: 380px;
+	max-width: 1200px;
+	max-height: 650px;
 	z-index: 1;
 }
 
@@ -128,17 +137,30 @@ HEADER {
 	position: absolute;
 	top:0px;
 	left: 0px;
+	width: 100%;
+	height: 100%;
 	z-index: 3;
 }
 
-#imagenactual {
+#centrarimagenactual {
 	position: absolute;
-	z-index: 3;
-	top:0px;
+	top: 0px;
 	left: 0px;
-	z-index: 2;
 	width: 100%;
-	max-height: 600px;
+	max-height: 650px;
+	height: 100%;
+	align-content: center;
+	vertical-align: middle;
+	text-align: center;
+	background-color: black;
+}
+
+#imagenactual {
+	position: relative;
+	width: auto;
+	height: 100%;
+	z-index: 2;
+	opacity: 0.7;
 }
 
 /*-------------------Contenido estilo BLOG*/
