@@ -54,10 +54,11 @@ HEADER {
 }
 
 #cajamenusuperior {
-	top: -15px;
+	top: -18px;
 	position: fixed;
 	width: 100%;
 	z-index: 50;
+	display: none;
 }
 
 #menusuperior {
@@ -67,6 +68,11 @@ HEADER {
 	align-content: center;
 	text-align: center;
 	background-color: #7F92BF;
+	box-shadow: 5px 5px 45px black;
+       -webkit-box-shadow: 5px 5px 45px black;
+       -moz-box-shadow: 5px 5px 45px black;
+       -o-box-shadow: 5px 5px 45px black;
+       -ms-box-shadow: 5px 5px 45px black;
 }
 
 #menusuperior UL LI {
@@ -98,6 +104,10 @@ HEADER {
        -o-box-shadow: 10px 10px 35px #013CCC;
        -ms-box-shadow: 10px 10px 35px #013CCC;
 }
+#menusuperior UL LI A P IMG {
+	width: 80px;
+	height: 80px;
+}
 
 /*Carrusel de imagenes*/
 #cajacarrusel {
@@ -106,10 +116,29 @@ HEADER {
 	margin: auto;
 	align-content: center;
 	text-align: center;
+	vertical-align: middle;
 	min-width: 380px;
 	max-width: 1200px;
+	max-height: 680px;
 	background-color: red;
+	z-index: 1;
+}
 
+#super_carrusel {
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 3;
+}
+
+#imagenactual {
+	position: absolute;
+	z-index: 3;
+	top:0px;
+	left: 0px;
+	z-index: 2;
+	width: 100%;
+	max-height: 600px;
 }
 
 /*-------------------Contenido estilo BLOG*/
@@ -131,7 +160,7 @@ HEADER {
 	width: 69%;
 }
 
-#barraizquierda {
+#barraderecha {
 	position: relative;
 	float: right;
 	background-color: greenyellow;
