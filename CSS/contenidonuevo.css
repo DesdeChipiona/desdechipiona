@@ -118,10 +118,106 @@ HEADER {
 	text-align: center;
 	vertical-align: middle;
 	min-width: 380px;
-	max-width: 1200px;
+	max-width: 900px;
 	max-height: 650px;
 	background-color: red;
 	z-index: 1;
+}
+#cajaestilosimagen {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	margin: auto;
+	top: 30px;
+	background-color: red;
+	z-index: 3;
+}
+#estilosimagen {
+	position: relative;
+	width: 170px;
+	height: 100%;
+	margin: auto;
+	background-color:blue;
+	vertical-align: middle;
+	text-align: center;
+	align-content: center;
+
+}
+.todoslosefectos {
+	position: relative;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-color: green;
+	margin: 3px;
+	border: 3px solid gray;
+	opacity: 0.6;
+}
+.todoslosefectos:hover {
+	background-color: yellow;
+	opacity: 1;
+}
+#cajaflechaizq {
+	position: absolute;
+	width: 50px;
+	height: 100%;
+	left: 0;
+	vertical-align: middle;
+	align-content: center;
+	text-align: center;
+	background-color: #49739A;
+	z-index: 4;
+}
+#flechaizq {
+	position: relative;
+	width: 50px;
+	height: 60px;
+	margin: auto;
+	top: 45%;
+	background-image: url("../images/botones/flechaizq.png");
+	background-repeat: no-repeat;
+}
+#flechaizq:hover {
+	background-image: url("../images/botones/flechaizqhover.png");
+}
+#cajaflechadrh {
+	position: absolute;
+	width: 50px;
+	height: 100%;
+	right: 0px;
+	vertical-align: middle;
+	align-content: center;
+	text-align: center;
+	background-color: #49739A;
+	z-index: 4;
+}
+#flechadrh {
+	position: relative;
+	width: 50px;
+	height: 60px;
+	margin: auto;
+	top: 45%;
+	background-image: url(../images/botones/flechadrh.png);
+	background-repeat: no-repeat;
+}
+#flechadrh:hover {
+	background-image: url("../images/botones/flechadrhhover.png");
+}
+#carruselsuperior {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 30px;
+	background-color: black;
+	z-index: 5;
+}
+#carruselinferior {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	background-color: black;
+	z-index: 5;
 }
 
 #fondoimagen {
@@ -139,7 +235,7 @@ HEADER {
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	z-index: 3;
+	z-index: 4;
 }
 
 #centrarimagenactual {
@@ -161,6 +257,11 @@ HEADER {
 	height: 100%;
 	z-index: 2;
 	opacity: 0.7;
+	box-shadow: -10px 10px 20px black;
+		-moz-box-shadow: -10px 10px 20px black;
+		-webkit-box-shadow: -10px 10px 20px black;
+		-o-box-shadow: -10px 10px 20px black;
+		-ms-box-shadow: -10px 10px 20px black;
 }
 
 /*-------------------Contenido estilo BLOG*/
