@@ -320,7 +320,7 @@ HEADER {
 #contenido {
 	position: relative;
 	float: left;
-	width: 68%;
+	width: 63%;
 	border: 10px solid transparent;
 	border-image-width: 10px;
 	border-image: url("../images/temporal/bitmap.png") 50 stretch;
@@ -339,7 +339,14 @@ HEADER {
 	position: relative;
 	float: right;
 	background-color: greenyellow;
-	width: 29%;
+	width: 26%;
+	border: 10px solid transparent;
+	border-image-width: 10px;
+	border-image: url("../images/temporal/lava.png") 50 stretch;
+		-moz-border-image: url("../images/temporal/lava.png") 50 stretch;
+		-webkit-border-image: url("../images/temporal/lava.png") 50 stretch;
+		-o-border-image: url("../images/temporal/lava.png") 50 stretch;
+	background-color: gray;
 }
 
 
@@ -367,30 +374,6 @@ HEADER {
 		opacity: 1;
 		background-color: dodgerblue;
 	}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
