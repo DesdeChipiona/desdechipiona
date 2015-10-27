@@ -53,6 +53,35 @@ HEADER {
 	text-align: center;
 }
 
+#desplegarporque {
+	position: fixed;
+	width: 80px;
+	height: 40px;
+	top: 0;
+	left: 0;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	background-color: ghostwhite;
+	display: block;
+	border-bottom-right-radius: 40px;
+	z-index: 51;
+}
+#desplegarmenu {
+	position: fixed;
+	width: 80px;
+	height: 40px;
+	top: 0;
+	right: 0;
+	text-align: center;
+	vertical-align: middle;
+	align-content: center;
+	background-color: ghostwhite;
+	display: block;
+	border-bottom-left-radius: 40px;
+	z-index: 51;
+}
+
 #cajamenusuperior {
 	top: -18px;
 	position: fixed;
@@ -129,15 +158,16 @@ HEADER {
 	height: 40px;
 	margin: auto;
 	top: 30px;
-	background-color: red;
+	background-color: gray;
 	z-index: 3;
+	transition: 1.3s;
+	opacity: 0.1;
 }
 #estilosimagen {
 	position: relative;
 	width: 170px;
 	height: 100%;
 	margin: auto;
-	background-color:blue;
 	vertical-align: middle;
 	text-align: center;
 	align-content: center;
@@ -167,6 +197,8 @@ HEADER {
 	text-align: center;
 	background-color: #49739A;
 	z-index: 4;
+	transition: 1s;
+	visibility: hidden;
 }
 #flechaizq {
 	position: relative;
@@ -190,6 +222,8 @@ HEADER {
 	text-align: center;
 	background-color: #49739A;
 	z-index: 4;
+	transition: 1s;
+	visibility: hidden;
 }
 #flechadrh {
 	position: relative;
@@ -199,6 +233,7 @@ HEADER {
 	top: 45%;
 	background-image: url(../images/botones/flechadrh.png);
 	background-repeat: no-repeat;
+	background-position: right
 }
 #flechadrh:hover {
 	background-image: url("../images/botones/flechadrhhover.png");
@@ -208,7 +243,10 @@ HEADER {
 	top: 0;
 	width: 100%;
 	height: 30px;
-	background-color: black;
+	background-image: url("../images/temporal/film.jpg");
+	background-repeat: no-repeat;
+	background-size:  100% 30px;
+	background-position: bottom;
 	z-index: 5;
 }
 #carruselinferior {
@@ -216,7 +254,10 @@ HEADER {
 	bottom: 0;
 	width: 100%;
 	height: 30px;
-	background-color: black;
+	background-image: url("../images/temporal/film.jpg");
+	background-repeat: no-repeat;
+	background-size:  100% 30px;
+	background-position: bottom;
 	z-index: 5;
 }
 
