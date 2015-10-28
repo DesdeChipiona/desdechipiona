@@ -44,14 +44,26 @@ IMG {
 HEADER {
 	position: relative;
 	margin: auto;
-	min-width: 380px;
-	max-width: 1200px;
-	color: #FF905B;
+	min-width:80%;
 	font-size: 25px;
-	background-color: black;
 	align-content: center;
 	text-align: center;
 }
+
+H1, H2, H3, H4, H5, H6 {
+	color: red;
+}
+
+H1 {
+
+}
+H2 {
+
+}
+H3 {
+
+}
+
 
 #desplegarporque {
 	position: fixed;
@@ -338,7 +350,7 @@ HEADER {
 #barraderecha {
 	position: relative;
 	float: right;
-	background-color: greenyellow;
+	background-color: #1BD5FF;
 	width: 26%;
 	border: 10px solid transparent;
 	border-image-width: 10px;
