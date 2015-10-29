@@ -116,7 +116,9 @@ H3 {
 	color: #1BD5FF;
 	cursor: pointer;
 }
-
+#menu UL LI A {
+	font-size: 16px;
+}
 #menusuperior {
 	position: relative;
 	margin: auto;
