@@ -166,6 +166,19 @@ H3 {
 	height: 80px;
 }
 
+#titulos *{
+
+}
+#titulos H1 {
+	color: aliceblue;
+}
+#titulos H2 {
+	color: #7F92BF;
+}
+#titulos P {
+	color: #1BD5FF;
+}
+
 /*Carrusel de imagenes*/
 #cajacarrusel {
 	position: relative;
