@@ -102,6 +102,21 @@ H3 {
 	display: none;
 }
 
+#menu {
+	width: 260px;
+	height: 20px;
+	margin: auto;
+	color: aliceblue;
+}
+#menu UL LI {
+	display: inline-block;
+	padding: 5px;
+}
+#menu UL LI:hover {
+	color: #1BD5FF;
+	cursor: pointer;
+}
+
 #menusuperior {
 	position: relative;
 	margin: auto;
@@ -114,6 +129,7 @@ H3 {
        -moz-box-shadow: 5px 5px 45px black;
        -o-box-shadow: 5px 5px 45px black;
        -ms-box-shadow: 5px 5px 45px black;
+	display:none;
 }
 
 #menusuperior UL LI {
