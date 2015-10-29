@@ -167,7 +167,11 @@ H3 {
 }
 
 #titulos *{
-
+	text-shadow: 10px 10px 35px #013CCC;
+       -webkit-text-shadow: 10px 10px 35px #013CCC;
+       -moz-text-shadow: 10px 10px 35px #013CCC;
+       -o-text-shadow: 10px 10px 35px #013CCC;
+       -ms-text-shadow: 10px 10px 35px #013CCC;
 }
 #titulos H1 {
 	color: aliceblue;
