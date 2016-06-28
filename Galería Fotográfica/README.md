@@ -1,2 +1,0 @@
-# desdechipiona
-Web Fotográfica desdechipiona
