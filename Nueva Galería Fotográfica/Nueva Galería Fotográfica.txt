@@ -1,1 +1,0 @@
-En este directorio incluiré la nueva galería fotográfica desarrollada en otro repositorio
