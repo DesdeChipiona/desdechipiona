@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+body {
+				padding:0;
+				margin:0;
+				/*background-color:darksalmon;*/
+				/* Gradiente de fondo generado por mi en: http://www.cssmatic.com/es/gradient-generato*/
+				background-color: #0065a3;
+				background: -moz-linear-gradient(top, #000000 0%, #00518f 74%, #0065a3 95%, #0065a3 100%);
+				background: -webkit-gradient(left top, left bottom, color-stop(0%, #000000), color-stop(74%, #00518f), color-stop(95%, #0065a3), color-stop(100%, #0065a3));
+				background: -webkit-linear-gradient(top, #000000 0%, #00518f 74%, #0065a3 95%, #0065a3 100%);
+				background: -o-linear-gradient(top, #000000 0%, #00518f 74%, #0065a3 95%, #0065a3 100%);
+				background: -ms-linear-gradient(top, #000000 0%, #00518f 74%, #0065a3 95%, #0065a3 100%);
+				background: linear-gradient(to bottom, #000000 0%, #00518f 74%, #0065a3 95%, #0065a3 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0065a3', GradientType=0 );
+				background-repeat: no-repeat;
+				}
+
+/*Caja general*/
+	#cajageneral {
+				position:relative;
+				margin:0px;
+				text-align:center;
+				width:98%;
+				height: 900px;
+				background-color: transparent;
+				}
+
+/*Otros*/

@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+
+/*Barra Superior Fixed*/
+	#barrasuperior {
+		position:fixed;
+		width:100%;
+		height:20px;
+		margin:0;
+		padding:0;
+		top:0px;
+		background-color:black;
+		border:0px;
+		z-index:15;
+		text-align:center;
+		border-bottom:2px solid white;
+		}
+/*Desplegable1*/
+	#uldesplegable1 {/*UL general*/
+		width:150px;
+		left:8px;
+		}
+	#uldelista {/*DESPLEGABLE 1*/
+		width:150px;
+		}
+/*Desplegable 2*/
+	#uldesplegable2 {/*UL general*/
+		left:100px;
+		width:150px;
+		}
+	#uldelista2 {/*DESPLEGABLE 2*/
+		width:170px;
+		}
+
+/*Desplegable 3*/
+	#uldesplegable3 {/*UL general*/
+		left:210px;
+		width:150px;
+		}
+	#uldelista3 {/*DESPLEGABLE 3*/
+		width:200px;
+		}
+/*Desplegable 4*/
+	#uldesplegable4 {/*UL general*/
+		left:320px;
+		width:150px;
+		}
+	#uldelista4 {/*DESPLEGABLE 4*/
+		width:240px;
+		}
+/*Desplegable 5*/
+	#uldesplegable5 {/*UL general*/
+		left:480px;
+		width:150px;
+		}
+	#uldelista5 {/*DESPLEGABLE 5*/
+		width:150px;
+		}
+/*Desplegable 6*/
+	#uldesplegable6 {/*UL general*/
+		left:650px;
+		width:150px;
+		}
+	#uldelista6 {/*DESPLEGABLE 6*/
+		width:200px;
+	}
+
+/*Estilo para desplegables*/
+	.uldesplegable { /*Esto es UL General*/
+		position:absolute;
+		margin:0;
+		padding:0;
+		list-style-type:none;
+		text-align:left;
+		z-index: 10;
+		}
+	.uldesplegable LI:hover > UL { /*Esto es UL General*/
+		display:block;
+		overflow:hidden;
+		opacity:1;
+		border-left:1px solid orange;
+		border-right:1px solid orange;
+		border-bottom:1px solid orange;
+		z-index: 10;
+		}
+	.titulodesplegable { /*LI padre que hace de titulo*/
+		color:white;
+		float:left;
+		z-index: 17;
+		}
+	.ulcomunlistas { /*Esto es UL que se despliega*/
+		position:relative;
+		display:none;
+		list-style:none;
+		background-color:black;
+		margin:0px;
+		padding:0px;
+		border-radius: 0px 0px 15px 15px;
+		z-index: 10;
+		}
+	.lidesplegable {/*Esto es LI que se despliega*/
+		margin:5px;
+		z-index: 10;
+		}
+	.lidesplegable:hover {
+		color:white;
+		background-color:darkorange;
+		border-left:3px solid white;
+		z-index: 10;
+		}
+
+/*Desplegables formato común de enlaces menu superior*/
+	.linktitulo {
+		top:3px;
+		text-decoration:none;
+		color:white;
+		text-shadow: 1px 2px 3px white;
+		font-style: oblique;
+		top:5px;
+		}
+	.linkmenusuperior {
+		text-decoration:none;
+		color:white;
+		text-shadow: 2px 2px 3px white;
+		}
+
