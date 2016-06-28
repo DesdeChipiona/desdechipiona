@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<HTML lang="es">
+   <HEAD>
+		<TITLE>Desde Chipiona</TITLE>
+		<META charset="utf-8"/>
+		<LINK rel="shortcut icon" href="./images/favicon.png"/>
+		<LINK rel="stylesheet" href="./CSS/contenido.css"/>
+		<SCRIPT src="./JS/jquery.js"></SCRIPT>
+		<SCRIPT src="./JS/scripts.js"></SCRIPT>
+	</HEAD>
+
+	<BODY onkeydown="return false" onload="alert('Esta página esta en construcción, actualmente es la versión 0.2b puedes disfrutarla en estos momentos pero es posible que encuentres algunos errores o contenido perdido ya que andamos en su desarrollo. Si quieres colaborar puedes ponerte en contacto mediante el repositorio:https://github.com/nerviozzo/desdechipiona')">
+
+<!--Menú superior fijo-->
+		<DIV id="menufixed">
+			<DIV id="cajamenufixed">
+				<DIV id="centermenufixed">
+					<DIV id="menuinicio" class="todoslosmenus" onclick="rotargaleria('principal')">INICIO</DIV>
+
+					<DIV id="menualbums" class="todoslosmenus" onmouseover="menusuperiordesplegable('albumcaja1')" onmouseout="menusuperiornodesplegable('albumcaja1')">ALBUMS
+						<DIV id="albumcaja1" class="menusuperiorcaja1"> <!--esta es la caja que llamo con la función de javascript para que sea visible, muestre el desplegable mediante el "id" dentro de la funcion-->
+							<DIV id="albumcaja2" class="menusuperiorcaja2">
+								<DIV id="albumcaja3" class="menusuperiorcaja3">
+								</DIV>
+							</DIV>
+						</DIV>
+					</DIV>
+
+					<DIV id="menuultimasfotos" class="todoslosmenus">ÚLTIMAS FOTOS</DIV>
+				</DIV>
+			</DIV>
+		</DIV><!--Fin del menu superior fijo-->
+
+<!--Barra de títutlo y logo-->
+		<DIV id="cajatitulo">
+			<DIV id="inicio"></DIV><!--Ancla para subir al principio de la página-->
+			<DIV id="logo"></DIV>
+			<DIV id="logo2"></DIV>
+			<DIV id="titulo"></DIV>
+		</DIV><!--FIN de Barra de títutlo y logo-->
+
+<!--Desplegable lateral IZQ-->
+       <DIV id="cajadesplegableizq">
+          <DIV id="1desplegableizq" class="alldesplegablesizq"> <!-- 1 Desplegable-->
+            <IMG class="comundesplegableizqimagenes" src="./images/despleizq/1.jpg" alt="Playas" onmouseover="descripcion('1')" onmouseout="nodescripcion()" onclick="rotargaleria('playageneral')"/>
+                  <DIV id="1desplegableletras" class="desplegableletras">Playas</DIV>
+          </DIV><!-- 1 Fin Desplegable-->
+
+          <DIV id="2desplegableizq" class="alldesplegablesizq"><!-- 2 Desplegable-->
+             <IMG class="comundesplegableizqimagenes" src="./images/despleizq/2.jpg" alt="Monumentos" onmouseover="descripcion('2')" onmouseout="nodescripcion()" onclick="rotargaleria('monumentos')"/>
+                  <DIV id="2desplegableletras" class="desplegableletras">Monumentos</DIV>
+          </DIV><!-- 2 Fin Desplegable-->
+
+          <DIV id="3desplegableizq" class="alldesplegablesizq"><!-- 3 Desplegable-->
+			<IMG class="comundesplegableizqimagenes" src="./images/despleizq/3.jpg" alt="Flora" onmouseover="descripcion('3')" onmouseout="nodescripcion()" onclick="rotargaleria('flora')"/>
+				<DIV id="3desplegableletras" class="desplegableletras">Flora</DIV>
+          </DIV><!-- 3 Fin Desplegable-->
+
+              <DIV id="4desplegableizq" class="alldesplegablesizq"><!-- 4 Desplegable-->
+                 <IMG class="comundesplegableizqimagenes" src="./images/despleizq/4.jpg" alt="Flora" onmouseover="descripcion('4')" onmouseout="nodescripcion()" onclick="rotargaleria('faunageneral')"/>
+                  <DIV id="4desplegableletras" class="desplegableletras">Fauna</DIV>
+          </DIV><!-- 4 Fin Desplegable-->
+
+              <DIV id="5desplegableizq" class="alldesplegablesizq"><!-- 5 Desplegable-->
+                 <IMG class="comundesplegableizqimagenes" src="./images/despleizq/5.jpg" alt="Fiestas y Eventos" onmouseover="descripcion('5')" onmouseout="nodescripcion()" onclick="rotargaleria('fiestasyeventos')"/>
+                  <DIV id="5desplegableletras" class="desplegableletras">Fiestas</DIV>
+          </DIV><!-- 5 Fin Desplegable-->
+
+              <DIV id="6desplegableizq" class="alldesplegablesizq"><!-- 6 Desplegable-->
+                 <IMG class="comundesplegableizqimagenes" src="./images/despleizq/6.jpg" alt="Puestasdesol" onmouseover="descripcion('6')" onmouseout="nodescripcion()" onclick="rotargaleria('puestasdesol')"/>
+                  <DIV id="6desplegableletras" class="desplegableletras">Atardeceres</DIV>
+          </DIV><!-- 6 Fin Desplegable-->
+       </DIV><!--Fin desplegable lateral IZQ-->
+
+		<DIV id="cajageneral"> <!--CajaGeneral-->
+<!--Selector de imágenes-->
+           <DIV id="cajaselectorimagenes">
+              <UL id="ulselectorimagen"> <!--En las siguientes imágenes se escribe el nombre sin extensión, la extensión tiene que ser ".jpg" tal y como está definido en la función para pintar la imagen como background-->
+                 <LI><DIV id="selectorimagen1" class="selectorimagen" onclick="cambiarbackgroundsmartphone('1')"></DIV></LI>
+                 <LI><DIV id="selectorimagen2" class="selectorimagen" onclick="cambiarbackgroundsmartphone('2')"></DIV></LI>
+                 <LI><DIV id="selectorimagen3" class="selectorimagen" onclick="cambiarbackgroundsmartphone('3')"></DIV></LI>
+                 <LI><DIV id="selectorimagen4" class="selectorimagen" onclick="cambiarbackgroundsmartphone('4')"></DIV></LI>
+                 <LI><DIV id="selectorimagen5" class="selectorimagen" onclick="cambiarbackgroundsmartphone('5')"></DIV></LI>
+                 <LI><DIV id="selectorimagen6" class="selectorimagen" onclick="cambiarbackgroundsmartphone('6')"></DIV></LI>
+                 <LI><DIV id="selectorimagen7" class="selectorimagen" onclick="cambiarbackgroundsmartphone('7')"></DIV></LI>
+                 <LI><DIV id="selectorimagen8" class="selectorimagen" onclick="cambiarbackgroundsmartphone('8')"></DIV></LI>
+                 <LI><DIV id="selectorimagen9" class="selectorimagen" onclick="cambiarbackgroundsmartphone('9')"></DIV></LI>
+                 <LI><DIV id="selectorimagen10" class="selectorimagen" onclick="cambiarbackgroundsmartphone('10')"></DIV></LI>
+                 <LI><DIV id="selectorimagen11" class="selectorimagen" onclick="cambiarbackgroundsmartphone('11')"></DIV></LI>
+                 <LI><DIV id="selectorimagen12" class="selectorimagen" onclick="cambiarbackgroundsmartphone('12')"></DIV></LI>
+					  <LI><DIV id="selectorimagen13" class="selectorimagen" onclick="cambiarbackgroundsmartphone('13')"></DIV></LI>
+					  <LI><DIV id="selectorimagen14" class="selectorimagen" onclick="cambiarbackgroundsmartphone('14')"></DIV></LI>
+					  <LI><DIV id="selectorimagen15" class="selectorimagen" onclick="cambiarbackgroundsmartphone('15')"></DIV></LI>
+					  <LI><DIV id="selectorimagen16" class="selectorimagen" onclick="cambiarbackgroundsmartphone('16')"></DIV></LI>
+					  <LI><DIV id="selectorimagen17" class="selectorimagen" onclick="cambiarbackgroundsmartphone('17')"></DIV></LI>
+					  <LI><DIV id="selectorimagen18" class="selectorimagen" onclick="cambiarbackgroundsmartphone('18')"></DIV></LI>
+					  <LI><DIV id="selectorimagen19" class="selectorimagen" onclick="cambiarbackgroundsmartphone('19')"></DIV></LI>
+					  <LI><DIV id="selectorimagen20" class="selectorimagen" onclick="cambiarbackgroundsmartphone('20')"></DIV></LI>
+              </UL>
+           </DIV>
+
+<!--Contenido-->
+			<DIV id="contenido">
+				<DIV id="movilizq">
+					<DIV id="led"></DIV>
+					<IMG id="imgmovilizq" src="./images/smartphone_IZQ.png" alt="imgmovilizq"/>
+				</DIV>
+
+				<DIV id="cajamenusmartphone">
+					<DIV id="menusmartphone"><!--Menú que aparece en el smartphone-->
+						<IMG class="imagenesdelmenusmartphone" alt="El tiempo" src="./images/iconossmartphone/Eltiempo.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Correo" src="./images/iconossmartphone/Correo.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Juegos" src="./images/iconossmartphone/Juegos.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Videos" src="./images/iconossmartphone/Videos.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Facebook" src="./images/iconossmartphone/Facebook.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Localizacion" src="./images/iconossmartphone/Localizacion.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Buscar" src="./images/iconossmartphone/Buscar.png"/>
+						<IMG class="imagenesdelmenusmartphone" alt="Calculadora" src="./images/iconossmartphone/Calculadora.png"/>
+					</DIV>
+
+					<DIV id="fondomenusmartphone"></DIV><!--Fondo del menu smartphone-->
+				</DIV>
+
+				<DIV id="centrodecontenido"><!--centrar contenido en smartphone-->
+					<IMG id="anticopy" src="./images/AntyCopy.jpg" alt="AntyCopy"/>
+
+					<VIDEO id="videopresentacion" poster="./images/presentacion.png" loop>
+						<SOURCE src="./videos/presentacion.webm" type="video/webm"/>
+						<SOURCE src="./videos/presentacion.ogg" type="video/ogg"/>
+						<SOURCE src="./videos/presentacion.mp4" type="video/mp4"/>
+						<P style="color=white">Tu navegador no soporta ninguno de los formatos de vídeo que contiene esta página</P>
+					</VIDEO>
+				</DIV><!--FIN de centrar contenido en smartphone-->
+
+				<DIV id="cajatitulossmartphone">
+
+					<DIV id="controles"><!--controles de video e imágenes-->
+					<BUTTON id="anterior" class="botones" onclick="anteriorimg()">
+						<IMG class="imgbutton" alt="Anterior Imagen" title="Anterior Imagen" width="26" src="./images/botones/botonanterior.png"/>
+						<DIV id="titulobotonanterior" class="titulosdebotones">
+							Anterior
+						</DIV>
+					</BUTTON>
+					<BUTTON id="play" class="botones" onclick="videoplay()">
+						<IMG id="botonplay" class="imgbutton" alt="Play/Stop Vídeo" title="Play/Stop Vídeo" width="26" src="./images/botones/botonplay.png"/>
+						 <DIV id="titulobotonplay" class="titulosdebotones">
+							Play Vídeo
+						</DIV>
+					</BUTTON>
+					<BUTTON id="proxima" class="botones" onclick="proximaimg()">
+						<IMG class="imgbutton" alt="Próxima Imagen" title="Próxima Imagen" width="26" src="./images/botones/botonsiguiente.png"/>
+						 <DIV id="titulobotonproxima" class="titulosdebotones">
+							Próxima
+						</DIV>
+					</BUTTON>
+
+				</DIV>
+
+				</DIV><!--Caja con transparencia donde están los títulos de menusmartphones-->
+
+				<DIV id="movildrh">
+                   <DIV id="ampliarcontenido" class="ampliandocontenido" onClick="ampliarsmartphone()"></DIV>
+				  <DIV id="noampliarcontenido" class="ampliandocontenido" onClick="noampliarsmartphone()"></DIV>
+
+					<BUTTON id="botonvolversmartphone" class="botonessmartphone">
+						 <IMG class="imgbotonmenusmartphone" alt="Volver" src="./images/botones/volver.png"/>
+					</BUTTON>
+					<BUTTON id="botoniniciosmartphone" class="botonessmartphone">
+						 <IMG class="imgbotonmenusmartphone" alt="Inicio" src="./images/botones/inicio.png"/>
+					</BUTTON>
+					<BUTTON id="botonmenusmartphone" class="botonessmartphone" onclick="iniciarmenu()">
+						<IMG class="imgbotonmenusmartphone" alt="Menu" src="./images/botones/menu.png"/>
+					</BUTTON>
+				</DIV>
+			</DIV><!--Fin de contenido-->
+
+           <DIV id="infogaleria">
+                  <DIV id="nombredeimagenactual"></DIV><!--Nombre de la imagen actual-->
+                  <DIV id="galeriaimagenesactual">Galería Principal</DIV><!--Galería de Imágenes que está utilizando en cada momento-->
+               </DIV>
+		</DIV> <!--Fin de caja general-->
+
+<!--Menu medio que direcciona a sitios y objetos comunes o estáticos-->
+		<DIV id="cajamenumedio">
+			<DIV id="centrarmenumedio">
+				<DIV class="menusindividualescentro"><A href="#videos">VÍDEOS</A></DIV>
+				<DIV class="menusindividualescentro">MenuB</DIV>
+				<DIV class="menusindividualescentro">MenuC</DIV>
+				<DIV class="menusindividualescentro">MenuD</DIV>
+				<DIV class="menusindividualescentro"><A href="#miswebsamigas">WEBS AMIGAS</A></DIV>
+				<DIV class="limpiarfloat"></DIV>
+			</DIV>
+		</DIV> <!--Fin de menumedio-->
+
+		<DIV id="cajainformacion">
+			<DIV id="info1" class="informacion">
+				<DIV id="infotitulo1" class="tituloinformacion">
+					<H1>PLAYAS DE CHIPIONA</H1>
+				</DIV>
+				<DIV id="infocontenido1" class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 1" src="./images/1_chipiona_general/thumbnail/2.jpg"/>
+					<P>Chipiona tiene 12.600 metros de litoral de los cuales tiene 7.600 metros entre sus 5 playas. Cada una de estas playas esta totalmente diferenciada tanto por su ubicación, entorno, flora, fauna....
+					</P>
+					<P>Todas sus playas son de arena fina y muy blanca, con aguas de gran calidad y propiedades curativas conocidas desde hace más de 100 años por su alto contenido en yodo y otros minerales.
+					</P>
+
+					<P><H2>Chipiona consta de las siguientes Playas:
+						</H2>
+					</P>
+                     <UL>
+                         <LI><H3>Playa de Regla</H3></LI>
+                         <LI><H3>Playa Cruz del Mar</H3></LI>
+                         <LI><H3>Playa de Camarón o Playa de las 3 piedras</H3></LI>
+                         <LI><H3>Playa las Canteras</H3></LI>
+                         <LI><H3>Playa Montijo o Costa de la Grajuela</H3></LI>
+                         <LI><H3>Playa de Regla</H3></LI>
+                     </UL>
+				</DIV>
+			</DIV>
+
+			<DIV id="info2" class="informacion">
+				<DIV id="infotitulo2" class="tituloinformacion">
+					<H1>TÍTULO DEL BLOQUE</H1>
+				</DIV>
+				<DIV id="infocontenido2" class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 2" src="./images/1_chipiona_general/thumbnail/3.jpg"/>
+					<H2>Lorem ipsum</H2>
+                   <P> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</P>
+				</DIV>
+			</DIV>
+
+			<DIV id="info3" class="informacion">
+				<DIV id="infotitulo3" class="tituloinformacion">
+					<H1>TÍTULO DEL BLOQUE</H1>
+				</DIV>
+				<DIV id="infocontenido3" class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 3" src="./images/1_chipiona_general/thumbnail/4.jpg"/>
+					<H2>Lorem ipsum</H2>
+					<P>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</P>
+				</DIV>
+			</DIV>
+
+			<DIV id="info4" class="informacion">
+				<DIV id="infotitulo4" class="tituloinformacion">
+					<H1>TÍTULO DEL BLOQUE</H1>
+				</DIV>
+				<DIV id="infocontenido4" class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 4" src="./images/1_chipiona_general/thumbnail/1.jpg"/>
+					<H2>Lorem ipsum</H2>
+					<P>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</P>
+				</DIV>
+			</DIV>
+			<DIV id="info5" class="informacion">
+				<DIV id="infotitulo5" class="tituloinformacion">
+					<H1>TÍTULO DEL BLOQUE</H1>
+				</DIV>
+				<DIV id="infocontenido5" class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 5" src="./images/1_chipiona_general/thumbnail/5.jpg"/>
+					<H2>Lorem ipsum</H2>
+					<P>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</P>
+				</DIV>
+			</DIV>
+			<DIV id="info6" class="informacion">
+				<DIV id="infotitulo6" class="tituloinformacion">
+					<H1>TÍTULO DEL BLOQUE</H1>
+				</DIV>
+				<DIV id="infocontenido6" class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 6" src="./images/1_chipiona_general/thumbnail/6.jpg"/>
+					<H2>Lorem ipsum</H2>
+					<P>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</P>
+				</DIV>
+			</DIV>
+			<DIV id="info7" class="informacion">
+				<DIV id="infotitulo7" class="tituloinformacion">
+					<H1>TÍTULO DEL BLOQUE</H1>
+				</DIV>
+				<DIV id="infocontenido7" class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 7" src="./images/1_chipiona_general/thumbnail/7.jpg"/>
+					<H2>Lorem ipsum</H2>
+					<P>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</P>
+				</DIV>
+			</DIV>
+			<DIV id="info8" class="informacion">
+				<DIV id="infotitulo8" class="tituloinformacion">
+					<H1>TÍTULO DEL BLOQUE</H1>
+				</DIV>
+				<DIV id="infocontenido8" class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 8" src="./images/1_chipiona_general/thumbnail/8.jpg"/>
+					<H2>Lorem ipsum</H2>
+					<P>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</P>
+				</DIV>
+			</DIV>
+
+			<DIV id="videos" class="informacion">
+				<DIV class="tituloinformacion">
+					<H1>Vídeos</H1>
+				</DIV>
+				<DIV class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 8" src="./images/1_chipiona_general/thumbnail/8.jpg"/>
+					<H2>Listas de Videos</H2>
+					<P>
+						Aquí irán las galerías de vídeos alojadas en youtube embebido HTML
+						<UL>
+							<LI>Galería 1</LI>
+							<LI>Galería 2</LI>
+							<LI>Galería 3</LI>
+							<LI>Galería 4</LI>
+							<LI>Galería 5</LI>
+						</UL>
+					</P>
+				</DIV>
+			</DIV>
+
+			<DIV id="miswebsamigas" class="informacion">
+				<DIV class="tituloinformacion">
+					<H1>Webs Amigas</H1>
+				</DIV>
+				<DIV class="contenidoinformacion">
+					<IMG class="imagencontenido" alt="Info 8" src="./images/1_chipiona_general/thumbnail/8.jpg"/>
+					<H2>Webs Relacionadas con esta página</H2>
+					<P>
+						Aquí irá el listado de Webs amigas
+						<UL>
+							<LI>URL 1</LI>
+							<LI>URL 2</LI>
+							<LI>URL 3</LI>
+							<LI>URL 4</LI>
+							<LI>URL 5</LI>
+						</UL>
+					</P>
+				</DIV>
+			</DIV>
+			<DIV class="limpiarfloat"></DIV>
+		</DIV>
+
+		<DIV id="piedepagina"><!--Pie de página-->
+			2015 - Proyecto abierto - NzWeb - Asociación Winkle
+		</DIV><!--Fin de Pie de página-->
+
+         <A href="#inicio"><DIV id="subir"></DIV></A>
+	</BODY>
+</HTML>
