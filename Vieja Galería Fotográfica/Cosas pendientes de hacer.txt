@@ -1,0 +1,16 @@
+-Reparar fallo al pulsar sobre "siguiente imagen" que mantiene la imagen en alta resolución aún cuando esta minimizado
+-Añadir al menú bajo del smartphone las galerías que faltan
+-Rellenar 1 apartado sobre las playas e incluir enlaces que activen dicha galería al pulsarlo con un sonido de una ola
+-Comentar el código para el resto de apartados mientras no tengan contenido real
+-Meter canción para que al pulsar sobre sonido o reproducir el vídeo comience a sonar
+-Cambiar nombres para el pergamino con el nombre de la galería
+-Diseñar nueva imagen que aparece en el smartphone al entrar en la web
+-Diseñar nueva imagen para caja de titulo
+-Diseñar nueva imagen para caja de contenido
+-Alinear al centro lado IZQ del smartphone
+-Crear título de la página que a los 10 segundos de entrar aparezca en el centro de la web en grande y suba ajústando su tamaño hacia el lugar que le corresponde como título
+-Centrar desplegable del menú albums
+-Añadir todas las galerías al menú albums
+-Introducir aviso si se entra a visitar la web con javascript desactivado
+-Menú flora da error en las imágenes de las miniaturas
+-Cambiar ancla de la flecha para subir al inicio (cambiar a "inicio")

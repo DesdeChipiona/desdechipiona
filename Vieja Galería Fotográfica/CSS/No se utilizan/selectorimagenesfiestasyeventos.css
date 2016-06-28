@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+
+/*Selector de imágenes*/
+
+      #cajaselectorimagenes{
+         position:relative;
+         width: 80%;
+         height: 120px;
+         margin: auto;
+         background-color:black;
+         top:25px;
+         overflow-x: scroll;
+			overflow-y: hidden;
+         border-radius: 20px 20px 0px 0px;
+         box-shadow: 15px 15px 75px 1px black;
+         z-index: 11;
+         }
+
+/*Imagenes individuales*/
+      .selectorimagen{
+         position: relative;
+         align-content: center;
+         float: left;
+         height: 100px;
+         width: 100px;
+         border: 1px solid white;
+         background-repeat: no-repeat;
+         background-size: auto;
+         background-position: center;
+			opacity: 0.6;
+         }
+
+		.selectorimagen:hover {
+			opacity: 1;
+			width: 120px;
+			border: 1px none;
+			z-index: 13;
+			transition: all 0.5s ease-in-out;
+			-moz-transform:rotate(-5deg) scale(1);
+			-webkit-transform:rotate(-5deg) scale(1);
+			-o-transform:rotate(-5deg) scale(1);
+  			-ms-transform:rotate(-5deg) scale(1);
+			}
+/*FIN de Imagenes individuales*/
+
+      #ulselectorimagen{
+         position: relative;
+         float:left;
+         display: inline-block;
+         list-style: none;
+         vertical-align: middle;
+         width: 2065px;
+         margin-left: -40px;
+         margin-top: 1px;
+         margin-bottom: 0px;
+			cursor: pointer;
+         }
+
+      #ulselectorimagen>LI{
+         position: relative;
+         float:left;
+         list-style: none;
+         }
+/* Imágenes individuales */
+
+      #selectorimagen1{
+         background-image: url(./images/1_chipiona_general/miniaturas/1.jpg);
+         }
+      #selectorimagen2{
+         background-image: url(./images/1_chipiona_general/miniaturas/2.jpg);
+         }
+      #selectorimagen3{
+         background-image: url(./images/1_chipiona_general/miniaturas/3.jpg);
+         }
+      #selectorimagen4{
+         background-image: url(./images/1_chipiona_general/miniaturas/4.jpg);
+         }
+      #selectorimagen5{
+         background-image: url(./images/1_chipiona_general/miniaturas/5.jpg);
+         }
+      #selectorimagen6{
+         background-image: url(./images/1_chipiona_general/miniaturas/6.jpg);
+         }
+      #selectorimagen7{
+         background-image: url(./images/1_chipiona_general/miniaturas/7.jpg);
+         }
+      #selectorimagen8{
+         background-image: url(./images/1_chipiona_general/miniaturas/8.jpg);
+         }
+      #selectorimagen9{
+         background-image: url(./images/1_chipiona_general/miniaturas/9.jpg);
+         }
+      #selectorimagen10{
+         background-image: url(./images/1_chipiona_general/miniaturas/10.jpg);
+         }
+      #selectorimagen11{
+         background-image: url(./images/1_chipiona_general/miniaturas/11.jpg);
+         }
+      #selectorimagen12{
+         background-image: url(./images/1_chipiona_general/miniaturas/12.jpg);
+         }
+		#selectorimagen13{
+         background-image: url(./images/1_chipiona_general/miniaturas/13.jpg);
+         }
+      #selectorimagen14{
+         background-image: url(./images/1_chipiona_general/miniaturas/14.jpg);
+         }
+      #selectorimagen15{
+         background-image: url(./images/1_chipiona_general/miniaturas/15.jpg);
+         }
+      #selectorimagen16{
+         background-image: url(./images/1_chipiona_general/miniaturas/16.jpg);
+         }
+      #selectorimagen17{
+         background-image: url(./images/1_chipiona_general/miniaturas/17.jpg);
+         }
+      #selectorimagen18{
+         background-image: url(./images/1_chipiona_general/miniaturas/18.jpg);
+         }
+      #selectorimagen19{
+         background-image: url(./images/1_chipiona_general/miniaturas/19.jpg);
+         }
+      #selectorimagen20{
+         background-image: url(./images/1_chipiona_general/miniaturas/20.jpg);
+         }
+
+
+
+
+
+
+
+
+
+
+
+
