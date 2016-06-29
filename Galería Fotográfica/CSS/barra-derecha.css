@@ -1,0 +1,12 @@
+#barraderecha {
+	display: inline-table;
+	width: 250px;
+	height: 100%;
+	border: 10px solid transparent;
+	border-image-width: 10px;
+	border-image: url("../images/temporal/lava.png") 50 stretch;
+		-moz-border-image: url("../images/temporal/lava.png") 50 stretch;
+		-webkit-border-image: url("../images/temporal/lava.png") 50 stretch;
+		-o-border-image: url("../images/temporal/lava.png") 50 stretch;
+	background-color: gray;
+}

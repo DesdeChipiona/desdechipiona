@@ -1,0 +1,164 @@
+#cajasCentrarMenus {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+#desplegarRedes {
+	display: block;
+	position: fixed;
+	padding-top: 16px;
+	width: 90px;
+	height: 90px;
+	top: 0;
+	left: 0;
+	color: red;
+	font-size: 1.5em;
+	text-align: center;
+	align-content: center;
+	background-image: url("../images/luna.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-bottom-right-radius: 40px;
+	z-index: 51;
+	transition: 2s;
+}
+#desplegarRedes:hover {
+	background-image: url("../images/luna2.png");
+	cursor: pointer;
+	transition: 2s;
+}
+#redesDesplegado {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 260px;
+	height: 200px;
+	z-index: 50;
+}
+#redesDesplegado UL {
+	position: absolute;
+	top: 0;
+	left: 60px;
+	margin: auto;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+}
+#RedesCorreo {
+	background-image: url(../images/RedesSociales/Correo.png);
+}
+#RedesFacebook {
+	background-image: url(../images/RedesSociales/Facebook.png);
+}
+#RedesTwitter {
+	background-image: url(../images/RedesSociales/Twitter.png);
+}
+#RedesYoutube {
+	background-image: url(../images/RedesSociales/Youtube.png);
+}
+
+.BotonMenu {
+	display: inline-block;
+	margin: auto;
+	width: 90px;
+	height: 90px;
+	align-content: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.BotonMenu:hover {
+	cursor: pointer;
+}
+
+#desplegarMenu {
+	display: block;
+	position: fixed;
+	padding-top: 16px;
+	width: 90px;
+	height: 90px;
+	top: 0;
+	right: 0;
+	color: red;
+	font-size: 1.5em;
+	text-align: center;
+	align-content: center;
+	background-image: url("../images/sol.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 40px;
+	z-index: 51;
+	transition: 1s;
+	opacity: 0.8;
+}
+#desplegarMenu:hover {
+	background-image: url("../images/sol2.png");
+	cursor: pointer;
+	opacity: 1;
+}
+#menuDesplegado {
+	display: none;
+	width: 100%;
+	position: fixed;
+	z-index: 50;
+}
+#menuDesplegado UL {
+	width: 100%;
+	margin: 50px 0 0 0;
+	padding: 0;
+	position: absolute;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+}
+#menuDesplegado LI {
+	margin: 4px;
+	padding: 4px 3px;
+	list-style-type: none;
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	background-color: orangered;
+	border-radius: 5px;
+	transition: 0.6s;
+}
+#menuDesplegado LI:hover {
+	color: #CC2501;
+	background-color: #1BD5FF;
+}
+
+#cajamenusuperior {
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	z-index: 50;
+	display: block;
+	vertical-align: top;
+	background-image: url(../images/ola.png);
+}
+#menusuperior {
+	position: relative;
+	margin: auto;
+	top: -14px;
+	width: 90%;
+	align-content: center;
+	text-align: center;
+	display:block;
+}
+#menusuperior LI, #menusuperior A {
+	display: inline-block;
+	margin: 0 10px;
+	font-style: oblique;
+	color: white;
+	text-align: center;
+	align-content: center;
+	border-right: none;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#menusuperior LI:hover, #menusuperior A:hover {
+	background-color: white;
+	color: midnightblue;
+}

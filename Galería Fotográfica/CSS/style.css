@@ -1,0 +1,116 @@
+/*Tonos de colores de fondo:
+#013CCC
+#7F92BF
+#1BD5FF
+#FF905B
+#CC2501
+*/
+
+
+@CHARSET "UTF-8";
+
+/*--------------------------------FUENTES internas--------------------*/
+@font-face {font-family:lobster;
+src: url(../TTF/Lobster.ttf) format("opentype");}
+@font-face {font-family:fairydust;
+src: url(../TTF/Fairydust.ttf) format("opentype");}
+@font-face {font-family:orial_bold;
+src: url(../TTF/Orial_bold.otf) format("opentype");}
+@font-face {font-family:makejuice;
+src: url(../TTF/Makejuice.ttf) format("opentype");}
+@font-face {font-family:cabinsketch;
+src: url(../TTF/CabinSketch.ttf) format("opentype");}
+
+/*--------------------------------Estilos generales-------------------*/
+body {
+	margin:0px;
+	padding:0px;
+	font-family: Fairydust;
+	background-color: black;
+}
+
+A {
+	position: relative;
+	margin: auto;
+	font-size: 20px;
+	text-decoration: none;
+	text-shadow: 3px 3px 3px black;
+}
+
+IMG {
+	position: relative;
+	margin: auto;
+	width: 100%;
+}
+
+HEADER {
+	position: relative;
+	margin: auto;
+	min-width:80%;
+	font-size: 25px;
+	align-content: center;
+	text-align: center;
+}
+
+H1, H2, H3, H4, H5, H6 {
+	color: red;
+}
+
+H1 {
+
+}
+H2 {
+
+}
+H3 {
+
+}
+
+
+/*
+----------------------------------
+Cargando
+----------------------------------
+*/
+#CajaCargando {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+#Cargando {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: black;
+	opacity: 0.7;
+	z-index: 100;
+}
+#CargandoTitulo {
+	position: relative;
+	margin: 20% auto;
+	padding: 20px;
+	width: 70%;
+	height: 300px;
+	color: #CFAB62;
+	font-size: 2.4em;
+	text-align: center;
+	background-color: white;
+	z-index: 101;
+	border-radius: 10px;
+	text-shadow: 1px 1px 8px black,
+		1px -1px 8px black,
+		-1px 1px 8px black,
+		-1px -1px 8px black;
+}
+
+
+
+
+
+
+
+
+
+
