@@ -19,6 +19,7 @@ Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo e
 ## Colaboradores del proyecto
 
 @fryntiz --> https://github.com/fryntiz
+
 @alexcluster --> https://github.com/alexcluster
 
 
