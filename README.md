@@ -19,8 +19,10 @@ Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo e
 
 ## Colaboradores del proyecto
 
+### Raúl Caro Pastorino:
 @fryntiz --> https://github.com/fryntiz
 
+### Alejandro Vidal:
 @alexcluster --> https://github.com/alexcluster
 
 
