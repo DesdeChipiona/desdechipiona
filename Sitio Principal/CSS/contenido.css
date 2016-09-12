@@ -1,0 +1,21 @@
+#cajaContenido {
+	padding: 10px 0;
+	width: 100%;
+	background-color: lightgrey;
+	text-align: center;
+	vertical-align: middle;
+}
+#cajaContenido SECTION {
+	margin: auto;
+	max-width: 1200px;
+}
+
+#cajaContenido SECTION ARTICLE {
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+	width: 270px;
+	height: 300px;
+	background-color: lightslategrey;
+	border: 3px groove green;
+}
