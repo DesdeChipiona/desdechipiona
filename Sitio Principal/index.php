@@ -7,6 +7,11 @@
 	</HEAD>
 
 	<BODY>
-	
+		<?php
+				include 'menu.php';
+				include 'titulo.php';
+				include 'contenido.php';
+				include 'footer.php';
+			?>
 	</BODY>
 </HTML>
