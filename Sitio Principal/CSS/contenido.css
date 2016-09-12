@@ -19,3 +19,6 @@
 	background-color: lightslategrey;
 	border: 3px groove green;
 }
+#cajaContenido SECTION ARTICLE:hover {
+	background-color: floralwhite;
+}
