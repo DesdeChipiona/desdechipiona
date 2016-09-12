@@ -1,0 +1,19 @@
+#menuPrincipal {
+	width: 100%;
+	height: 120px;
+	position: fixed;
+	background-color: lightgrey;
+}
+#menuPrincipal DIV P {
+	text-align: center;
+}
+#menuPrincipal DIV UL {
+	text-align: center;
+}
+#menuPrincipal DIV LI {
+	display: inline-block;
+	background-color: olivedrab;
+}
+#menuPrincipal DIV LI:hover {
+	background-color: orangered;
+}
