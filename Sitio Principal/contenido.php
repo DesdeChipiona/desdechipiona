@@ -1,10 +1,37 @@
 <DIV id="cajaContenido">
 	<SECTION>
+
 		<ARTICLE>
-			Contenido - ARTICLE
+			<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
+				<H3>Galería fotográfica Chipiona</H3>
+				<P>www.galeria.desdechipiona.es</P>
+				<P>
+					En esta galería de fotos puedes encontrar imágenes seleccionadas de <B>Chipiona</B> en todos sus aspectos como:
+					<UL>
+						<LI>Fiestas</LI>
+						<LI>Fauna</LI>
+						<LI>Flora</LI>
+						<LI>Monumentos</LI>
+						<LI>Paisajes</LI>
+						<LI>Puestas de sol</LI>
+					</UL>
+				</P>
+			</A>
 		</ARTICLE>
 		
 		<ARTICLE>
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
+			Contenido - ARTICLE 1
 			Contenido - ARTICLE 1
 		</ARTICLE>
 		
