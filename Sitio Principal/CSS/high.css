@@ -5,6 +5,37 @@ Estilos para más de 981px
 
 
 /*************************
+        Menú Principal
+**************************/
+
+#menuPrincipal {
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 10px 0;
+	top: 0;
+	position: fixed;
+	background-color: lightgrey;
+}
+#menuPrincipal DIV P {
+	margin: 5px 0;
+	text-align: center;
+}
+#menuPrincipal DIV UL {
+	margin: 5px 0;
+	text-align: center;
+}
+#menuPrincipal DIV LI {
+	margin: 5px;
+	padding: 5px;
+	display: inline-block;
+	background-color: olivedrab;
+}
+#menuPrincipal DIV LI:hover {
+	background-color: orangered;
+}
+
+
+/*************************
         CONTENIDO
 **************************/
 #cajaContenido {
