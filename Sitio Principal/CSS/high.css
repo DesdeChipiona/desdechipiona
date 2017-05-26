@@ -42,3 +42,33 @@ Estilos para más de 981px
 	list-style: none;
 	text-align: left;
 }
+
+/*************************
+          FOOTER
+**************************/
+FOOTER {
+	margin: 15px 0;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	background-color: darkolivegreen;
+}
+FOOTER ADDRESS {
+	margin: auto;
+	max-width: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
