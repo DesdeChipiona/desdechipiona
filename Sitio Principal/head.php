@@ -22,17 +22,8 @@
 <META name='twitter:image' content='http://www.desdechipiona.es/images/logo.png' />
 
 <LINK rel="shortcut icon" href="./images/favicon.png"/>
-<LINK rel="stylesheet" href="./CSS/1000.css"/>
-<LINK rel="stylesheet" href="./CSS/style.css"/>
-<LINK rel="stylesheet" href="./CSS/menu.css"/>
-<LINK rel="stylesheet" href="./CSS/head.css"/>
-<LINK rel="stylesheet" href="./CSS/footer.css"/>
-<LINK rel="stylesheet" href="./CSS/titulo.css"/>
-<LINK rel="stylesheet" href="./CSS/contenido.css"/>
-<!--
-<LINK href=“mini.css” rel=“stylesheet” type=“text/css” media=“screen and (min-width: 981px)” />
+<LINK href=“high.css” rel=“stylesheet” type=“text/css” media=“screen and (min-width: 981px)” />
 <LINK href=“medium.css” rel=“stylesheet” type=“text/css” media=“screen and (min-width: 481px) and (max-width: 980px)” />
 <LINK href=“mini.css” rel=“stylesheet” type=“text/css” media=“screen and (min-width: 480px)” />
--->
 <SCRIPT src="JS/scripts.js"></SCRIPT>
 <SCRIPT src="JS/jquery.js"></SCRIPT>
