@@ -6,7 +6,7 @@
 <META name='copyright' content='DesdeChipiona' />
 <META name='language' content='ES' />
 <META name="robots" content="index, follow" />
-<META name="viewport" content="width=device-width, initial-scale=1.0" />
+<META name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 
 <META property='fb:admins' content='fryntiz' />
 
@@ -22,8 +22,8 @@
 <META name='twitter:image' content='http://www.desdechipiona.es/images/logo.png' />
 
 <LINK rel="shortcut icon" href="./images/favicon.png"/>
-<LINK href=“high.css” rel=“stylesheet” type=“text/css” media=“screen and (min-width: 981px)” />
-<LINK href=“medium.css” rel=“stylesheet” type=“text/css” media=“screen and (min-width: 481px) and (max-width: 980px)” />
-<LINK href=“mini.css” rel=“stylesheet” type=“text/css” media=“screen and (min-width: 480px)” />
+<LINK href="CSS/high.css" rel="stylesheet" type="text/css" media="screen and (min-width:981px)" />
+<LINK href="CSS/medium.css" rel="stylesheet" type="text/css" media="screen and (min-width: 481px) and (max-width: 980px)" />
+<LINK href="CSS/mini.css" rel="stylesheet" type="text/css" media="screen and (min-width: 480px)" />
 <SCRIPT src="JS/scripts.js"></SCRIPT>
 <SCRIPT src="JS/jquery.js"></SCRIPT>
