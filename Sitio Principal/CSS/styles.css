@@ -100,20 +100,26 @@ P {
 }
 #cajaTitulo H1 {
 	margin: auto;
-	width: 380px;
-	color: #e69215;
+	width: 640px;
+	height: 80px;
+	color: #1D415B;
 	font-size: 2.8em;
 	font-weight: bold;
 	text-shadow: 3px 3px 4px black;
 	border: 3px solid #e69215;
 	border-radius: 10px;
-	background-color: #1D415B;
+	background-image: url("../images/titulo.png");
 }
-#cajaTitulo P{
-	
+#cajaTitulo .subtitulo {
+	color: #1D415B;
+	font-weight: bold;
 }
 #cajaTitulo H2 {
 
+}
+#subcajaTitulo {
+	background-color: black;
+	border-radius: 10px;
 }
 
 /*************************
