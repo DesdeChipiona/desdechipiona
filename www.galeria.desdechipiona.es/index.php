@@ -10,7 +10,8 @@
 		<?php
 				include 'menu.php';
 				include 'titulo.php';
-				include 'contenido.php';
+				include 'menuLateral.php';
+				include 'galeria.php';
 				include 'footer.php';
 			?>
 	</BODY>
