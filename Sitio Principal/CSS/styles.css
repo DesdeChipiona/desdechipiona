@@ -90,7 +90,8 @@ P {
 #cajaTitulo {
 	box-sizing: border-box;
 	padding: 10px 8px;
-	background-color: white;
+	background-color: #C73935;
+	text-align: center;
 }
 #cajaTitulo H1 {
 
