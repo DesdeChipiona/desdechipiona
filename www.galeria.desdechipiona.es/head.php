@@ -6,7 +6,7 @@
 <META name='copyright' content='DesdeChipiona' />
 <META name='language' content='ES' />
 <META name="robots" content="index, follow" />
-<META name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<META name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 <META property='fb:admins' content='fryntiz' />
 
