@@ -96,7 +96,9 @@ P {
         CONTENIDO
 **************************/
 #cajaContenido {
-
+	margin: auto;
+	min-width: 981px;
+	max-width: 1200px;
 }
 #cajaContenido SECTION {
 
