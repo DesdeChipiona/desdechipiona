@@ -143,6 +143,9 @@ P {
 
 }
 #cajaContenido .bloqueImagen {
+	text-align: center;
+}
+#cajaContenido .bloqueImagen IMG{
 
 }
 #cajaContenido SECTION > ARTICLE:hover {
