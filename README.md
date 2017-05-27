@@ -20,13 +20,18 @@ Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo e
 - [ ] Crear apartado con frases típicas
 - [ ] Crear apartado con artistas locales
 - [ ] Crear apartado con 
-- [ ]
-- [ ]
+- [ ] Juego ¿Cuánto Sabes de Chipiona? (preguntas)
 - [ ] Creado Portal Principal que enlaza a todas las secciones
-
 - [ ] Crear grupo en Mumble o cualquier otro programa para hablar los programadores
 - [ ] Montar vídeo con partes relevantes de Chipiona
 - [ ] Crear ventana de carga
+- [ ] App Android portando la web (una vez acabada)
+- [ ] Crear app solo galería de imágenes
+- [ ] Crear app rutas turísticas
+- [ ] Crear reglas de trabajo
+- [ ] Crear reglas de estilos
+- [ ] Crear Logotipo que represente la localidad
+- [ ] 
 
 ---
 
