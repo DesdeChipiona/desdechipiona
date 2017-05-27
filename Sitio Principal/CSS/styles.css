@@ -56,15 +56,17 @@ P {
 	margin-top: 20px;
 	background-color:grey;
 	border-top: 3px orange solid;
+	text-align: center;
 }
 #menuPrincipal DIV P {
 
 }
 #menuPrincipal DIV UL {
-
+	margin-top: 0;
 }
 #menuPrincipal DIV LI {
-
+	padding: 3px 5px;
+	list-style: none;
 }
 #menuPrincipal DIV LI:hover {
 
