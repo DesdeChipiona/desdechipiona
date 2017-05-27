@@ -8,7 +8,7 @@
 			<DIV class="bloqueDescripcion">
 				
 				<P>
-					<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
+					<A class="sitioAmigo" href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
 					www.galeria.desdechipiona.es
 					</A>
 				</P>
@@ -41,7 +41,7 @@
 			<DIV class="bloqueDescripcion">
 				
 				<P>
-					<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
+					<A class="sitioAmigo" href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
 						www.desdechipiona.es
 					</A>
 				</P>
