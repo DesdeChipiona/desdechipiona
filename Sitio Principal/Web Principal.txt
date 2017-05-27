@@ -5,3 +5,9 @@ En este directorio incluiré la WEB principal:
 -mini.css -->  Contiene los estilos para pantallas más pequeñas de 480px
 
 -El tamaño máximo del sitio será de 1200px (max-width en high.css)
+
+-Colores para el tema:
+	·Morado --> #493B4C
+	·Azul Oscuro --> #1D415B
+	·Rojo Claro --> #C73935
+	·Amarillo Oscuro --> #E69215
