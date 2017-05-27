@@ -47,118 +47,69 @@ P {
 **************************/
 
 #menuPrincipal {
-	width: 100%;
-	margin: 0 0 10px 0;
-	padding: 10px 0;
-	top: 0;
-	position: fixed;
-	background-color: lightgrey;
+	
 }
 #menuPrincipal DIV P {
-	margin: 5px 0;
-	text-align: center;
+
 }
 #menuPrincipal DIV UL {
-	margin: 5px 0;
-	text-align: center;
+
 }
 #menuPrincipal DIV LI {
-	margin: 5px;
-	padding: 5px;
-	display: inline-block;
-	background-color: olivedrab;
+
 }
 #menuPrincipal DIV LI:hover {
-	background-color: orangered;
+
 }
 
 /*************************
         TÍTULO
 **************************/
 #cajaTitulo {
-	margin: 120px 0 10px 0;
-	padding: 20px 0;
-	width: 100%;
-	text-align: center;
-	vertical-align: middle;
-	background-color: black;
-	color: darkkhaki;
+
 }
 #cajaTitulo H1 {
-	font-size: 2.2em;
+
 }
 #cajaTitulo P {
-	font-size: 1.4em;
+
 }
 #cajaTitulo H2 {
-	font-size: 1.8em;
+
 }
 
 /*************************
         CONTENIDO
 **************************/
 #cajaContenido {
-	padding: 10px 0;
-	width: 100%;
-	background-color: lightgrey;
-	text-align: center;
+
 }
 #cajaContenido SECTION {
-	margin: auto;
-	max-width: 1200px;
+
 }
 
 #cajaContenido SECTION > ARTICLE {
-	display: inline-block;
-	margin: 5px;
-	padding: 10px;
-	width: 270px;
-	height: 300px;
-	vertical-align: top;
-	background-color: lightslategrey;
-	border: 3px groove green;
+
 }
 #cajaContenido SECTION > ARTICLE:hover {
-	background-color: floralwhite;
+
 }
 #cajaContenido SECTION > ARTICLE > A {
-	text-decoration: none;
-	color: yellowgreen;
+
 }
 #cajaContenido SECTION > ARTICLE > A:hover  {
-	color: red;
+
 }
 #cajaContenido LI {
-	list-style: none;
-	text-align: left;
+
 }
 
 /*************************
           FOOTER
 **************************/
 FOOTER {
-	margin: 15px 0;
-	width: 100%;
-	text-align: center;
-	vertical-align: middle;
-	background-color: darkolivegreen;
+
 }
 FOOTER ADDRESS {
-	margin: auto;
-	max-width: 1200px;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
