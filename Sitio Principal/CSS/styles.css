@@ -146,18 +146,20 @@ P {
 #cajaContenido .bloqueDescripcion P {
 	text-align: left;
 }
-#cajaContenido .bloqueDescripcion P A {
+#cajaContenido .bloqueDescripcion P .sitioAmigo {
 	display: table;
 	width: 100%;
 	text-align: center;
 	color: #C73935;
 	font-size: 1.1em;
 	font-weight: bold;
+	border-radius: 3px;
 }
-#cajaContenido .bloqueDescripcion P A:hover {
+#cajaContenido .bloqueDescripcion P .sitioAmigo:hover {
 	color: #493B4C;
+	background-color: #C73935;
 }
-#cajaContenido .bloqueDescripcion P A:visited {
+#cajaContenido .bloqueDescripcion P .sitioAmigo:visited {
 	color: #E69215;
 }
 #cajaContenido .bloqueDescripcion LI{
@@ -167,10 +169,7 @@ P {
 #cajaContenido .bloqueImagen {
 	text-align: center;
 }
-#cajaContenido .bloqueImagen IMG{
-
-}
-#cajaContenido SECTION > ARTICLE:hover {
+#cajaContenido .bloqueImagen IMG {
 
 }
 #cajaContenido SECTION > ARTICLE > A {
