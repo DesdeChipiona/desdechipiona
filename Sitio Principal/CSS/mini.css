@@ -62,7 +62,7 @@ P {
 
 }
 #menuPrincipal DIV UL {
-	
+	display: none;
 }
 #menuPrincipal DIV LI {
 
@@ -91,7 +91,7 @@ P {
         CONTENIDO
 **************************/
 #cajaContenido {
-
+	width: 100%;
 }
 #cajaContenido SECTION {
 
