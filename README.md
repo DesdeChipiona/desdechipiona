@@ -10,10 +10,13 @@ Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo e
 
 ## Objetivos a conseguir
 
-- [x] Creada Galería Fotográfica
-- [x] Comenzada Mejora de Galería fotográfica con PHP y AJAX
-- [ ] Creado Portal Principal que enlaza a todas las secciones
 - [x] Crear grupo en Telegram para programadores
+- [x] Creada Galería Fotográfica
+- [x] Maquetada Página principal
+- [x] Comenzada Mejora de Galería fotográfica con PHP y AJAX
+- [ ] Añadir descripciones en Página Principal
+- [ ] Creado Portal Principal que enlaza a todas las secciones
+
 - [ ] Crear grupo en Mumble o cualquier otro programa para hablar los programadores
 - [ ] Montar vídeo con partes relevantes de Chipiona
 
@@ -25,5 +28,5 @@ Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo e
 @fryntiz --> https://github.com/fryntiz
 
 ## Visitar sitio WEB
--Sitio WEB --> http://www.desdechipiona.es
--Galería Fotográfica --> http://www.galeria.desdechipiona.es
+- Sitio WEB --> http://www.desdechipiona.es
+- Galería Fotográfica --> http://www.galeria.desdechipiona.es
