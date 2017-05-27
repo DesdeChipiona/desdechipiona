@@ -136,6 +136,7 @@ P {
 	color: #493B4C;
 	background-color: #E69215;
 	border: 3px solid #493B4C;
+	border-radius: 5px;
 	box-shadow: -3px -3px 8px #493B4C;
 }
 

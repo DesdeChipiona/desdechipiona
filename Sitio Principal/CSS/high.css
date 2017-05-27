@@ -64,9 +64,10 @@ P {
 
 }
 #menuPrincipal DIV UL {
-	
+	padding-top: 3px;
 }
 #menuPrincipal DIV LI {
+	border-radius: 5px 5px 0 0;
 	display: inline-block;
 }
 #menuPrincipal DIV LI:hover {
@@ -134,6 +135,7 @@ P {
 	box-sizing: border-box;
 	height: 100%;
 	border: 3px solid #C73935;
+	border-radius: 5px;
 	box-shadow: 3px 3px 3px black;
 }
 #cajaContenido SECTION > ARTICLE:hover {
