@@ -67,8 +67,6 @@
 			<DIV id="flechadrh"></DIV>
 		</DIV>
 
-		<IMG id="fondoimagen" src="images/fondoCarrusel.jpg" alt="carrusel"/>
-
 		<DIV id="centrarimagenactual">
 			<IMG id="imagenactual" src="images/presentacion.png" alt="presentación"/>
 		</DIV>
