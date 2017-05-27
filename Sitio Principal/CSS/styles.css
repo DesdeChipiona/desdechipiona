@@ -143,14 +143,22 @@ P {
 #cajaContenido .bloqueDescripcion {
 	
 }
-#cajaContenido .bloqueDescripcion A {
+#cajaContenido .bloqueDescripcion P {
+	text-align: left;
+}
+#cajaContenido .bloqueDescripcion P A {
+	display: table;
+	width: 100%;
 	text-align: center;
 	color: #C73935;
 	font-size: 1.1em;
 	font-weight: bold;
 }
-#cajaContenido .bloqueDescripcion P{
-	text-align: left;
+#cajaContenido .bloqueDescripcion P A:hover {
+	color: #493B4C;
+}
+#cajaContenido .bloqueDescripcion P A:visited {
+	color: #E69215;
 }
 #cajaContenido .bloqueDescripcion LI{
 	text-align: left;
