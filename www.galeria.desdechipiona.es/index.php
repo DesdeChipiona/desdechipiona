@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <HTML lang="es">
-   <HEAD>
-			<?php
-				include 'head.php';
-			?>
+	<HEAD>
+		<?php
+			include 'head.php';
+		?>
 	</HEAD>
 
 	<BODY onkeydown="return false">
