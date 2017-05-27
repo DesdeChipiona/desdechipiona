@@ -6,8 +6,8 @@
 	</DIV>
 	<DIV>
 		<UL>
-			<LI class="seleccionMenu">Inicio</LI>
-			<LI>Menú2</LI>
+			<LI>Inicio</LI>
+			<LI class="seleccionMenu">Galería</LI>
 			<LI>Menú3</LI>
 			<LI>Menú4</LI>
 			<LI>Menú5</LI>
