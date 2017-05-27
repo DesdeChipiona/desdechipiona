@@ -1,8 +1,10 @@
 <DIV id="cajaContenido">
 	<SECTION>
-
+		
+		<H2>Nombre de la sección</H2>
+		
 		<ARTICLE>
-			<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
+			<DIV class="bloqueDescripcion">
 				<H3>Galería fotográfica Chipiona</H3>
 				<P>www.galeria.desdechipiona.es</P>
 				<P>
@@ -16,7 +18,13 @@
 						<LI>Puestas de sol</LI>
 					</UL>
 				</P>
-			</A>
+			</DIV>
+			
+			<DIV class="bloqueImagen">
+				<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
+					AQUÍ VA UNA IMAGEN
+				</A>
+			</DIV>
 		</ARTICLE>
 		
 		<ARTICLE>
