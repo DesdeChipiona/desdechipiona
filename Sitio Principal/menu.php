@@ -6,10 +6,10 @@
 	</DIV>
 	<DIV>
 		<UL>
-			<A href="www.desdechipiona.es" title="Desde Chipiona Web Oficial">
+			<A href="http://www.desdechipiona.es" title="Desde Chipiona Web Oficial">
 				<LI class="seleccionMenu">Inicio</LI>
 			</A>
-			<A href="www.galeria.desdechipiona.es" title="Galería Fotográfica Desde Chipiona Ciudad">
+			<A href="http://www.galeria.desdechipiona.es" title="Galería Fotográfica Desde Chipiona Ciudad">
 				<LI>Galería</LI>
 			</A>
 			<LI>Menú3</LI>
