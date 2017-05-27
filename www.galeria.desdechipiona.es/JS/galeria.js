@@ -50,3 +50,4 @@ function rotargaleria(x) {
 		seleccion = "#6desplegableizq";
 		cargarBiblioteca = "carrusel_6_puestasdesol.php";
 	}
+}
