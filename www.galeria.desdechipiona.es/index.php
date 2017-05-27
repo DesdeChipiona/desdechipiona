@@ -6,7 +6,7 @@
 			?>
 	</HEAD>
 
-	<BODY>
+	<BODY onkeydown="return false">
 		<?php
 			include 'menu.php';
 			include 'titulo.php';
