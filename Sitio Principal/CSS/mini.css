@@ -1,3 +1,15 @@
 /*************************
 Estilos para menos de 480px
 **************************/
+
+.high {
+	display: none;
+}
+
+.medium {
+	display: none;
+}
+
+.mini {
+	display: block;
+}
