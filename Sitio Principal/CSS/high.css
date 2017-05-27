@@ -105,17 +105,30 @@ P {
 }
 
 #cajaContenido SECTION > ARTICLE {
-
+	vertical-align: top;
 }
-cajaContenido .bloqueTitulo {
-	
+#cajaContenido .bloqueTitulo {
+	width: 50%;
+	height: 40px;
+	margin-left: 10px;
 }
 
 #cajaContenido .bloqueDescripcion {
-	
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 12px 5px;
+	width: 49%;
+	height: 300px;
+	vertical-align: top;
 }
 #cajaContenido .bloqueImagen {
-	
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	width: 49%;
+	height: 300px;
+	vertical-align: top;
 }
 #cajaContenido SECTION > ARTICLE:hover {
 
