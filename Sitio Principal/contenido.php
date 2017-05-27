@@ -1,8 +1,5 @@
 <DIV id="cajaContenido">
 	<SECTION>
-		
-		<H2>Nombre de la sección</H2>
-		
 		<ARTICLE>
 			<DIV class="bloqueTitulo">
 				<H3>Galería fotográfica Chipiona</H3>
@@ -26,57 +23,29 @@
 			
 			<DIV class="bloqueImagen">
 				<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
-					AQUÍ VA UNA IMAGEN
+					<IMG src="images/imagen.jpg" alt="Imagen de prueba" title="Imagen de prueba" />
 				</A>
 			</DIV>
 		</ARTICLE>
 		
 		<ARTICLE>
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-			Contenido - ARTICLE 1
-		</ARTICLE>
-		
-		<ARTICLE>
-			Contenido - ARTICLE 2
-		</ARTICLE>
-		
-		<ARTICLE>
-			Contenido - ARTICLE 3
-		</ARTICLE>
-		
-		<ARTICLE>
-			Contenido - ARTICLE 4
-		</ARTICLE>
-		
-		<ARTICLE>
-			Contenido - ARTICLE 5
-		</ARTICLE>
-		
-		<ARTICLE>
-			Contenido - ARTICLE 6
-		</ARTICLE>
-		
-		<ARTICLE>
-			Contenido - ARTICLE 7
-		</ARTICLE>
-		
-		<ARTICLE>
-			Contenido - ARTICLE 8
-		</ARTICLE>
-		
-		<ARTICLE>
-			Contenido - ARTICLE 9
+			<DIV class="bloqueTitulo">
+				<H3>Titulo entrada 2</H3>
+			</DIV>
+			
+			<DIV class="bloqueDescripcion">
+				
+				<P>www.galeria.desdechipiona.es</P>
+				<P>
+					Descripción del sitio
+				</P>
+			</DIV>
+			
+			<DIV class="bloqueImagen">
+				<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
+					AQUÍ VA UNA IMAGEN
+				</A>
+			</DIV>
 		</ARTICLE>
 	</SECTION>
 </DIV>
