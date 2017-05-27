@@ -1,5 +1,5 @@
 <NAV id="menuPrincipal">
-	<DIV>
+	<DIV class="mini">
 		<P>
 			MENÚ
 		</P>
