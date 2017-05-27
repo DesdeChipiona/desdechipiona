@@ -4,8 +4,12 @@
 		<H2>Nombre de la sección</H2>
 		
 		<ARTICLE>
-			<DIV class="bloqueDescripcion">
+			<DIV class="bloqueTitulo">
 				<H3>Galería fotográfica Chipiona</H3>
+			</DIV>
+			
+			<DIV class="bloqueDescripcion">
+				
 				<P>www.galeria.desdechipiona.es</P>
 				<P>
 					En esta galería de fotos puedes encontrar imágenes seleccionadas de <B>Chipiona</B> en todos sus aspectos como:
