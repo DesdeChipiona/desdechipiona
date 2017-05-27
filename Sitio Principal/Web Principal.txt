@@ -1,2 +1,5 @@
 En este directorio incluiré la WEB principal:
-
+-syteles.css --> Contiene los estilos generales
+-high.css --> Contiene los estilos para pantallas más grandes de 981px
+-medium.css --> Contiene los estilos para pantallas entre 481px y 980px
+-mini.css -->  Contiene los estilos para pantallas más pequeñas de 480px
