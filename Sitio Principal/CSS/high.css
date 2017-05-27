@@ -107,6 +107,16 @@ P {
 #cajaContenido SECTION > ARTICLE {
 
 }
+cajaContenido .bloqueTitulo {
+	
+}
+
+#cajaContenido .bloqueDescripcion {
+	
+}
+#cajaContenido .bloqueImagen {
+	
+}
 #cajaContenido SECTION > ARTICLE:hover {
 
 }

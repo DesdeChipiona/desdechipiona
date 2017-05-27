@@ -125,6 +125,17 @@ P {
 	color: white;
 	background-color: #1D415B;
 }
+
+#cajaContenido .bloqueTitulo {
+	
+}
+
+#cajaContenido .bloqueDescripcion {
+	
+}
+#cajaContenido .bloqueImagen {
+	
+}
 #cajaContenido SECTION > ARTICLE:hover {
 
 }
