@@ -6,8 +6,12 @@
 	</DIV>
 	<DIV>
 		<UL>
-			<LI>Inicio</LI>
-			<LI class="seleccionMenu">Galería</LI>
+			<A href="www.desdechipiona.es" title="Desde Chipiona Web Oficial">
+				<LI>Inicio</LI>
+			</A>
+			<A href="www.galeria.desdechipiona.es" title="Galería Fotográfica Desde Chipiona Ciudad">
+				<LI class="seleccionMenu">Galería</LI>
+			</A>
 			<LI>Menú3</LI>
 			<LI>Menú4</LI>
 			<LI>Menú5</LI>
