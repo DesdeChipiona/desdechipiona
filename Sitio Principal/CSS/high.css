@@ -2,10 +2,25 @@
 Estilos para más de 981px
 **************************/
 
+/*
 * {
 	margin: 0;
 	padding: 0;
 }
+*/
+
+.high {
+	display: block;
+}
+
+.medium {
+	display: none;
+}
+
+.mini {
+	display: none;
+}
+
 
 /*
 ----------------------------------
@@ -53,10 +68,10 @@ P {
 
 }
 #menuPrincipal DIV UL {
-
+	
 }
 #menuPrincipal DIV LI {
-
+	display: inline-block;
 }
 #menuPrincipal DIV LI:hover {
 
