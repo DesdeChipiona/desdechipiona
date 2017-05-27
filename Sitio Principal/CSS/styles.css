@@ -152,6 +152,10 @@ P {
 #cajaContenido SECTION > ARTICLE > A:hover  {
 
 }
+#cajaContenido UL {
+	box-sizing: border-box;
+	margin-left: 25px;
+}
 #cajaContenido LI {
 
 }
