@@ -51,7 +51,6 @@
 	</DIV>
 
 	<DIV id="cajacarrusel">
-		<DIV id="carruselsuperior"></DIV>
 		<DIV id="cajacontrolimagen">
 			<DIV id="controlimagen">
 				<DIV id="atras" class="todoslosefectos"></DIV>
@@ -73,7 +72,5 @@
 		<DIV id="centrarimagenactual">
 			<IMG id="imagenactual" src="images/presentacion.png" alt="presentación"/>
 		</DIV>
-
-		<DIV id="carruselinferior"></DIV>
 	</DIV>
 </DIV>
