@@ -6,7 +6,7 @@
 			?>
 	</HEAD>
 
-	<BODY>
+	<BODY onkeydown="return false" onLoad="versionActual()">
 		<?php
 				include 'menu.php';
 				include 'titulo.php';
