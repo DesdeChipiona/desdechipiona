@@ -1,6 +1,18 @@
 <DIV id="carruselZ">
 	<DIV id="cajaselectorimagenes">
 
+		<!--
+
+		Archivos a incluir reemplazando el id "cajaselectorimagenes" para cambiar de carrusel
+
+		//include 'carrusel_1_playas_general.php';
+		//include 'carrusel_2_monumentos.php';
+		//include 'carrusel_3_flora.php';
+		//include 'carrusel_4_fauna_general.php';
+		//include 'carrusel_5_fiestas_y_eventos_general.php';
+		//include 'carrusel_6_puestasdesol.php';
+		-->
+
 		<DIV id="cajacarrusel">
 			<DIV id="carruselsuperior"></DIV>
 			<DIV id="cajacontrolimagen">
