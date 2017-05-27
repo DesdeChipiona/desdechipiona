@@ -1,0 +1,178 @@
+/*************************
+Estilos para más de 981px
+**************************/
+
+.high {
+	display: block;
+}
+
+.medium {
+	display: none;
+}
+
+.mini {
+	display: none;
+}
+
+
+/*
+----------------------------------
+Títulos
+----------------------------------
+*/
+H1, H2, H3, H4, H5, H6 {
+
+}
+
+H1 {
+
+}
+
+H2 {
+
+}
+
+H3 {
+
+}
+
+/*
+----------------------------------
+Bloques --> DIV y P
+----------------------------------
+*/
+DIV {
+
+}
+
+P {
+
+}
+
+
+/*************************
+        Menú Principal
+**************************/
+
+#menuPrincipal {
+	min-width: 981px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menuPrincipal DIV P {
+
+}
+#menuPrincipal DIV UL {
+	padding-top: 3px;
+}
+#menuPrincipal DIV LI {
+	border-radius: 5px 5px 0 0;
+	display: inline-block;
+}
+#menuPrincipal DIV LI:hover {
+
+}
+
+/*************************
+        TÍTULO
+**************************/
+#cajaTitulo {
+	min-width: 981px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#cajaTitulo H1 {
+	width: 640px;
+}
+#cajaTitulo P {
+
+}
+#cajaTitulo H2 {
+
+}
+
+/*************************
+        CONTENIDO
+**************************/
+#cajaContenido {
+	margin: auto;
+	min-width: 981px;
+	max-width: 1200px;
+}
+#cajaContenido SECTION {
+
+}
+
+#cajaContenido SECTION > ARTICLE {
+	vertical-align: top;
+}
+#cajaContenido .bloqueTitulo {
+	width: 50%;
+	height: 40px;
+	margin-left: 10px;
+}
+
+#cajaContenido .bloqueDescripcion {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 12px 5px;
+	width: 49%;
+	height: 300px;
+}
+
+#cajaContenido .bloqueImagen {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 3px 0 0 0;
+	width: 49%;
+	height: 290px;
+	vertical-align: top;
+}
+#cajaContenido .bloqueImagen IMG {
+	box-sizing: border-box;
+	height: 100%;
+	border: 3px solid #C73935;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px black;
+}
+#cajaContenido SECTION > ARTICLE:hover {
+
+}
+#cajaContenido SECTION > ARTICLE > A {
+
+}
+#cajaContenido SECTION > ARTICLE > A:hover  {
+
+}
+#cajaContenido LI {
+
+}
+
+/*************************
+          FOOTER
+**************************/
+FOOTER {
+	box-sizing: border-box;
+	margin: auto;
+	padding-top: 13px;
+	width: 600px;
+	color: #C73935;
+	font-size: 1.1em;
+	font-weight: bold;
+	background-image: url("../images/pergamino.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+FOOTER {
+
+}
+FOOTER ADDRESS {
+
+}
+FOOTER ADDRESS UL LI {
+	list-style: none;
+}

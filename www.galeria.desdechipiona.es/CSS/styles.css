@@ -1,0 +1,213 @@
+/*************************
+    ESTILOS GENERALES
+**************************/
+
+/*
+-Colores para el tema:
+	·Morado --> #493B4C
+	·Azul Oscuro --> #1D415B
+	·Rojo Claro --> #C73935
+	·Amarillo Oscuro --> #E69215
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+BODY {
+	background-image: url("../images/fondo.png");
+}
+
+/*
+----------------------------------
+Títulos
+----------------------------------
+*/
+H1, H2, H3, H4, H5, H6 {
+
+}
+
+H1 {
+
+}
+
+H2 {
+
+}
+
+H3 {
+
+}
+
+/*
+----------------------------------
+Bloques --> DIV y P
+----------------------------------
+*/
+DIV {
+
+}
+
+P {
+
+}
+
+
+/*************************
+        Menú Principal
+**************************/
+
+#menuPrincipal {
+	margin-top: 20px;
+	margin-bottom: 0;
+	background-color:#1D415B;
+	border-top: 3px #E69215 solid;
+	text-align: center;
+}
+#menuPrincipal DIV P {
+
+}
+#menuPrincipal DIV UL {
+	margin-top: 0;
+}
+#menuPrincipal DIV LI {
+	padding: 3px 5px;
+	font-weight: bold;
+	color: white;
+	list-style: none;
+}
+#menuPrincipal DIV LI:hover {
+	cursor: pointer;
+	color: black;
+	background-color: #C73935;
+}
+
+.seleccionMenu {
+	color: black !important;
+	background-color: #C73935;
+}
+
+/*************************
+        TÍTULO
+**************************/
+#cajaTitulo {
+	box-sizing: border-box;
+	padding: 10px 8px;
+	background-color: #C73935;
+	text-align: center;
+}
+#cajaTitulo H1 {
+	margin: auto;
+	height: 80px;
+	color: #C73935;
+	font-size: 2.8em;
+	font-weight: bold;
+	text-shadow: 3px 3px 4px black;
+	border-radius: 10px;
+	background-image: url("../images/titulo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+#cajaTitulo .subtitulo {
+	color: #1D415B;
+	font-weight: bold;
+}
+#cajaTitulo H2 {
+
+}
+#subcajaTitulo {
+	background-color: black;
+	border-radius: 10px;
+}
+
+/*************************
+        CONTENIDO
+**************************/
+#cajaContenido {
+	margin-top: 20px;
+}
+#cajaContenido SECTION {
+
+}
+
+#cajaContenido SECTION > ARTICLE {
+	margin: 30px 0;
+	padding-top: 10px;
+	color: white;
+	border-top: 3px #C73935 solid;
+	border-bottom: 3px #C73935 solid;
+	background-color: #1D415B;
+}
+
+#cajaContenido .bloqueTitulo {
+	margin-top: -30px;
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	color: #493B4C;
+	background-color: #E69215;
+	border: 3px solid #493B4C;
+	border-radius: 5px;
+	box-shadow: -3px -3px 8px #493B4C;
+}
+
+#cajaContenido .bloqueDescripcion {
+
+}
+#cajaContenido .bloqueDescripcion P {
+	text-align: left;
+}
+#cajaContenido .bloqueDescripcion P .sitioAmigo {
+	display: table;
+	width: 100%;
+	text-align: center;
+	color: #C73935;
+	font-size: 1.1em;
+	font-weight: bold;
+	border-radius: 3px;
+}
+#cajaContenido .bloqueDescripcion P .sitioAmigo:hover {
+	color: #493B4C;
+	background-color: #C73935;
+}
+#cajaContenido .bloqueDescripcion P .sitioAmigo:visited {
+	color: #E69215;
+}
+#cajaContenido .bloqueDescripcion LI{
+	text-align: left;
+	list-style-type: circle;
+}
+#cajaContenido .bloqueImagen {
+	text-align: center;
+}
+#cajaContenido .bloqueImagen IMG {
+
+}
+#cajaContenido SECTION > ARTICLE > A {
+
+}
+#cajaContenido SECTION > ARTICLE > A:hover  {
+
+}
+#cajaContenido UL {
+	box-sizing: border-box;
+	margin-left: 25px;
+}
+#cajaContenido LI {
+
+}
+
+/*************************
+          FOOTER
+**************************/
+FOOTER {
+	min-height: 120px;
+	text-align: center;
+}
+FOOTER ADDRESS {
+
+}

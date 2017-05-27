@@ -1,0 +1,142 @@
+/*************************
+Estilos para menos de 480px
+**************************/
+
+.high {
+	display: none;
+}
+
+.medium {
+	display: none;
+}
+
+.mini {
+	display: block;
+}
+
+
+
+/*
+----------------------------------
+Títulos
+----------------------------------
+*/
+H1, H2, H3, H4, H5, H6 {
+
+}
+
+H1 {
+
+}
+
+H2 {
+
+}
+
+H3 {
+
+}
+
+/*
+----------------------------------
+Bloques --> DIV y P
+----------------------------------
+*/
+DIV {
+
+}
+
+P {
+
+}
+
+
+/*************************
+        Menú Principal
+**************************/
+
+#menuPrincipal {
+	width: 100%;
+	min-height: 40px;
+	color: white;
+	font-size: 2.2em;
+	font-weight: bold;
+}
+#menuPrincipal DIV P {
+
+}
+#menuPrincipal DIV UL {
+	display: none;
+}
+#menuPrincipal DIV LI {
+
+}
+#menuPrincipal DIV LI:hover {
+
+}
+
+/*************************
+        TÍTULO
+**************************/
+#cajaTitulo {
+	width: 100%;
+}
+#cajaTitulo H1 {
+	background-image: none;
+}
+#cajaTitulo P {
+
+}
+#cajaTitulo H2 {
+
+}
+
+/*************************
+        CONTENIDO
+**************************/
+#cajaContenido {
+	width: 100%;
+}
+#cajaContenido SECTION {
+
+}
+
+#cajaContenido SECTION > ARTICLE {
+
+}
+cajaContenido .bloqueTitulo {
+
+}
+
+#cajaContenido .bloqueDescripcion {
+	width: 100%;
+}
+#cajaContenido .bloqueImagen {
+
+}
+#cajaContenido .bloqueImagen IMG {
+	margin-top: 5px;
+	width: 100%;
+}
+#cajaContenido SECTION > ARTICLE:hover {
+
+}
+#cajaContenido SECTION > ARTICLE > A {
+
+}
+#cajaContenido SECTION > ARTICLE > A:hover  {
+
+}
+#cajaContenido LI {
+
+}
+
+/*************************
+          FOOTER
+**************************/
+FOOTER {
+	background-color: aliceblue;
+}
+FOOTER ADDRESS {
+
+}
