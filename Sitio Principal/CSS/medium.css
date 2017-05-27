@@ -66,7 +66,10 @@ P {
 	
 }
 #menuPrincipal DIV LI {
-
+	padding-top: 10px;
+	height: 40px;
+	box-sizing: border-box;
+	border-top: 3px black solid;
 }
 #menuPrincipal DIV LI:hover {
 
@@ -101,15 +104,20 @@ P {
 #cajaContenido SECTION > ARTICLE {
 
 }
-cajaContenido .bloqueTitulo {
-	
+#cajaContenido .bloqueTitulo {
+	width: 100%;
 }
 
 #cajaContenido .bloqueDescripcion {
 	
 }
 #cajaContenido .bloqueImagen {
-	
+	margin-top: 5px;
+	text-align: center;
+}
+#cajaContenido .bloqueImagen IMG {
+	margin-top: 5px;
+	width: 460px;
 }
 #cajaContenido SECTION > ARTICLE:hover {
 
