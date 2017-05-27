@@ -2,6 +2,9 @@
 Proyecto WEB que engloba el pueblo de Chipiona, así como cultura, ciudad, gastronomía...
             ![Desde Chipiona](https://github.com/fryntiz/desdechipiona/blob/master/Galer%C3%ADa%20Fotogr%C3%A1fica/images/titulo.jpg)
 
+## Versión actual
+La versión actual es la v0.4 aún en construcción y con poca estabilidad pero navegable por el contenido ya disponible.
+
 ## Licencia de este proyecto
 Este proyecto nace por y para la comunidad siendo libre todo lo publicado en este repositorio manteniendo siempre la licencia GPL3 así como el reconocimiento de los contribuidores.
 
