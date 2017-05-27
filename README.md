@@ -31,7 +31,7 @@ Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo e
 - [ ] Crear reglas de trabajo
 - [ ] Crear reglas de estilos
 - [ ] Crear Logotipo que represente la localidad
-- [ ] 
+- [ ] Galería de fotos donde la comunidad sube estas
 
 ---
 
