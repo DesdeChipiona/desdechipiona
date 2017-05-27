@@ -57,6 +57,10 @@ P {
 
 #menuPrincipal {
 	width: 100%;
+	min-height: 40px;
+	color: white;
+	font-size: 2.2em;
+	font-weight: bold;
 }
 #menuPrincipal DIV P {
 
@@ -105,10 +109,14 @@ cajaContenido .bloqueTitulo {
 }
 
 #cajaContenido .bloqueDescripcion {
-	
+	width: 100%;
 }
 #cajaContenido .bloqueImagen {
 	
+}
+#cajaContenido .bloqueImagen IMG {
+	margin-top: 5px;
+	width: 100%;
 }
 #cajaContenido SECTION > ARTICLE:hover {
 
