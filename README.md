@@ -4,6 +4,7 @@ Proyecto WEB que engloba el pueblo de Chipiona, así como cultura, ciudad, gastr
 
 ## Licencia de este proyecto
 Este proyecto nace por y para la comunidad siendo libre todo lo publicado en este repositorio manteniendo siempre la licencia GPL3 así como el reconocimiento de los contribuidores.
+
 Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo el sitio web principal el que se incluye dentro del directorio "Sitio Principal".
 
 ---
@@ -19,6 +20,16 @@ Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo e
 
 - [ ] Crear grupo en Mumble o cualquier otro programa para hablar los programadores
 - [ ] Montar vídeo con partes relevantes de Chipiona
+- [ ] Crear ventana de carga
+
+---
+
+## Estado actual
+Aún el proyecto se encuentra en fase de pruebas estando muy verde.
+
+Cada contribuidor invierte su tiempo sin pedir nada a cambio y hace todo lo posible por implementar funciones, correcciones y sugerencias, por lo que es posible que algo reportado no pueda ser corregido inmediatamente pero si será tenido en cuenta para hacerlo lo antes posible.
+
+Se admiten todo tipo de sugerencias y preguntas, para ello puedes utilizar el correo electrónico siguiente: info@desdechipiona.es
 
 ---
 
