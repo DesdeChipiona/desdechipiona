@@ -7,7 +7,12 @@
 			
 			<DIV class="bloqueDescripcion">
 				
-				<P>www.galeria.desdechipiona.es</P>
+				<P>
+					<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
+					www.galeria.desdechipiona.es
+					</A>
+				</P>
+				
 				<P>
 					En esta galería de fotos puedes encontrar imágenes seleccionadas de <B>Chipiona</B> en todos sus aspectos como:
 					<UL>
