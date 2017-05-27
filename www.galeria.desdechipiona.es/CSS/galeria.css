@@ -64,16 +64,26 @@
 **************************/
 #cajacarrusel {
 	position: relative;
-	top: 30px;
+	box-sizing: border-box;
 	margin: auto;
 	align-content: center;
 	text-align: center;
 	vertical-align: middle;
-	min-width: 380px;
+	min-width: 280px;
 	max-width: 900px;
-	max-height: 650px;
+	height: 600px;
 	background-color: black;
 	z-index: 1;
+}
+@media screen and (max-width: 980px) {
+	#cajacarrusel {
+		height: 481px;
+	}
+}
+@media screen and (max-width: 480px) {
+	#cajacarrusel {
+		height: 300px;
+	}
 }
 #cajacontrolimagen {
 	position: absolute;
@@ -183,24 +193,6 @@
 #flechadrh:hover {
 	background-image: url("../images/botones/flechadrhhover.png");
 }
-#fondoimagen {
-	top:0px;
-	left: 0px;
-	min-width: 380px;
-	max-width: 1200px;
-	max-height: 650px;
-	z-index: 1;
-}
-
-#super_carrusel {
-	position: absolute;
-	top:0px;
-	left: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 4;
-}
-
 #centrarimagenactual {
 	position: absolute;
 	top: 0px;
@@ -215,9 +207,8 @@
 }
 
 #imagenactual {
-	position: relative;
-	width: auto;
-	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
 	z-index: 2;
 	opacity: 0.7;
 	box-shadow: -10px 10px 20px black;
