@@ -1,69 +1,68 @@
 /*************************
 	 SELECTOR DE IMÁGENES
 **************************/
-	#cajaselectorimagenes{
-		position:relative;
-		height: 120px;
-		width: 80%;
-		margin: auto;
-		background-color:black;
-		top:35px;
-		overflow-x: scroll;
-		overflow-y: hidden;
-		border-radius: 20px 20px 0px 0px;
-       -webkit-border-radius: 20px 20px 0px 0px;
+#cajaselectorimagenes{
+	box-sizing: border-box;
+	margin: 5px auto;
+	padding: 0 20px;
+	height: 120px;
+	width: 90%;
+	background-color:black;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	border-radius: 20px 20px 0px 0px;
+		-webkit-border-radius: 20px 20px 0px 0px;
 		-moz-border-radius: 20px 20px 0px 0px;
-       -o-border-radius: 20px 20px 0px 0px;
-       -ms-border-radius: 20px 20px 0px 0px;
-		box-shadow: 15px 15px 75px black;
-        -webkit-box-shadow: 15px 15px 75px black;
-       -moz-box-shadow: 15px 15px 75px black;
-       -o-box-shadow: 15px 15px 75px black;
-       -ms-box-shadow: 15px 15px 75px black;
-		z-index: 11;
-	}
+		-o-border-radius: 20px 20px 0px 0px;
+		-ms-border-radius: 20px 20px 0px 0px;
+	box-shadow: 15px 15px 75px black;
+		-webkit-box-shadow: 15px 15px 75px black;
+		-moz-box-shadow: 15px 15px 75px black;
+		-o-box-shadow: 15px 15px 75px black;
+		-ms-box-shadow: 15px 15px 75px black;
+}
 /*Imagenes individuales*/
-	.selectorimagen{
-		position: relative;
-		align-content: center;
-		float: left;
-		height: 100px;
-		width: 100px;
-		border: 1px solid black;
-		background-repeat: no-repeat;
-		background-size: auto;
-		background-position: center;
-		opacity: 0.6;
-	}
-	.selectorimagen:hover {
-		opacity: 1;
-		width: 110px;
-		border: 3px solid #3F5B73;
-		z-index: 13;
-		transition: all 0.6s ease-in-out;
-		-moz-transform:rotate(-5deg) scale(1);
-		-webkit-transform:rotate(-5deg) scale(1);
-		-o-transform:rotate(-5deg) scale(1);
-		-ms-transform:rotate(-5deg) scale(1);
-	}
+.selectorimagen{
+	position: relative;
+	align-content: center;
+	float: left;
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	opacity: 0.6;
+}
+.selectorimagen:hover {
+	opacity: 1;
+	width: 110px;
+	border: 3px solid #3F5B73;
+	z-index: 13;
+	transition: all 0.6s ease-in-out;
+	-moz-transform:rotate(-5deg) scale(1);
+	-webkit-transform:rotate(-5deg) scale(1);
+	-o-transform:rotate(-5deg) scale(1);
+	-ms-transform:rotate(-5deg) scale(1);
+}
 /*FIN de Imagenes individuales*/
-	#ulselectorimagen{
-		position: relative;
-		float:left;
-		display: inline-block;
-		list-style: none;
-		vertical-align: middle;
-		width: 2065px;
-		margin-left: -40px;
-		margin-top: 1px;
-		margin-bottom: 0px;
-		cursor: pointer;
-	}
-	#ulselectorimagen>LI{
-		position: relative;
-		float:left;
-		list-style: none;
-	}
+#ulselectorimagen{
+	position: relative;
+	float:left;
+	display: inline-block;
+	list-style: none;
+	vertical-align: middle;
+	width: 2065px;
+	margin-left: -40px;
+	margin-top: 1px;
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+#ulselectorimagen>LI{
+	position: relative;
+	float:left;
+	list-style: none;
+}
 
 /*************************
 				CARRUSEL
