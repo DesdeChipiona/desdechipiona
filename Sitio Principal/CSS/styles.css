@@ -2,6 +2,13 @@
     ESTILOS GENERALES
 **************************/
 
+/*
+-Colores para el tema:
+	·Morado --> #493B4C
+	·Azul Oscuro --> #1D415B
+	·Rojo Claro --> #C73935
+	·Amarillo Oscuro --> #E69215
+*/
 
 * {
 	margin: 0;
@@ -55,8 +62,8 @@ P {
 #menuPrincipal {
 	margin-top: 20px;
 	margin-bottom: 0;
-	background-color:grey;
-	border-top: 3px orange solid;
+	background-color:#1D415B;
+	border-top: 3px #E69215 solid;
 	text-align: center;
 }
 #menuPrincipal DIV P {
@@ -67,12 +74,14 @@ P {
 }
 #menuPrincipal DIV LI {
 	padding: 3px 5px;
+	font-weight: bold;
+	color: white;
 	list-style: none;
 }
 #menuPrincipal DIV LI:hover {
 	cursor: pointer;
-	color: orange;
-	background-color: aliceblue;
+	color: black;
+	background-color: #C73935;
 }
 
 /*************************
