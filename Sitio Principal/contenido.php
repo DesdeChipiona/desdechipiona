@@ -35,20 +35,26 @@
 		
 		<ARTICLE>
 			<DIV class="bloqueTitulo">
-				<H3>Titulo entrada 2</H3>
+				<H3>¡Colabora!</H3>
 			</DIV>
 			
 			<DIV class="bloqueDescripcion">
 				
-				<P>www.galeria.desdechipiona.es</P>
 				<P>
-					Descripción del sitio
+					<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
+						www.desdechipiona.es
+					</A>
+				</P>
+				<P>
+					Este sitio web se encuentra actualmente en construcción
+					<BR />
+					Colabora con nosotros para hacer que crezca este proyecto comunitario
 				</P>
 			</DIV>
 			
 			<DIV class="bloqueImagen">
-				<A href="http://www.galeria.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
-					AQUÍ VA UNA IMAGEN
+				<A href="http://www.desdechipiona.es" title="Galería fotográfica de Chipiona" target="_blank">
+					<IMG src="images/obras.jpg" alt="Imagen de prueba" title="Imagen de prueba" />
 				</A>
 			</DIV>
 		</ARTICLE>
