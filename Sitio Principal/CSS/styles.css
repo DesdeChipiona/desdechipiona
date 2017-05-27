@@ -100,7 +100,6 @@ P {
 }
 #cajaTitulo H1 {
 	margin: auto;
-	width: 640px;
 	height: 80px;
 	color: #C73935;
 	font-size: 2.8em;
@@ -108,6 +107,9 @@ P {
 	text-shadow: 3px 3px 4px black;
 	border-radius: 10px;
 	background-image: url("../images/titulo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 #cajaTitulo .subtitulo {
 	color: #1D415B;
