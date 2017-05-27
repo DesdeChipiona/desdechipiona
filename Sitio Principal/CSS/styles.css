@@ -141,7 +141,20 @@ P {
 }
 
 #cajaContenido .bloqueDescripcion {
-
+	
+}
+#cajaContenido .bloqueDescripcion A {
+	text-align: center;
+	color: #C73935;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+#cajaContenido .bloqueDescripcion P{
+	text-align: left;
+}
+#cajaContenido .bloqueDescripcion LI{
+	text-align: left;
+	list-style-type: circle;
 }
 #cajaContenido .bloqueImagen {
 	text-align: center;
