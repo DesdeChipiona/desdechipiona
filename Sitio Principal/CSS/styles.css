@@ -99,10 +99,18 @@ P {
 	text-align: center;
 }
 #cajaTitulo H1 {
-
+	margin: auto;
+	width: 380px;
+	color: #e69215;
+	font-size: 2.8em;
+	font-weight: bold;
+	text-shadow: 3px 3px 4px black;
+	border: 3px solid #e69215;
+	border-radius: 10px;
+	background-color: #1D415B;
 }
-#cajaTitulo P {
-
+#cajaTitulo P{
+	
 }
 #cajaTitulo H2 {
 
