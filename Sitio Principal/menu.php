@@ -6,7 +6,7 @@
 	</DIV>
 	<DIV>
 		<UL>
-			<LI>Menú1</LI>
+			<LI class="seleccionMenu">Inicio</LI>
 			<LI>Menú2</LI>
 			<LI>Menú3</LI>
 			<LI>Menú4</LI>
