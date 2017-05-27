@@ -16,6 +16,12 @@ Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo e
 - [x] Maquetada Página principal
 - [x] Comenzada Mejora de Galería fotográfica con PHP y AJAX
 - [ ] Añadir descripciones en Página Principal
+- [ ] Crear Redes Sociales
+- [ ] Crear apartado con frases típicas
+- [ ] Crear apartado con artistas locales
+- [ ] Crear apartado con 
+- [ ]
+- [ ]
 - [ ] Creado Portal Principal que enlaza a todas las secciones
 
 - [ ] Crear grupo en Mumble o cualquier otro programa para hablar los programadores
