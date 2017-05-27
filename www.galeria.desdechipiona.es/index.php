@@ -8,11 +8,11 @@
 
 	<BODY>
 		<?php
-				include 'menu.php';
-				include 'titulo.php';
-				include 'menuLateral.php';
-				include 'galeria.php';
-				include 'footer.php';
-			?>
+			include 'menu.php';
+			include 'titulo.php';
+			include 'menuLateral.php';
+			include 'galeria.php';
+			include 'footer.php';
+		?>
 	</BODY>
 </HTML>
