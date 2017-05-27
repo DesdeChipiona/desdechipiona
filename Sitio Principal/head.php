@@ -22,6 +22,7 @@
 <META name='twitter:image' content='http://www.desdechipiona.es/images/logo.png' />
 
 <LINK rel="shortcut icon" href="./images/favicon.png"/>
+<LINK href="CSS/styles.css" rel="stylesheet" type="text/css" media="screen" />
 <LINK href="CSS/high.css" rel="stylesheet" type="text/css" media="screen and (min-width:981px)" />
 <LINK href="CSS/medium.css" rel="stylesheet" type="text/css" media="screen and (min-width: 481px) and (max-width: 980px)" />
 <LINK href="CSS/mini.css" rel="stylesheet" type="text/css" media="screen and (min-width: 480px)" />
