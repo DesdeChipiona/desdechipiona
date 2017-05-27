@@ -170,7 +170,8 @@ P {
           FOOTER
 **************************/
 FOOTER {
-
+	min-height: 120px;
+	text-align: center;
 }
 FOOTER ADDRESS {
 
