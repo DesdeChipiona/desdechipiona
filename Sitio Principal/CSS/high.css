@@ -155,7 +155,17 @@ P {
           FOOTER
 **************************/
 FOOTER {
-
+	box-sizing: border-box;
+	margin: auto;
+	padding-top: 13px;
+	width: 600px;
+	color: #C73935;
+	font-size: 1.1em;
+	font-weight: bold;
+	background-image: url("../images/pergamino.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center
 }
 FOOTER ADDRESS {
 
