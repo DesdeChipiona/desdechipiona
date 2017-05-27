@@ -2,13 +2,6 @@
 Estilos para más de 981px
 **************************/
 
-/*
-* {
-	margin: 0;
-	padding: 0;
-}
-*/
-
 .high {
 	display: block;
 }
@@ -62,7 +55,10 @@ P {
 **************************/
 
 #menuPrincipal {
-	
+	min-width: 981px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #menuPrincipal DIV P {
 
@@ -81,7 +77,10 @@ P {
         TÍTULO
 **************************/
 #cajaTitulo {
-
+	min-width: 981px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #cajaTitulo H1 {
 
