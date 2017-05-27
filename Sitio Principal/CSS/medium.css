@@ -13,3 +13,113 @@ Estilos entre 481px y 980px
 .mini {
 	display: none;
 }
+
+
+
+
+/*
+----------------------------------
+Títulos
+----------------------------------
+*/
+H1, H2, H3, H4, H5, H6 {
+	
+}
+
+H1 {
+	
+}
+
+H2 {
+	
+}
+
+H3 {
+	
+}
+
+/*
+----------------------------------
+Bloques --> DIV y P
+----------------------------------
+*/
+DIV {
+	
+}
+
+P {
+	
+}
+
+
+/*************************
+        Menú Principal
+**************************/
+
+#menuPrincipal {
+	width: 100%;
+}
+#menuPrincipal DIV P {
+
+}
+#menuPrincipal DIV UL {
+	
+}
+#menuPrincipal DIV LI {
+
+}
+#menuPrincipal DIV LI:hover {
+
+}
+
+/*************************
+        TÍTULO
+**************************/
+#cajaTitulo {
+	width: 100%;
+}
+#cajaTitulo H1 {
+
+}
+#cajaTitulo P {
+
+}
+#cajaTitulo H2 {
+
+}
+
+/*************************
+        CONTENIDO
+**************************/
+#cajaContenido {
+
+}
+#cajaContenido SECTION {
+
+}
+
+#cajaContenido SECTION > ARTICLE {
+
+}
+#cajaContenido SECTION > ARTICLE:hover {
+
+}
+#cajaContenido SECTION > ARTICLE > A {
+
+}
+#cajaContenido SECTION > ARTICLE > A:hover  {
+
+}
+#cajaContenido LI {
+
+}
+
+/*************************
+          FOOTER
+**************************/
+FOOTER {
+
+}
+FOOTER ADDRESS {
+
+}
