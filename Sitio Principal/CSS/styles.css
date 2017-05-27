@@ -9,6 +9,10 @@
 }
 */
 
+BODY {
+	background-image: url("../images/fondo.png");
+}
+
 /*
 ----------------------------------
 Títulos
@@ -49,7 +53,9 @@ P {
 **************************/
 
 #menuPrincipal {
-	
+	margin-top: 20px;
+	background-color:grey;
+	border-top: 3px orange solid;
 }
 #menuPrincipal DIV P {
 
