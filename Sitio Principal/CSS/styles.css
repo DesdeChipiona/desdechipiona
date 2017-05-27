@@ -2,12 +2,12 @@
     ESTILOS GENERALES
 **************************/
 
-/*
+
 * {
 	margin: 0;
 	padding: 0;
 }
-*/
+
 
 BODY {
 	background-image: url("../images/fondo.png");
@@ -54,6 +54,7 @@ P {
 
 #menuPrincipal {
 	margin-top: 20px;
+	margin-bottom: 0;
 	background-color:grey;
 	border-top: 3px orange solid;
 	text-align: center;
@@ -69,14 +70,18 @@ P {
 	list-style: none;
 }
 #menuPrincipal DIV LI:hover {
-
+	cursor: pointer;
+	color: orange;
+	background-color: aliceblue;
 }
 
 /*************************
         TÍTULO
 **************************/
 #cajaTitulo {
-
+	box-sizing: border-box;
+	padding: 10px 8px;
+	background-color: white;
 }
 #cajaTitulo H1 {
 
