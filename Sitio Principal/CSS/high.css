@@ -125,10 +125,16 @@ P {
 #cajaContenido .bloqueImagen {
 	display: inline-block;
 	box-sizing: border-box;
-	margin: 0;
+	margin: 3px 0 0 0;
 	width: 49%;
-	height: 300px;
+	height: 290px;
 	vertical-align: top;
+}
+#cajaContenido .bloqueImagen IMG {
+	box-sizing: border-box;
+	height: 100%;
+	border: 3px solid #C73935;
+	box-shadow: 3px 3px 3px black;
 }
 #cajaContenido SECTION > ARTICLE:hover {
 
