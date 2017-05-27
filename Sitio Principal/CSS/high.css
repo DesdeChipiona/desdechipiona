@@ -165,8 +165,14 @@ FOOTER {
 	background-image: url("../images/pergamino.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center
+	background-position: center;
+}
+FOOTER {
+
 }
 FOOTER ADDRESS {
 
+}
+FOOTER ADDRESS UL LI {
+	list-style: none;
 }
