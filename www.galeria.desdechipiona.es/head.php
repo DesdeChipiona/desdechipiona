@@ -29,3 +29,4 @@
 <LINK href="CSS/mini.css" rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" />
 <SCRIPT src="JS/scripts.js"></SCRIPT>
 <SCRIPT src="JS/galeria.js"></SCRIPT>
+<SCRIPT src="JS/jquery.js"></SCRIPT>
