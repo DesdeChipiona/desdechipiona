@@ -50,4 +50,13 @@ function rotargaleria(x) {
 		seleccion = "#6desplegableizq";
 		cargarBiblioteca = "galeria_6_puestasdesol.php";
 	}
+
+function rotar(seleccion, cargarBiblioteca) {
+		$(document).ready(function() {
+					$(seleccion).click(function(){
+						$("#cajaselectorimagenes").load(cargarBiblioteca);
+					});
+			});
+	}
+	rotar(seleccion, cargarBiblioteca);
 }
