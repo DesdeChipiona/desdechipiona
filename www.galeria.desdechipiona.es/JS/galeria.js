@@ -33,21 +33,21 @@ function rotargaleria(x) {
 	var cargarBiblioteca = "";
 	if (x == "playageneral") {
 		seleccion = "#1desplegableizq";
-		cargarBiblioteca = "carrusel_1_playas_general.php";
+		cargarBiblioteca = "galeria_1_playas_general.php";
 	} else if (x == "monumentos") {
 		seleccion = "#2desplegableizq";
-		cargarBiblioteca = "carrusel_2_monumentos.php";
+		cargarBiblioteca = "galeria_2_monumentos.php";
 	} else if (x == "flora") {
 		seleccion = "#3desplegableizq";
-		cargarBiblioteca = "carrusel_3_flora.php";
+		cargarBiblioteca = "galeria_3_flora_general.php";
 	} else if (x == "faunageneral") {
 		seleccion = "#4desplegableizq";
-		cargarBiblioteca = "carrusel_4_fauna_general.php";
+		cargarBiblioteca = "galeria_4_fauna_general.php";
 	} else if (x == "fiestasyeventos") {
 		seleccion = "#5desplegableizq";
-		cargarBiblioteca = "carrusel_5_fiestas_y_eventos_general.php";
+		cargarBiblioteca = "galeria_5_fiestas_y_eventos_general.php";
 	} else if (x == "puestasdesol") {
 		seleccion = "#6desplegableizq";
-		cargarBiblioteca = "carrusel_6_puestasdesol.php";
+		cargarBiblioteca = "galeria_6_puestasdesol.php";
 	}
 }
