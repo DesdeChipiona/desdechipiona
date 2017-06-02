@@ -18,6 +18,7 @@ Se ha dividido el proyecto en secciones que se alojaran en subdominios, siendo e
 - [x] Creada Galería Fotográfica
 - [x] Maquetada Página principal
 - [x] Comenzada Mejora de Galería fotográfica con PHP y AJAX
+- [x] Añadido bot para notificar sobre commits nuevos a grupo en telegram
 - [ ] Añadir descripciones en Página Principal
 - [ ] Crear Redes Sociales
 - [ ] Crear apartado con frases típicas
